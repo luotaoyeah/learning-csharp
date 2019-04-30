@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace learning_csharp
+namespace LCS
 {
-    internal class Program
+  // ReSharper disable once ClassNeverInstantiated.Global
+  internal class Program
+  {
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("HELLO WORLD");
-        }
+      Console.WriteLine("--------------------------------------------------");
+      Console.WriteLine("HELLO WORLD");
     }
+  }
 }
