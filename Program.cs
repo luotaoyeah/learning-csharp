@@ -1,16 +1,16 @@
 ﻿using System;
-using Lt.Book.ICS7.C03.C0301;
+using LT.BOOK.ICS7.C03.C0302;
 
-namespace Lt
+namespace LT
 {
-  // ReSharper disable once ClassNeverInstantiated.Global
-  internal class Program
-  {
-    public static void Main()
+    // ReSharper disable once ClassNeverInstantiated.Global
+    internal class Program
     {
-      Console.WriteLine("--------------------------------------------------");
-      Console.WriteLine("HELLO WORLD");
-      C0301.Fn01();
+        public static void Main()
+        {
+            Console.WriteLine("--------------------------------------------------");
+            C0302.Fn01();
+            C0302.Fn02();
+        }
     }
-  }
 }

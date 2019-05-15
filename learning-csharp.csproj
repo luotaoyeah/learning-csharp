@@ -7,7 +7,7 @@
     <ProjectGuid>{FE34AA92-A1A8-40C4-8D1C-66B0C8F6CE43}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lt</RootNamespace>
+    <RootNamespace>LT</RootNamespace>
     <AssemblyName>learning-csharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -40,15 +40,16 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\Book\ICS7\C03\C0301\C0301.cs" />
+    <Compile Include="src\BOOK\ICS7\C03\C0301\C0301.cs" />
+    <Compile Include="src\BOOK\ICS7\C03\C0302\C0302.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="README.md" />
-    <Content Include="src\Book\ICS7\README.md" />
+    <Content Include="src\BOOK\ICS7\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\Book\ICS7\C01" />
+    <Folder Include="src\BOOK\ICS7\C01" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
