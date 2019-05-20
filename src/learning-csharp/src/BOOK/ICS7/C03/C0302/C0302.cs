@@ -3,8 +3,7 @@ namespace LT.BOOK.ICS7.C03.C0302
     /// <summary>
     /// 3.2. Identifiers
     /// </summary>
-    // ReSharper disable once ClassNeverInstantiated.Global
-    public class C0302
+    public static class C0302
     {
         public static string Fn01()
         {
