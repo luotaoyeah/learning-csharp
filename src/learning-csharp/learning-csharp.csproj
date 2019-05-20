@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <RootNamespace>LT</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="src\BOOK\ICS7\README.md" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="src\BOOK\ICS7\C01" />
+    </ItemGroup>
+
+</Project>
