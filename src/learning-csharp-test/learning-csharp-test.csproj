@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
-        <RootNamespace>LT_TEST</RootNamespace>
+        <RootNamespace>LT.TEST</RootNamespace>
 
         <IsPackable>false</IsPackable>
     </PropertyGroup>
@@ -15,6 +15,10 @@
 
     <ItemGroup>
       <Folder Include="src\BOOK\ICS7\C01" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\learning-csharp\learning-csharp.csproj" />
     </ItemGroup>
 
 </Project>
