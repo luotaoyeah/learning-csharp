@@ -1,5 +1,3 @@
-using System.Diagnostics;
-
 namespace LT.BOOK.ICS7.C03.C0303
 {
     /// <summary>
