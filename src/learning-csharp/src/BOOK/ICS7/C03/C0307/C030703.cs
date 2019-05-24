@@ -18,7 +18,7 @@ namespace LT.BOOK.ICS7.C03.C0307
             // 如果 substitution value 的数量过多, 则多余的会被忽略
             Console.WriteLine("{0} + {1} = {2}", 1, 2, 1 + 2, 9);
 
-            // 如果 substitution value 的数量过少, 编译报错,
+            // 如果 substitution value 的数量过少, 则会运行报错(runtime error/exception),
             // 如下, 有三个 substitution marker, 但是只有个两个 substitution value
             /*
                         Console.WriteLine("{0} + {1} = {2}", 1, 2);
