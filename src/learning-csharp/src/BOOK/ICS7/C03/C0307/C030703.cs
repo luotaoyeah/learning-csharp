@@ -24,5 +24,16 @@ namespace LT.BOOK.ICS7.C03.C0307
                         Console.WriteLine("{0} + {1} = {2}", 1, 2);
             */
         }
+
+        public static string Fn02()
+        {
+            // C# 6.0 引入了一种新的语法形式: string interpolation,
+            // 类似于 javascript 中的 template string/template literal
+
+            const int x = 1;
+            const int y = 2;
+
+            return $"{x} + {y} = {x + y}";
+        }
     }
 }
