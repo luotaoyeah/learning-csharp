@@ -17,12 +17,12 @@ namespace LT.BOOK.ICS7.C04.C0408
             //   bool
             //   struct
             //   enum
-
-            // REFERENCE TYPES:
             //   float
             //   double
             //   char
             //   decimal
+
+            // REFERENCE TYPES:
             //   object
             //   string
             //   dynamic

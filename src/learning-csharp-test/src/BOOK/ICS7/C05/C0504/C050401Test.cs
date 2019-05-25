@@ -8,7 +8,6 @@ namespace LT.TEST.BOOK.ICS7.C05.C0504
         [Fact]
         public void Fn01()
         {
-            // ReSharper disable once SuggestVarOrType_SimpleTypes
             C050401 c050401 = new C050401("foo");
             Assert.Equal("foo", c050401.Name);
         }
