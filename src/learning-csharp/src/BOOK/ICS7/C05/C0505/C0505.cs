@@ -7,7 +7,8 @@ namespace LT.BOOK.ICS7.C05.C0505
     {
         /// <summary>
         /// class(Foo) is reference type,
-        /// so a class field's default value of type Foo is null
+        /// so if a class field of type Foo is not initialized, 
+        /// it's default value will be null
         /// </summary>
         private Foo Foo;
 
