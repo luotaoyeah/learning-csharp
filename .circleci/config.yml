@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  build:
+  build-learning-csharp-test:
     docker:
       - image: mcr.microsoft.com/dotnet/core/sdk:2.2
     steps:
@@ -16,7 +16,7 @@ jobs:
           name: Run
           command: dotnet run --project src/learning-csharp
 
-  test:
+  test-learning-csharp-test:
     docker:
       - image: mcr.microsoft.com/dotnet/core/sdk:2.2
     steps:
@@ -37,4 +37,11 @@ jobs:
             export PATH="$PATH:/root/.dotnet/tools"
             codecov -f "src/learning-csharp-test/TestResults/lcov.info" --token 41a05995-8614-4109-b50d-12b2c97f8c4d
 
-         
+workflows:
+  version: 2
+  learning-csharp-workflow:
+    jobs:
+      - build-learning-csharp-test
+      - test-learning-csharp-test:
+          requires:
+            - build-learning-csharp-test
