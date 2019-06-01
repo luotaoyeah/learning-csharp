@@ -8,7 +8,7 @@ namespace LT.TEST.BOOK.ICS7.C03.C0307.C030705
         [Fact]
         public void Fn01()
         {
-            Assert.Equal("¥500.00", C03070503.Fn01());
+            Assert.Equal("500.00", C03070503.Fn01().Substring(1));
         }
 
         [Fact]
@@ -44,7 +44,7 @@ namespace LT.TEST.BOOK.ICS7.C03.C0307.C030705
         [Fact]
         public void Fn07()
         {
-            Assert.Equal("25.00%", C03070503.Fn07());
+            Assert.Contains(C03070503.Fn07(), new[] { "25.00%", "25.00 %" });
         }
 
 
