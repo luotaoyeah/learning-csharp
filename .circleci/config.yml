@@ -15,4 +15,4 @@ jobs:
           command: dotnet build
       - run:
           name: Run
-          command: dotnet run --project learning-csharp
+          command: dotnet run --project src/learning-csharp
