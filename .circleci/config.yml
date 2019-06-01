@@ -23,17 +23,17 @@ jobs:
           command: |
             dotnet tool install -g trx2junit
             export PATH="$PATH:/root/.dotnet/tools"
-            trx2junit tests/**/TestResults/*.trx
+            trx2junit src/learning-csharp-test/TestResults/*.trx
       - store_test_results:
-          path: tests/TestResults
+          path: src/learning-csharp-test/TestResults
       - store_artifacts:
-          path: tests/TestResults
+          path: src/learning-csharp-test/TestResults
           destination: TestResults
       - run:
           name: Codecov
           command: |
             dotnet tool install -g Codecov
             export PATH="$PATH:/root/.dotnet/tools"
-            codecov.exe -f "tests/TestResults" --token 41a05995-8614-4109-b50d-12b2c97f8c4d
+            codecov -f "TestResults" --token 41a05995-8614-4109-b50d-12b2c97f8c4d
 
          
