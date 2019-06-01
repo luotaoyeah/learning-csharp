@@ -8,11 +8,32 @@ jobs:
       - checkout
       - run:
           name: Restore
-          command:
-            dotnet restore
+          command: dotnet restore
       - run:
           name: Build
           command: dotnet build
       - run:
           name: Run
           command: dotnet run --project src/learning-csharp
+      - run:
+          name: Test
+          command: dotnet test --no-build --logger trx src/learning-csharp-test
+      - run:
+          name: test results
+          command: |
+            dotnet tool install -g trx2junit
+            export PATH="$PATH:/root/.dotnet/tools"
+            trx2junit tests/**/TestResults/*.trx
+      - store_test_results:
+          path: tests/TestResults
+      - store_artifacts:
+          path: tests/TestResults
+          destination: TestResults
+      - run:
+          name: Codecov
+          command: |
+            dotnet tool install -g Codecov
+            export PATH="$PATH:/root/.dotnet/tools"
+            codecov.exe -f "tests/TestResults" --token 41a05995-8614-4109-b50d-12b2c97f8c4d
+
+         
