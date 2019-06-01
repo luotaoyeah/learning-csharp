@@ -15,25 +15,26 @@ jobs:
       - run:
           name: Run
           command: dotnet run --project src/learning-csharp
+
+  test:
+    docker:
+      - image: mcr.microsoft.com/dotnet/core/sdk:2.2
+    steps:
+      - checkout
+      - run:
+          name: Restore
+          command: dotnet restore
+      - run:
+          name: Build
+          command: dotnet build
       - run:
           name: Test
-          command: dotnet test --no-build --logger trx src/learning-csharp-test
-      - run:
-          name: test results
-          command: |
-            dotnet tool install -g trx2junit
-            export PATH="$PATH:/root/.dotnet/tools"
-            trx2junit src/learning-csharp-test/TestResults/*.trx
-      - store_test_results:
-          path: src/learning-csharp-test/TestResults
-      - store_artifacts:
-          path: src/learning-csharp-test/TestResults
-          destination: TestResults
+          command: dotnet test --no-build --logger trx /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=src/learning-csharp-test/TestResults/lcov.info src/learning-csharp-test
       - run:
           name: Codecov
           command: |
             dotnet tool install -g Codecov.Tool
             export PATH="$PATH:/root/.dotnet/tools"
-            codecov -f "TestResults/*.xml" --token 41a05995-8614-4109-b50d-12b2c97f8c4d
+            codecov -f "src/learning-csharp-test/TestResults/lcov.info" --token 41a05995-8614-4109-b50d-12b2c97f8c4d
 
          
