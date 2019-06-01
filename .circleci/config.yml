@@ -32,8 +32,8 @@ jobs:
       - run:
           name: Codecov
           command: |
-            dotnet tool install -g Codecov
+            dotnet tool install -g Codecov.Tool
             export PATH="$PATH:/root/.dotnet/tools"
-            codecov -f "TestResults" --token 41a05995-8614-4109-b50d-12b2c97f8c4d
+            codecov -f "TestResults/*.xml" --token 41a05995-8614-4109-b50d-12b2c97f8c4d
 
          
