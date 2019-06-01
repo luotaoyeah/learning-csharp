@@ -14,11 +14,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="src\BOOK\ICS7\C01" />
+        <Folder Include="src\BOOK\ICS7\C01" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\learning-csharp\learning-csharp.csproj" />
+        <ProjectReference Include="..\learning-csharp\learning-csharp.csproj" />
     </ItemGroup>
 
 </Project>
