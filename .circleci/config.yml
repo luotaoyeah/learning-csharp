@@ -29,7 +29,16 @@ jobs:
           command: dotnet build
       - run:
           name: Test
-          command: dotnet test --no-build --logger trx /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=src/learning-csharp-test/TestResults/lcov.info src/learning-csharp-test
+          command: >
+            dotnet test --no-build --logger trx 
+            /p:CollectCoverage=true
+            /p:CoverletOutputFormat=lcov
+            /p:CoverletOutput=TestResults/lcov.info
+            /p:Exclude="[xunit.*]*"
+            /p:ThresholdType=line
+            /p:ThresholdStat=total
+            /p:Threshold=80
+            src/learning-csharp-test
       - run:
           name: Codecov
           command: |
