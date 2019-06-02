@@ -44,7 +44,7 @@ jobs:
           command: |
             dotnet tool install -g Codecov.Tool
             export PATH="$PATH:/root/.dotnet/tools"
-            codecov -f "src/learning-csharp-test/TestResults/lcov.info" --token 41a05995-8614-4109-b50d-12b2c97f8c4d
+            codecov -f src/learning-csharp-test/TestResults/lcov.info --token 41a05995-8614-4109-b50d-12b2c97f8c4d
 
 workflows:
   version: 2
