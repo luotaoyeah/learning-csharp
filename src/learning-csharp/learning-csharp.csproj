@@ -14,8 +14,4 @@
       <Content Include="src\BOOK\ICS7\README.md" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="src\BOOK\ICS7\C01" />
-    </ItemGroup>
-
 </Project>

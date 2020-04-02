@@ -29,7 +29,6 @@
         <e p="src" t="Include">
           <e p="book" t="Include">
             <e p="ICS7" t="Include">
-              <e p="C01" t="Include" />
               <e p="C03" t="Include">
                 <e p="C0301" t="Include">
                   <e p="C0301.cs" t="Include" />
@@ -115,7 +114,6 @@
         <e p="src" t="Include">
           <e p="book" t="Include">
             <e p="ICS7" t="Include">
-              <e p="C01" t="Include" />
               <e p="C03" t="Include">
                 <e p="C0301" t="Include">
                   <e p="C0301Test.cs" t="Include" />
