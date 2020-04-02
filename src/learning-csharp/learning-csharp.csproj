@@ -2,8 +2,12 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <TargetFramework>net5.0</TargetFramework>
         <RootNamespace>LT</RootNamespace>
+        <IsPackable>false</IsPackable>
+        <Authors>luotao</Authors>
+        <Company>luotao</Company>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
     </PropertyGroup>
 
     <ItemGroup>
