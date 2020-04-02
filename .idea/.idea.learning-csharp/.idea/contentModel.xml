@@ -29,20 +29,20 @@
         <e p="src" t="Include">
           <e p="book" t="Include">
             <e p="ICS7" t="Include">
-              <e p="C03" t="Include">
-                <e p="C0301" t="Include">
-                  <e p="C0301.cs" t="Include" />
+              <e p="_03" t="Include">
+                <e p="_01" t="Include">
+                  <e p="_01.cs" t="Include" />
                 </e>
-                <e p="C0302" t="Include">
-                  <e p="C0302.cs" t="Include" />
+                <e p="_02" t="Include">
+                  <e p="_02.cs" t="Include" />
                 </e>
-                <e p="C0303" t="Include">
+                <e p="_03" t="Include">
                   <e p="C0303.cs" t="Include" />
                 </e>
-                <e p="C0306" t="Include">
+                <e p="_06" t="Include">
                   <e p="C030601.cs" t="Include" />
                 </e>
-                <e p="C0307" t="Include">
+                <e p="_07" t="Include">
                   <e p="C030701.cs" t="Include" />
                   <e p="C030702.cs" t="Include" />
                   <e p="C030703.cs" t="Include" />
@@ -54,12 +54,12 @@
                     <e p="C03070503.cs" t="Include" />
                   </e>
                 </e>
-                <e p="C0308" t="Include">
+                <e p="_08" t="Include">
                   <e p="C0308.cs" t="Include" />
                   <e p="C030802.cs" t="Include" />
                 </e>
               </e>
-              <e p="C04" t="Include">
+              <e p="_04" t="Include">
                 <e p="C0405" t="Include">
                   <e p="C0405.cs" t="Include" />
                   <e p="C040501.cs" t="Include" />
@@ -80,7 +80,7 @@
                   <e p="C0410.cs" t="Include" />
                 </e>
               </e>
-              <e p="C05" t="Include">
+              <e p="_05" t="Include">
                 <e p="C0504" t="Include">
                   <e p="C050401.cs" t="Include" />
                   <e p="C05040101.cs" t="Include" />
@@ -114,9 +114,9 @@
         <e p="src" t="Include">
           <e p="book" t="Include">
             <e p="ICS7" t="Include">
-              <e p="C03" t="Include">
-                <e p="C0301" t="Include">
-                  <e p="C0301Test.cs" t="Include" />
+              <e p="_03" t="Include">
+                <e p="_01" t="Include">
+                  <e p="_01.cs" t="Include" />
                 </e>
                 <e p="C0302" t="Include">
                   <e p="C0302Test.cs" t="Include" />
