@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  build-learning-csharp-test:
+  build-learning-csharp:
     docker:
       - image: mcr.microsoft.com/dotnet/sdk:5.0-buster-slim
     steps:
@@ -16,7 +16,7 @@ jobs:
           name: Run
           command: dotnet run --project src/learning-csharp
 
-  test-learning-csharp-test:
+  test-learning-csharp:
     docker:
       - image: mcr.microsoft.com/dotnet/sdk:5.0-buster-slim
     steps:
@@ -48,9 +48,9 @@ jobs:
 
 workflows:
   version: 2
-  learning-csharp-workflow:
+  learning-csharp:
     jobs:
-      - build-learning-csharp-test
-      - test-learning-csharp-test:
+      - build-learning-csharp
+      - test-learning-csharp:
           requires:
-            - build-learning-csharp-test
+            - build-learning-csharp
