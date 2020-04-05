@@ -1,11 +1,13 @@
-namespace LT.BOOK.ICS7.C03.C0307.C030705
+namespace LT.BOOK.ICS7._03._07
 {
     /// <summary>
-    /// 3.7.5.3 Standard Numeric Format Specifiers
+    /// standard numeric format specifiers
     /// </summary>
-    public static class C03070503
+    public static class C0503
     {
-        // C# 内置了很多 format specifier
+        //----------------------------------------------------------------------------------------------------
+        // C# 内置了 9 种 format specifier
+        //----------------------------------------------------------------------------------------------------
 
         public static string Fn01()
         {

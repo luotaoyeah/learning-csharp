@@ -11,7 +11,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Content Include="src\BOOK\ICS7\README.md" />
+        <Content Include="src\BOOK\ICS7\README.md"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="src\BOOK\ICS7\_03\_07\C030705"/>
     </ItemGroup>
 
 </Project>
