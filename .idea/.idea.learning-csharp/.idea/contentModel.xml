@@ -38,7 +38,7 @@
                 </e>
                 <e p="_07" t="Include">
                   <e p="C01.cs" t="Include" />
-                  <e p="C030702.cs" t="Include" />
+                  <e p="C02.cs" t="Include" />
                   <e p="C030703.cs" t="Include" />
                   <e p="C030704.cs" t="Include" />
                   <e p="C030705" t="Include">
@@ -117,7 +117,7 @@
                 </e>
                 <e p="_07" t="Include">
                   <e p="C01.cs" t="Include" />
-                  <e p="C030702Test.cs" t="Include" />
+                  <e p="C02.cs" t="Include" />
                   <e p="C030703Test.cs" t="Include" />
                   <e p="C030704Test.cs" t="Include" />
                   <e p="C030705" t="Include">
