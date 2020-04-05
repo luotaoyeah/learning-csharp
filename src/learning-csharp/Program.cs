@@ -1,4 +1,4 @@
-﻿using LT.BOOK.ICS7.C03.C0307;
+﻿using LT.BOOK.ICS7._03._07;
 
 namespace LT
 {
@@ -6,7 +6,7 @@ namespace LT
     {
         public static void Main()
         {
-            C030704.Fn01();
+            C04.Fn01();
         }
     }
 }
