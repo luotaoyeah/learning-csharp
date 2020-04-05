@@ -5,7 +5,7 @@ namespace LT.BOOK.ICS7._03._01
     /// <summary>
     /// 3.1. A Simple C# Program
     /// </summary>
-    public class _01
+    public class C01
     {
         public static void Fn01()
         {
