@@ -24,8 +24,4 @@
         <ProjectReference Include="..\learning-csharp\learning-csharp.csproj"/>
     </ItemGroup>
 
-    <ItemGroup>
-        <Folder Include="src\BOOK\ICS7\_03\_07\C030705"/>
-    </ItemGroup>
-
 </Project>
