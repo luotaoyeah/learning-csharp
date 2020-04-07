@@ -1,7 +1,7 @@
 using LT.BOOK.ICS7.C05.C0504;
 using Xunit;
 
-namespace LT.TEST.BOOK.ICS7.C05.C0504
+namespace LT.TEST.BOOK.ICS7._05._04
 {
     public class C050402Test
     {

@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7.C05.C0507
