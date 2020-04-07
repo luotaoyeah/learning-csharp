@@ -1,14 +1,13 @@
-using LT.BOOK.ICS7.C05.C0504;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7._05._04
 {
-    public class C050402Test
+    public class C02
     {
         [Fact]
-        public void Fn01()
+        public void T01()
         {
-            Assert.Equal(3, new C050402().Add(1, 2));
+            Assert.Equal(3, new LT.BOOK.ICS7._05._04.C02().Add(1, 2));
         }
     }
 }

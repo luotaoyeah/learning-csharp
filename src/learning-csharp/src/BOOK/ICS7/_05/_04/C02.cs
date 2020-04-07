@@ -1,9 +1,9 @@
-namespace LT.BOOK.ICS7.C05.C0504
+namespace LT.BOOK.ICS7._05._04
 {
     /// <summary>
-    /// 5.4.2. Methods
+    /// 5.4.2. methods
     /// </summary>
-    public class C050402
+    public class C02
     {
         public int Add(int x, int y)
         {
