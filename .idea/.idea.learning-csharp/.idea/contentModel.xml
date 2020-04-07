@@ -66,11 +66,8 @@
                   <e p="C01.01.cs" t="Include" />
                   <e p="C02.cs" t="Include" />
                 </e>
-                <e p="C0505" t="Include">
-                  <e p="C0505.cs" t="Include" />
-                </e>
-                <e p="C0506" t="Include">
-                  <e p="C0506.cs" t="Include" />
+                <e p="_06" t="Include">
+                  <e p="C01.cs" t="Include" />
                 </e>
                 <e p="C0507" t="Include">
                   <e p="C0507.cs" t="Include" />
@@ -127,11 +124,8 @@
                   <e p="C01.01.cs" t="Include" />
                   <e p="C02.cs" t="Include" />
                 </e>
-                <e p="C0505" t="Include">
-                  <e p="C0505Test.cs" t="Include" />
-                </e>
-                <e p="C0506" t="Include">
-                  <e p="C0506Test.cs" t="Include" />
+                <e p="_06" t="Include">
+                  <e p="C01.cs" t="Include" />
                 </e>
                 <e p="C0507" t="Include">
                   <e p="C0507Test.cs" t="Include" />
