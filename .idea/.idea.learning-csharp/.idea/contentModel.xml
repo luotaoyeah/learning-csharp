@@ -99,6 +99,9 @@
                 <e p="_14" t="Include">
                   <e p="C01.cs" t="Include" />
                 </e>
+                <e p="_15" t="Include">
+                  <e p="C01.cs" t="Include" />
+                </e>
               </e>
               <e p="README.md" t="Include" />
             </e>
@@ -181,6 +184,9 @@
                   <e p="C01.cs" t="Include" />
                 </e>
                 <e p="_14" t="Include">
+                  <e p="C01.cs" t="Include" />
+                </e>
+                <e p="_15" t="Include">
                   <e p="C01.cs" t="Include" />
                 </e>
               </e>
