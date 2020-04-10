@@ -1,3 +1,5 @@
+using System.Linq;
+
 namespace LT.BOOK.ICS7._06._19
 {
     /// <summary>
@@ -5,9 +7,9 @@ namespace LT.BOOK.ICS7._06._19
     /// </summary>
     public class C01
     {
-        public static int Fn01(int x, int y, int z)
+        public static int Fn01(int x, int y, int z, params int[] arr)
         {
-            return x + y + z;
+            return x + y + z + arr.Sum();
         }
     }
 }
