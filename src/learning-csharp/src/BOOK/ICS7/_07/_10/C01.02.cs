@@ -2,6 +2,7 @@ namespace LT.BOOK.ICS7._07._10
 {
     /// <summary>
     /// 7.10.2 a property example
+    /// 7.10.3 using a property
     /// </summary>
     public class C0102
     {

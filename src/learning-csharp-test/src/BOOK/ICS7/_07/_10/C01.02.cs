@@ -1,3 +1,4 @@
+using LT.BOOK.ICS7._07._10;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7._07._10
@@ -7,10 +8,13 @@ namespace LT.TEST.BOOK.ICS7._07._10
         [Fact]
         public void T01()
         {
+            var c0102 = new C0102();
+
             //----------------------------------------------------------------------------------------------------
-            // 访问 constant member 跟访问 static member 一样，直接通过类名访问，
+            // 读写一个 property 跟读写一个 field 是一样的，它会自动调用 get/set，
             //----------------------------------------------------------------------------------------------------
-            Assert.Equal(3.14, LT.BOOK.ICS7._07._08.C01.Pi);
+            c0102.I01 = 6;
+            Assert.Equal(6, c0102.I01);
         }
     }
 }
