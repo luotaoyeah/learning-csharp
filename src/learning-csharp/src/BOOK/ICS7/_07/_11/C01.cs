@@ -3,7 +3,7 @@ using System;
 namespace LT.BOOK.ICS7._07._11
 {
     /// <summary>
-    /// 7.12 instance constructors
+    /// 7.11 instance constructors
     /// </summary>
     public class C01
     {
