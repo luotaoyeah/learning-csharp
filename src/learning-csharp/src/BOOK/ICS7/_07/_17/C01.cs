@@ -7,7 +7,7 @@ namespace LT.BOOK.ICS7._07._17
     {
         //----------------------------------------------------------------------------------------------------
         // property/indexer 都属于 function member，它们都有两个 accessor（get/set），
-        // 默认情况下，get/set 的 access 跟 property/indexer 一样，
+        // 默认情况下，get/set 的 access level 跟它所属的 property/indexer 一样，
         // 在下面三个条件满足时，可以单独给 get/set 设置 access modifier：
         //   1. get/set 必须同时存在，
         //   2. 只能给其中一个（get 或者 set）设置 access modifier，
