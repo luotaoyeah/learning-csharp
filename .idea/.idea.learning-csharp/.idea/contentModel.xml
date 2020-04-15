@@ -174,8 +174,19 @@
                   <e p="C01.cs" t="Include" />
                 </e>
                 <e p="_06" t="Include">
+                  <e p="_02" t="Include">
+                    <e p="_01" t="Include">
+                      <e p="MyBaseClass.cs" t="Include" />
+                      <e p="MyDerivedClass.cs" t="Include" />
+                      <e p="SecondDerived.cs" t="Include" />
+                    </e>
+                    <e p="_02" t="Include">
+                      <e p="MyBaseClass.cs" t="Include" />
+                      <e p="MyDerivedClass.cs" t="Include" />
+                      <e p="SecondDerived.cs" t="Include" />
+                    </e>
+                  </e>
                   <e p="C01.01.cs" t="Include" />
-                  <e p="C01.02.01.cs" t="Include" />
                   <e p="C01.cs" t="Include" />
                 </e>
               </e>
@@ -329,8 +340,12 @@
                   <e p="C01.cs" t="Include" />
                 </e>
                 <e p="_06" t="Include">
+                  <e p="_02" t="Include">
+                    <e p="_01" t="Include">
+                      <e p="T01.cs" t="Include" />
+                    </e>
+                  </e>
                   <e p="C01.01.cs" t="Include" />
-                  <e p="C01.02.01.cs" t="Include" />
                   <e p="C01.cs" t="Include" />
                 </e>
               </e>
