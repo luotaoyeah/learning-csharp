@@ -1,5 +1,3 @@
-using System;
-
 namespace LT.BOOK.ICS7._08._07
 {
     public class MyDerivedClass : MyBaseClass
