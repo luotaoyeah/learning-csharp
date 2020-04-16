@@ -198,6 +198,9 @@
                     <e p="MyBaseClass.cs" t="Include" />
                     <e p="MyDerivedClass.cs" t="Include" />
                   </e>
+                  <e p="_02" t="Include">
+                    <e p="MyBaseClass.cs" t="Include" />
+                  </e>
                   <e p="MyBaseClass.cs" t="Include" />
                   <e p="MyDerivedClass.cs" t="Include" />
                 </e>
