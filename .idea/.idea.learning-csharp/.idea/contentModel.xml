@@ -225,6 +225,10 @@
                 <e p="_13" t="Include">
                   <e p="MyMath.cs" t="Include" />
                 </e>
+                <e p="_14" t="Include">
+                  <e p="ExtendMyData.cs" t="Include" />
+                  <e p="MyData.cs" t="Include" />
+                </e>
               </e>
               <e p="README.md" t="Include" />
             </e>
@@ -410,6 +414,9 @@
                   <e p="T01.cs" t="Include" />
                 </e>
                 <e p="_13" t="Include">
+                  <e p="T01.cs" t="Include" />
+                </e>
+                <e p="_14" t="Include">
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>
