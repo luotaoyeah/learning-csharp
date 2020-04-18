@@ -45,7 +45,7 @@ namespace LT.TEST.BOOK.ICS7._10._09._02
                         testOutputHelper.WriteLine($"{nameof(Square)}: {square.Side}");
                         break;
                     //----------------------------------------------------------------------------------------------------
-                    // 如果 case 块里面有 statement，则必须使用 break/continue/return/goto/throw 来跳出
+                    // 如果 case 块里面有 statement，则必须使用 break/continue/return/goto/throw 来跳出，
                     //----------------------------------------------------------------------------------------------------
                     case Triangle triangle:
                         testOutputHelper.WriteLine($"{nameof(Triangle)}: {triangle.Height}");
