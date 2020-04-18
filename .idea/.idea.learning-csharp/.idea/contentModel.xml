@@ -249,6 +249,13 @@
                   <e p="MyClass.cs" t="Include" />
                 </e>
               </e>
+              <e p="_10" t="Include">
+                <e p="_09" t="Include">
+                  <e p="_02" t="Include">
+                    <e p="Shape.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
               <e p="README.md" t="Include" />
             </e>
           </e>
@@ -456,6 +463,13 @@
                 </e>
                 <e p="_17" t="Include">
                   <e p="T01.cs" t="Include" />
+                </e>
+              </e>
+              <e p="_10" t="Include">
+                <e p="_09" t="Include">
+                  <e p="_02" t="Include">
+                    <e p="T01.cs" t="Include" />
+                  </e>
                 </e>
               </e>
             </e>
