@@ -242,6 +242,9 @@
                     <e p="LimitedInt.cs" t="Include" />
                   </e>
                 </e>
+                <e p="_16" t="Include">
+                  <e p="SomeClass.cs" t="Include" />
+                </e>
               </e>
               <e p="README.md" t="Include" />
             </e>
@@ -444,6 +447,9 @@
                   <e p="_01" t="Include">
                     <e p="T01.cs" t="Include" />
                   </e>
+                </e>
+                <e p="_16" t="Include">
+                  <e p="T01.cs" t="Include" />
                 </e>
               </e>
             </e>
