@@ -1,4 +1,4 @@
-namespace LT.BOOK.ICS7._09._14
+namespace LT.BOOK.ICS7._09._14._01
 {
     public class LimitedInt
     {
@@ -28,14 +28,15 @@ namespace LT.BOOK.ICS7._09._14
         }
 
         //----------------------------------------------------------------------------------------------------
-        // 自定义隐式类型转换（implicit conversion）的转换方式
+        // 自定义显式类型转换（explicit conversion）的转换方式，
+        // 不能同时定义隐式转换和显式转换，
         //----------------------------------------------------------------------------------------------------
-        public static implicit operator int(LimitedInt limitedInt)
+        public static explicit operator int(LimitedInt limitedInt)
         {
             return limitedInt.theValue;
         }
 
-        public static implicit operator LimitedInt(int i)
+        public static explicit operator LimitedInt(int i)
         {
             var limitedInt = new LimitedInt { TheValue = i };
             return limitedInt;
