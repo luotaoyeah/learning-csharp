@@ -274,6 +274,10 @@
                   <e p="TrafficLight.cs" t="Include" />
                 </e>
                 <e p="_02" t="Include">
+                  <e p="_01" t="Include">
+                    <e p="BitFlag01.cs" t="Include" />
+                    <e p="BitFlag02.cs" t="Include" />
+                  </e>
                   <e p="CardDeckSettings.cs" t="Include" />
                 </e>
               </e>
@@ -516,6 +520,9 @@
                   <e p="T01.cs" t="Include" />
                 </e>
                 <e p="_02" t="Include">
+                  <e p="_01" t="Include">
+                    <e p="T01.cs" t="Include" />
+                  </e>
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>
