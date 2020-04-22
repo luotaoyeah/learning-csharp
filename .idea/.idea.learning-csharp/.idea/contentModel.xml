@@ -543,6 +543,9 @@
                   <e p="_02" t="Include">
                     <e p="T01.cs" t="Include" />
                   </e>
+                  <e p="_04" t="Include">
+                    <e p="T01.cs" t="Include" />
+                  </e>
                 </e>
               </e>
             </e>
