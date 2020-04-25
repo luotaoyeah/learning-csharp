@@ -5,7 +5,7 @@ namespace LT.TEST.BOOK.ICS7._07._10
     public class C0102
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             var c0102 = new LT.BOOK.ICS7._07._10.C0102();
 

@@ -5,7 +5,7 @@ namespace LT.TEST.BOOK.ICS7._07._16
     public class C0110
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             var c0104 = new LT.BOOK.ICS7._07._16.C0104();
 
@@ -19,7 +19,7 @@ namespace LT.TEST.BOOK.ICS7._07._16
         }
 
         [Fact]
-        public void T02()
+        public void _02()
         {
             //----------------------------------------------------------------------------------------------------
             // indexer 也可以使用 object initializer 的形式

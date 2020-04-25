@@ -5,7 +5,7 @@ namespace LT.TEST.BOOK.ICS7._06._17
     public class C01
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             //----------------------------------------------------------------------------------------------------
             // ref local 类似于 C++ 里面的 reference，是一个变量的别名，
@@ -26,7 +26,7 @@ namespace LT.TEST.BOOK.ICS7._06._17
         }
 
         [Fact]
-        public void T02()
+        public void _02()
         {
             //----------------------------------------------------------------------------------------------------
             // 使用 ref return 初始化一个 ref local
@@ -40,7 +40,7 @@ namespace LT.TEST.BOOK.ICS7._06._17
         }
 
         [Fact]
-        public void T03()
+        public void _03()
         {
             //----------------------------------------------------------------------------------------------------
             // ref return 也可以当成 value 来使用，

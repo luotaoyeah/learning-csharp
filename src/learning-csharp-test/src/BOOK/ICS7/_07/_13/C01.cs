@@ -5,7 +5,7 @@ namespace LT.TEST.BOOK.ICS7._07._13
     public class C01
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             var c01 = new LT.BOOK.ICS7._07._13.C01();
             c01.age = 18;
@@ -23,7 +23,7 @@ namespace LT.TEST.BOOK.ICS7._07._13
         }
 
         [Fact]
-        public void T02()
+        public void _02()
         {
             //----------------------------------------------------------------------------------------------------
             // 如果 constructor 的参数为空，还可以省略小括号，

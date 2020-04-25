@@ -5,7 +5,7 @@ namespace LT.TEST.BOOK.ICS7._06._20
     public class C01
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             Assert.Equal(4, LT.BOOK.ICS7._06._20.C01.Fn01(1, 3));
             Assert.Equal(13, LT.BOOK.ICS7._06._20.C01.Fn01(1, 3, 4, 5));
@@ -16,7 +16,7 @@ namespace LT.TEST.BOOK.ICS7._06._20
         }
 
         [Fact]
-        public void T02()
+        public void _02()
         {
             //----------------------------------------------------------------------------------------------------
             // 如果使用 positional parameter 的形式，

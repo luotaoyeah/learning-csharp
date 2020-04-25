@@ -5,7 +5,7 @@ namespace LT.TEST.BOOK.ICS7._07._09
     public class C01
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             //----------------------------------------------------------------------------------------------------
             // 访问 constant member 跟访问 static member 一样，直接通过类名访问，

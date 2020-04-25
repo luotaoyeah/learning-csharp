@@ -5,7 +5,7 @@ namespace LT.TEST.BOOK.ICS7._07._15
     public class C01
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             var c01 = new LT.BOOK.ICS7._07._15.C01();
             Assert.Equal(8, c01.I01);

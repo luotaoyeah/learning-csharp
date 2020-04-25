@@ -5,7 +5,7 @@ namespace LT.TEST.BOOK.ICS7._06._19
     public class C01
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             //----------------------------------------------------------------------------------------------------
             // 调用方法时，使用 positional parameter，根据参数位置一一对应，

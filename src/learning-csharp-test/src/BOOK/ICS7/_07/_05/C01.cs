@@ -9,7 +9,7 @@ namespace LT.TEST.BOOK.ICS7._07._05
     public class C01
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             Assert.Equal(6, I01);
 

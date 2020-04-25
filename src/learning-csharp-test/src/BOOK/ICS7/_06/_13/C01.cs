@@ -6,7 +6,7 @@ namespace LT.TEST.BOOK.ICS7._06._13
     public class C01
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             var person01 = new Person();
             LT.BOOK.ICS7._06._13.C01.Fn01(person01);

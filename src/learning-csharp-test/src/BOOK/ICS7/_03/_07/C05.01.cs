@@ -5,7 +5,7 @@ namespace LT.TEST.BOOK.ICS7._03._07
     public class C0501
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             //----------------------------------------------------------------------------------------------------
             // alignment 表示占位宽度，宽度不足时用空格补齐，宽度超过时会忽略 alignment，

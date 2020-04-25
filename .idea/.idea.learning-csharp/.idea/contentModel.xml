@@ -311,6 +311,9 @@
                 <e p="_11" t="Include">
                   <e p="MyDelegate.cs" t="Include" />
                 </e>
+                <e p="_13" t="Include">
+                  <e p="OtherDel.cs" t="Include" />
+                </e>
               </e>
               <e p="README.md" t="Include" />
             </e>
@@ -396,7 +399,7 @@
                   <e p="C01.cs" t="Include" />
                 </e>
                 <e p="_15" t="Include">
-                  <e p="C01.cs" t="Include" />
+                  <e p="T01.cs" t="Include" />
                 </e>
                 <e p="_17" t="Include">
                   <e p="C01.cs" t="Include" />
@@ -616,6 +619,9 @@
                   <e p="T01.cs" t="Include" />
                 </e>
                 <e p="_11" t="Include">
+                  <e p="T01.cs" t="Include" />
+                </e>
+                <e p="_13" t="Include">
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>

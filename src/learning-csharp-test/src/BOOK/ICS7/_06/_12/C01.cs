@@ -6,7 +6,7 @@ namespace LT.TEST.BOOK.ICS7._06._12
     public class C01
     {
         [Fact]
-        public void T01()
+        public void _01()
         {
             var person = new Person { Age = 18 };
             int x = 18;
