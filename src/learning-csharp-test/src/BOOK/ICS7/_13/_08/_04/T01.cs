@@ -27,6 +27,9 @@ namespace LT.TEST.BOOK.ICS7._13._08._04
 
             Assert.Equal(3, arr01[0][1, 0]);
             Assert.Equal(8, arr01[1][2, 1]);
+
+            Assert.Equal(1, arr01.Rank);
+            Assert.Equal(3, arr01.Length);
         }
     }
 }
