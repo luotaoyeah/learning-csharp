@@ -1,11 +1,11 @@
-using LT.BOOK.ICS7._14._07;
+using LT.BOOK.ICS7._14._11;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LT.TEST.BOOK.ICS7._14._07
+namespace LT.TEST.BOOK.ICS7._14._11
 {
     /// <summary>
-    /// 14.7 adding methods to delegates
+    /// 14.11 invoking delegates with return values
     /// </summary>
     public class T01
     {
@@ -16,27 +16,27 @@ namespace LT.TEST.BOOK.ICS7._14._07
             this.testOutputHelper = testOutputHelper;
         }
 
-        private void F01()
+        private int F01()
         {
-            testOutputHelper.WriteLine("01");
+            return 1;
         }
 
-        private void F02()
+        private int F02()
         {
-            testOutputHelper.WriteLine("02");
+            return 2;
         }
 
         /// <summary>
-        /// 使用 += 往 delegate 对象中添加新的 method，同一个 method 可以被添加多次，
+        /// 如果 delegate 的 return type 不是 void，则它的返回值为 invocation list 中最后一个 method 的返回值，
+        /// 其他的 method 的返回值被忽略了，
         /// </summary>
         [Fact]
         public void _01()
         {
             var delegate01 = new MyDelegate(F01);
             delegate01 += F02;
-            delegate01 += F01;
 
-            delegate01();
+            Assert.Equal(2, delegate01.Invoke());
         }
     }
 }
