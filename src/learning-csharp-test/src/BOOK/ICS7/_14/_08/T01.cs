@@ -42,6 +42,14 @@ namespace LT.TEST.BOOK.ICS7._14._08
 
             delegate01 -= F01;
             delegate01();
+
+            //----------------------------------------------------------------------------------------------------
+            // 当 invocation list 中所有的 method 都被删除之后，delegate 就为 null
+            //----------------------------------------------------------------------------------------------------
+            Assert.NotNull(delegate01);
+            delegate01 -= F02;
+            delegate01 -= F01;
+            Assert.Null(delegate01);
         }
     }
 }
