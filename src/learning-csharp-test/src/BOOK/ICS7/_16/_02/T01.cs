@@ -1,11 +1,10 @@
-using LT.BOOK.ICS7._15._05;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LT.TEST.BOOK.ICS7._15._05
+namespace LT.TEST.BOOK.ICS7._16._02
 {
     /// <summary>
-    /// 15.5 raising an event
+    /// 16.2 declaring an interface
     /// </summary>
     public class T01
     {
@@ -20,11 +19,6 @@ namespace LT.TEST.BOOK.ICS7._15._05
         [Fact]
         public void _01()
         {
-            var incrementer = new Incrementer();
-            var dozens = new Dozens(incrementer);
-
-            incrementer.DoCount();
-            Assert.Equal(9, dozens.DozensCount);
         }
     }
 }

@@ -352,6 +352,9 @@
                   <e p="CB.cs" t="Include" />
                   <e p="IInfo.cs" t="Include" />
                 </e>
+                <e p="_02" t="Include">
+                  <e p="IMyInterface01.cs" t="Include" />
+                </e>
               </e>
               <e p="README.md" t="Include" />
             </e>
@@ -692,6 +695,9 @@
                   <e p="_01" t="Include">
                     <e p="T01.cs" t="Include" />
                   </e>
+                  <e p="T01.cs" t="Include" />
+                </e>
+                <e p="_02" t="Include">
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>

@@ -18,9 +18,6 @@ namespace LT.TEST.BOOK.ICS7._16._01._01
         }
 
 
-        /// <summary>
-        /// 
-        /// </summary>
         [Fact]
         public void _01()
         {
