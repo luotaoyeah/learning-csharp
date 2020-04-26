@@ -320,6 +320,11 @@
                       <e p="SomeDel.cs" t="Include" />
                     </e>
                   </e>
+                  <e p="_03" t="Include">
+                    <e p="_01" t="Include">
+                      <e p="MyDel.cs" t="Include" />
+                    </e>
+                  </e>
                   <e p="OtherDel.cs" t="Include" />
                 </e>
               </e>
@@ -635,6 +640,11 @@
                       <e p="T01.cs" t="Include" />
                     </e>
                     <e p="_03" t="Include">
+                      <e p="T01.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="_03" t="Include">
+                    <e p="_01" t="Include">
                       <e p="T01.cs" t="Include" />
                     </e>
                   </e>
