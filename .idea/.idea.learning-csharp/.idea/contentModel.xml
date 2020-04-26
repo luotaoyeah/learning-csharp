@@ -312,6 +312,11 @@
                   <e p="MyDelegate.cs" t="Include" />
                 </e>
                 <e p="_13" t="Include">
+                  <e p="_02" t="Include">
+                    <e p="_02" t="Include">
+                      <e p="SomeDel.cs" t="Include" />
+                    </e>
+                  </e>
                   <e p="OtherDel.cs" t="Include" />
                 </e>
               </e>
@@ -622,6 +627,11 @@
                   <e p="T01.cs" t="Include" />
                 </e>
                 <e p="_13" t="Include">
+                  <e p="_02" t="Include">
+                    <e p="_02" t="Include">
+                      <e p="T01.cs" t="Include" />
+                    </e>
+                  </e>
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>
