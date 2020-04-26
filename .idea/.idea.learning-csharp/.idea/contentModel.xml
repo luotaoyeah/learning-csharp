@@ -328,6 +328,12 @@
                   <e p="OtherDel.cs" t="Include" />
                 </e>
               </e>
+              <e p="_15" t="Include">
+                <e p="_05" t="Include">
+                  <e p="Dozens.cs" t="Include" />
+                  <e p="Incrementer.cs" t="Include" />
+                </e>
+              </e>
               <e p="README.md" t="Include" />
             </e>
           </e>
@@ -648,6 +654,11 @@
                       <e p="T01.cs" t="Include" />
                     </e>
                   </e>
+                  <e p="T01.cs" t="Include" />
+                </e>
+              </e>
+              <e p="_15" t="Include">
+                <e p="_05" t="Include">
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>
