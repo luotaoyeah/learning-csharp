@@ -344,6 +344,9 @@
               </e>
               <e p="_16" t="Include">
                 <e p="_01" t="Include">
+                  <e p="_01" t="Include">
+                    <e p="MyClass.cs" t="Include" />
+                  </e>
                   <e p="C01.cs" t="Include" />
                   <e p="CA.cs" t="Include" />
                   <e p="CB.cs" t="Include" />
@@ -686,6 +689,9 @@
               </e>
               <e p="_16" t="Include">
                 <e p="_01" t="Include">
+                  <e p="_01" t="Include">
+                    <e p="T01.cs" t="Include" />
+                  </e>
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>
