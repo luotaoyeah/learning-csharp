@@ -14,6 +14,7 @@
     <e p="C:\Users\Administrator\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_learning-csharp.-1768444928.00" t="ExcludeRecursive" />
     <e p="C:\Users\Administrator\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\Administrator\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
     <e p="D:\proj\git\luotaoyeah\learning-csharp" t="IncludeFlat">
       <e p="learning-csharp.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
@@ -339,6 +340,14 @@
                   </e>
                   <e p="Dozens.cs" t="Include" />
                   <e p="Incrementer.cs" t="Include" />
+                </e>
+              </e>
+              <e p="_16" t="Include">
+                <e p="_01" t="Include">
+                  <e p="C01.cs" t="Include" />
+                  <e p="CA.cs" t="Include" />
+                  <e p="CB.cs" t="Include" />
+                  <e p="IInfo.cs" t="Include" />
                 </e>
               </e>
               <e p="README.md" t="Include" />
@@ -672,6 +681,11 @@
                   <e p="_01" t="Include">
                     <e p="T01.cs" t="Include" />
                   </e>
+                  <e p="T01.cs" t="Include" />
+                </e>
+              </e>
+              <e p="_16" t="Include">
+                <e p="_01" t="Include">
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>

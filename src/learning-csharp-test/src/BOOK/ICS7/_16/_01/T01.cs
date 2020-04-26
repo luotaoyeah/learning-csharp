@@ -1,11 +1,11 @@
-using LT.BOOK.ICS7._15._06._01;
+using LT.BOOK.ICS7._16._01;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LT.TEST.BOOK.ICS7._15._06._01
+namespace LT.TEST.BOOK.ICS7._16._01
 {
     /// <summary>
-    /// 15.6.1 passing data by extending EventArgs
+    /// 16.1 what is an interface?
     /// </summary>
     public class T01
     {
@@ -23,13 +23,10 @@ namespace LT.TEST.BOOK.ICS7._15._06._01
         [Fact]
         public void _01()
         {
-            var incrementer = new Incrementer();
-            incrementer.CountedADozen += (_, incrementerEventArgs) =>
-            {
-                testOutputHelper.WriteLine(incrementerEventArgs.IterationCount.ToString());
-            };
+            var ca = new CA() { Name = "luotao", Age = 18 };
+            var cb = new CB() { First = "luo", Last = "tao", PersonsAge = 18 };
 
-            incrementer.DoCount();
+            Assert.Equal(C01.PrintInfo(ca), C01.PrintInfo(cb));
         }
     }
 }
