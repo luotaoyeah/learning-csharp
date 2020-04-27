@@ -387,6 +387,10 @@
                     <e p="A.cs" t="Include" />
                     <e p="B.cs" t="Include" />
                   </e>
+                  <e p="_03" t="Include">
+                    <e p="A.cs" t="Include" />
+                    <e p="B.cs" t="Include" />
+                  </e>
                 </e>
               </e>
               <e p="README.md" t="Include" />
@@ -762,6 +766,9 @@
                     <e p="T01.cs" t="Include" />
                   </e>
                   <e p="_02" t="Include">
+                    <e p="T01.cs" t="Include" />
+                  </e>
+                  <e p="_03" t="Include">
                     <e p="T01.cs" t="Include" />
                   </e>
                 </e>
