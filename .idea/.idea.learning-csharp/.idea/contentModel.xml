@@ -374,6 +374,12 @@
                   <e p="IMyInterface02.cs" t="Include" />
                   <e p="MyClass.cs" t="Include" />
                 </e>
+                <e p="_11" t="Include">
+                  <e p="IMyInterface01.cs" t="Include" />
+                  <e p="IMyInterface02.cs" t="Include" />
+                  <e p="IMyInterface03.cs" t="Include" />
+                  <e p="MyClass.cs" t="Include" />
+                </e>
               </e>
               <e p="README.md" t="Include" />
             </e>
@@ -729,6 +735,9 @@
                   <e p="T01.cs" t="Include" />
                 </e>
                 <e p="_10" t="Include">
+                  <e p="T01.cs" t="Include" />
+                </e>
+                <e p="_11" t="Include">
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>
