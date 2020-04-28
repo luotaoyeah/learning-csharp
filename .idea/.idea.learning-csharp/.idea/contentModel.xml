@@ -415,6 +415,10 @@
                 <e p="_07" t="Include">
                   <e p="PieceOfData.cs" t="Include" />
                 </e>
+                <e p="_08" t="Include">
+                  <e p="MyDelegate.cs" t="Include" />
+                  <e p="Simple.cs" t="Include" />
+                </e>
               </e>
               <e p="README.md" t="Include" />
             </e>
@@ -819,6 +823,9 @@
                   <e p="T01.cs" t="Include" />
                 </e>
                 <e p="_07" t="Include">
+                  <e p="T01.cs" t="Include" />
+                </e>
+                <e p="_08" t="Include">
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>
