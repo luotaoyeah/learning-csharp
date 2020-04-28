@@ -401,6 +401,11 @@
                   <e p="Person.cs" t="Include" />
                 </e>
               </e>
+              <e p="_18" t="Include">
+                <e p="_04" t="Include">
+                  <e p="MyClass.cs" t="Include" />
+                </e>
+              </e>
               <e p="README.md" t="Include" />
             </e>
           </e>
@@ -790,6 +795,11 @@
                   <e p="T01.cs" t="Include" />
                 </e>
                 <e p="_11" t="Include">
+                  <e p="T01.cs" t="Include" />
+                </e>
+              </e>
+              <e p="_18" t="Include">
+                <e p="_04" t="Include">
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>
