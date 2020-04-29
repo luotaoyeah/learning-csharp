@@ -428,6 +428,12 @@
                   <e p="Simple.cs" t="Include" />
                 </e>
               </e>
+              <e p="_19" t="Include">
+                <e p="_03" t="Include">
+                  <e p="ColorEnumerator.cs" t="Include" />
+                  <e p="Spectrum.cs" t="Include" />
+                </e>
+              </e>
               <e p="README.md" t="Include" />
             </e>
           </e>
@@ -845,6 +851,9 @@
               </e>
               <e p="_19" t="Include">
                 <e p="_02" t="Include">
+                  <e p="T01.cs" t="Include" />
+                </e>
+                <e p="_03" t="Include">
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>
