@@ -420,6 +420,10 @@
                   <e p="Simple.cs" t="Include" />
                 </e>
                 <e p="_09" t="Include">
+                  <e p="_01" t="Include">
+                    <e p="IMyInterface.cs" t="Include" />
+                    <e p="Simple.cs" t="Include" />
+                  </e>
                   <e p="IMyInterface.cs" t="Include" />
                   <e p="Simple.cs" t="Include" />
                 </e>
@@ -833,6 +837,9 @@
                   <e p="T01.cs" t="Include" />
                 </e>
                 <e p="_09" t="Include">
+                  <e p="_01" t="Include">
+                    <e p="T01.cs" t="Include" />
+                  </e>
                   <e p="T01.cs" t="Include" />
                 </e>
               </e>
