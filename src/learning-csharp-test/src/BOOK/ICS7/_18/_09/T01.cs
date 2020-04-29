@@ -1,11 +1,11 @@
-using LT.BOOK.ICS7._18._08;
+using LT.BOOK.ICS7._18._09;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LT.TEST.BOOK.ICS7._18._08
+namespace LT.TEST.BOOK.ICS7._18._09
 {
     /// <summary>
-    /// 18.8 generic delegates
+    /// 18.9 generic interfaces
     /// </summary>
     public class T01
     {
@@ -20,11 +20,8 @@ namespace LT.TEST.BOOK.ICS7._18._08
         [Fact]
         public void _01()
         {
-            var myDelegate01 = new MyDelegate<string>(Simple.PrintString);
-            Assert.Equal("FOO", myDelegate01("foo"));
-
-            var myDelegate02 = new MyDelegate<int>(Simple.PrintInt);
-            Assert.Equal(2, myDelegate02(2));
+            var simple = new Simple<int, string>();
+            Assert.Equal("0", simple.ReturnIt("0"));
         }
     }
 }
