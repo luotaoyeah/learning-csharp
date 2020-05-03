@@ -2,7 +2,7 @@ using System.Linq;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LT.TEST.BOOK.ICS7._20._05
+namespace LT.TEST.BOOK.ICS7._20._05._01
 {
     /// <summary>
     /// 20.5.1 the from clause
