@@ -912,6 +912,11 @@
                   <e p="_03" t="Include">
                     <e p="T01.cs" t="Include" />
                   </e>
+                  <e p="_04" t="Include">
+                    <e p="_01" t="Include">
+                      <e p="T01.cs" t="Include" />
+                    </e>
+                  </e>
                 </e>
               </e>
             </e>
