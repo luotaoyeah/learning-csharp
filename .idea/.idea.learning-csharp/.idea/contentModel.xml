@@ -456,6 +456,14 @@
                   </e>
                 </e>
               </e>
+              <e p="_21" t="Include">
+                <e p="_01" t="Include">
+                  <e p="_01" t="Include">
+                    <e p="MyDownloadString.cs" t="Include" />
+                    <e p="MyDownloadStringAsync.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
               <e p="README.md" t="Include" />
             </e>
           </e>
@@ -944,6 +952,13 @@
                     <e p="T01.cs" t="Include" />
                   </e>
                   <e p="T01.cs" t="Include" />
+                </e>
+              </e>
+              <e p="_21" t="Include">
+                <e p="_01" t="Include">
+                  <e p="_01" t="Include">
+                    <e p="T01.cs" t="Include" />
+                  </e>
                 </e>
               </e>
             </e>
