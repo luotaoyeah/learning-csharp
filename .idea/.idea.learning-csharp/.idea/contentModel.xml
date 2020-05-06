@@ -465,6 +465,7 @@
                 </e>
                 <e p="_03" t="Include">
                   <e p="DoAsyncStuff.cs" t="Include" />
+                  <e p="DoAsyncStuff02.cs" t="Include" />
                 </e>
               </e>
               <e p="README.md" t="Include" />

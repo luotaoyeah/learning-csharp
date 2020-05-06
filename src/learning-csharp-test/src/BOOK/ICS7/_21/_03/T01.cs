@@ -39,5 +39,27 @@ namespace LT.TEST.BOOK.ICS7._21._03
             int value = await DoAsyncStuff.CalculateSumAsync(5, 6);
             Assert.Equal(11, value);
         }
+
+        [Fact]
+        public void _04()
+        {
+            Task task = new DoAsyncStuff02(testOutputHelper.WriteLine).CalculateSumAsync(5, 6);
+            task.Wait();
+            testOutputHelper.WriteLine("Async stuff is done");
+        }
+
+        [Fact]
+        public void _05()
+        {
+            Task task = new DoAsyncStuff02(testOutputHelper.WriteLine).CalculateSumAsync(5, 6);
+            task.ContinueWith(_ => { testOutputHelper.WriteLine("Async stuff is done"); });
+        }
+
+        [Fact]
+        public async void _06()
+        {
+            await new DoAsyncStuff02(testOutputHelper.WriteLine).CalculateSumAsync(5, 6);
+            testOutputHelper.WriteLine("Async stuff is done");
+        }
     }
 }
