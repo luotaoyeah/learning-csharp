@@ -61,5 +61,15 @@ namespace LT.TEST.BOOK.ICS7._21._03
             await new DoAsyncStuff02(testOutputHelper.WriteLine).CalculateSumAsync(5, 6);
             testOutputHelper.WriteLine("Async stuff is done");
         }
+
+        [Fact]
+        public void _07()
+        {
+            //----------------------------------------------------------------------------------------------------
+            // 返回类型为 void 的 async method，调用之后就无法再跟它进行交互，
+            //----------------------------------------------------------------------------------------------------
+            new DoAsyncStuff03(testOutputHelper.WriteLine).CalculateSumAsync(5, 6);
+            testOutputHelper.WriteLine("Async stuff is done");
+        }
     }
 }
