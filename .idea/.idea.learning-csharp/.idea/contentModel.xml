@@ -31,6 +31,10 @@
         <e p="Program.cs" t="Include" />
         <e p="src" t="Include">
           <e p="book" t="Include">
+            <e p="C9N5" t="Include">
+              <e p="cover.png" t="Include" />
+              <e p="README.md" t="Include" />
+            </e>
             <e p="ICS7" t="Include">
               <e p="_03" t="Include">
                 <e p="_01" t="Include">
@@ -486,6 +490,7 @@
                   <e p="DoAsyncStuff03.cs" t="Include" />
                 </e>
               </e>
+              <e p="cover.png" t="Include" />
               <e p="README.md" t="Include" />
             </e>
           </e>

@@ -11,6 +11,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <Content Include="src\BOOK\C9N5\README.md"/>
         <Content Include="src\BOOK\ICS7\README.md"/>
     </ItemGroup>
 
