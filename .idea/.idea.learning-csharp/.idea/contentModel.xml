@@ -478,6 +478,9 @@
                   <e p="_03" t="Include">
                     <e p="MyDownloadString.cs" t="Include" />
                   </e>
+                  <e p="_05" t="Include">
+                    <e p="Simple.cs" t="Include" />
+                  </e>
                   <e p="DoAsyncStuff.cs" t="Include" />
                   <e p="DoAsyncStuff02.cs" t="Include" />
                   <e p="DoAsyncStuff03.cs" t="Include" />
@@ -992,6 +995,9 @@
                     <e p="T01.cs" t="Include" />
                   </e>
                   <e p="_03" t="Include">
+                    <e p="T01.cs" t="Include" />
+                  </e>
+                  <e p="_05" t="Include">
                     <e p="T01.cs" t="Include" />
                   </e>
                   <e p="T01.cs" t="Include" />
