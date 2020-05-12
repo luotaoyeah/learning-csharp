@@ -1,5 +1,5 @@
 using System.Linq;
-using LT.BOOK.ICS7._20._05._03;
+using LT.LIB.BOOK.ICS7._20._05._03;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -16,7 +16,6 @@ namespace LT.TEST.BOOK.ICS7._20._05._03
         {
             this.testOutputHelper = testOutputHelper;
         }
-
 
         /// <summary>
         /// LINQ 中的 join 跟 SQL 中的 join 类似，

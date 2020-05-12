@@ -1,4 +1,4 @@
-using LT.BOOK.ICS7._14._08;
+using LT.LIB.BOOK.ICS7._14._08;
 using Xunit;
 using Xunit.Abstractions;
 

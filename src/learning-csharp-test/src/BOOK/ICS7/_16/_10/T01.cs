@@ -1,4 +1,4 @@
-using LT.BOOK.ICS7._16._10;
+using LT.LIB.BOOK.ICS7._16._10;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -15,7 +15,6 @@ namespace LT.TEST.BOOK.ICS7._16._10
         {
             this.testOutputHelper = testOutputHelper;
         }
-
 
         /// <summary>
         /// explicit interface member implementation 只能通过 interface variable 来访问，不能通过 class instance 来访问，

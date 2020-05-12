@@ -7,7 +7,7 @@ namespace LT.TEST.BOOK.ICS7._07._16
         [Fact]
         public void _01()
         {
-            var c0104 = new LT.BOOK.ICS7._07._16.C0104();
+            var c0104 = new LT.LIB.BOOK.ICS7._07._16.C0104();
 
             Assert.Equal(1, c0104.X);
             Assert.Equal(2, c0104.Y);
@@ -24,7 +24,7 @@ namespace LT.TEST.BOOK.ICS7._07._16
             //----------------------------------------------------------------------------------------------------
             // indexer 也可以使用 object initializer 的形式
             //----------------------------------------------------------------------------------------------------
-            var c0104 = new LT.BOOK.ICS7._07._16.C0104 { [1] = 6 };
+            var c0104 = new LT.LIB.BOOK.ICS7._07._16.C0104 { [1] = 6 };
             c0104[2] = 8;
 
             Assert.Equal(6, c0104[1]);

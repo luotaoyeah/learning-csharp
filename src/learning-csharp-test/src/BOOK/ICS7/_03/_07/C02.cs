@@ -7,7 +7,7 @@ namespace LT.TEST.BOOK.ICS7._03._07
         [Fact]
         public void _01()
         {
-            LT.BOOK.ICS7._03._07.C02.Fn01();
+            LT.LIB.BOOK.ICS7._03._07.C02.Fn01();
         }
     }
 }

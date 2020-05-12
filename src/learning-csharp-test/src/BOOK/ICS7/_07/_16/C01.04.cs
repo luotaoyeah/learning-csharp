@@ -7,7 +7,7 @@ namespace LT.TEST.BOOK.ICS7._07._16
         [Fact]
         public void _01()
         {
-            var c0110 = new LT.BOOK.ICS7._07._16.C0110();
+            var c0110 = new LT.LIB.BOOK.ICS7._07._16.C0110();
 
             Assert.Equal(6, c0110[0]);
             Assert.Equal(8, c0110[0, 0]);

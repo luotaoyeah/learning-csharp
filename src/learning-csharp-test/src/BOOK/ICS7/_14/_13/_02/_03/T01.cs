@@ -1,4 +1,4 @@
-using LT.BOOK.ICS7._14._13._02._03;
+using LT.LIB.BOOK.ICS7._14._13._02._03;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -15,7 +15,6 @@ namespace LT.TEST.BOOK.ICS7._14._13._02._03
         {
             this.testOutputHelper = testOutputHelper;
         }
-
 
         /// <summary>
         /// 如果 delegate 的类型声明中包含 params parameter，

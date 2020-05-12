@@ -7,13 +7,13 @@ namespace LT.TEST.BOOK.ICS7._03._07
         [Fact]
         public void _01()
         {
-            LT.BOOK.ICS7._03._07.C03.Fn01();
+            LT.LIB.BOOK.ICS7._03._07.C03.Fn01();
         }
 
         [Fact]
         public void _02()
         {
-            Assert.Equal("1 + 2 = 3", LT.BOOK.ICS7._03._07.C03.Fn02());
+            Assert.Equal("1 + 2 = 3", LT.LIB.BOOK.ICS7._03._07.C03.Fn02());
         }
     }
 }

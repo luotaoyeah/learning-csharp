@@ -15,13 +15,12 @@ namespace LT.TEST.BOOK.ICS7._16._11
             this.testOutputHelper = testOutputHelper;
         }
 
-
         /// <summary>
         /// </summary>
         [Fact]
         public void _01()
         {
-            var myClass = new LT.BOOK.ICS7._16._11.MyClass();
+            var myClass = new LT.LIB.BOOK.ICS7._16._11.MyClass();
             Assert.Equal(1, myClass.F01());
             Assert.Equal(2, myClass.F02());
             Assert.Equal(3, myClass.F03());

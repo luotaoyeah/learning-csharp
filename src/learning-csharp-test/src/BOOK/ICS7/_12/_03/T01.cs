@@ -1,5 +1,5 @@
 using System;
-using LT.BOOK.ICS7._12._03;
+using LT.LIB.BOOK.ICS7._12._03;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -23,8 +23,10 @@ namespace LT.TEST.BOOK.ICS7._12._03
             //----------------------------------------------------------------------------------------------------
             // 使用 System.Enum.GetName() 方法，获取某个 member 的 name
             //----------------------------------------------------------------------------------------------------
-            Assert.Equal(nameof(TrafficLight.Yellow),
-                Enum.GetName(typeof(TrafficLight), 1));
+            Assert.Equal(
+                nameof(TrafficLight.Yellow),
+                Enum.GetName(typeof(TrafficLight), 1)
+            );
 
             //----------------------------------------------------------------------------------------------------
             // 使用 System.Enum.GetNames() 方法，获取所有的 member 的 name

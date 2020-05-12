@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>LT.LIB</RootNamespace>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <Nullable>enable</Nullable>
+        <Authors>luotao</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="src\BOOK\C9N5\README.md"/>
+        <Content Include="src\BOOK\ICS7\README.md"/>
+    </ItemGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="appsettings.json"/>
+        <Content Include="appsettings.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0"/>
+    </ItemGroup>
+
+</Project>

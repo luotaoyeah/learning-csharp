@@ -1,4 +1,4 @@
-using LT.BOOK.ICS7._14._13;
+using LT.LIB.BOOK.ICS7._14._13;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -15,7 +15,6 @@ namespace LT.TEST.BOOK.ICS7._14._13
         {
             this.testOutputHelper = testOutputHelper;
         }
-
 
         /// <summary>
         /// delegate 的 invocation list 中的 method 可以是 anonymous method

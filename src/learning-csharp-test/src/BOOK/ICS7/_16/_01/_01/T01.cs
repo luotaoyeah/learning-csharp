@@ -1,5 +1,5 @@
 using System;
-using LT.BOOK.ICS7._16._01._01;
+using LT.LIB.BOOK.ICS7._16._01._01;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -17,7 +17,6 @@ namespace LT.TEST.BOOK.ICS7._16._01._01
             this.testOutputHelper = testOutputHelper;
         }
 
-
         [Fact]
         public void _01()
         {
@@ -28,7 +27,6 @@ namespace LT.TEST.BOOK.ICS7._16._01._01
                 new() { TheValue = 2 },
                 new() { TheValue = 1 },
             };
-
 
             foreach (var myClass in myClasses)
             {

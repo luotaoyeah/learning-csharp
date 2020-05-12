@@ -7,7 +7,7 @@ namespace LT.TEST.BOOK.ICS7._08._02
         [Fact]
         public void _01()
         {
-            var c02 = new LT.BOOK.ICS7._08._02.C02();
+            var c02 = new LT.LIB.BOOK.ICS7._08._02.C02();
 
             //----------------------------------------------------------------------------------------------------
             // 正常访问继承来的 field 和 method

@@ -1,4 +1,4 @@
-using LT.BOOK.ICS7._14._09;
+using LT.LIB.BOOK.ICS7._14._09;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -21,7 +21,6 @@ namespace LT.TEST.BOOK.ICS7._14._09
             testOutputHelper.WriteLine(x.ToString());
             return x;
         }
-
 
         /// <summary>
         /// 可以直接像调用 method 一样调用一个 delegate，

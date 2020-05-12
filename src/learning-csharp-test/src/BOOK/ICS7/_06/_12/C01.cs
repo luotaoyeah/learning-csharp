@@ -1,4 +1,4 @@
-using LT.BOOK.ICS7._06._12;
+using LT.LIB.BOOK.ICS7._06._12;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7._06._12
@@ -14,7 +14,7 @@ namespace LT.TEST.BOOK.ICS7._06._12
             //----------------------------------------------------------------------------------------------------
             // reference parameter 在调用的时候也必须使用 ref 标记，
             //----------------------------------------------------------------------------------------------------
-            LT.BOOK.ICS7._06._12.C01.Fn01(ref person, ref x);
+            LT.LIB.BOOK.ICS7._06._12.C01.Fn01(ref person, ref x);
 
             Assert.Equal(19, person.Age);
             Assert.Equal(19, x);

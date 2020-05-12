@@ -1,4 +1,4 @@
-using LT.BOOK.C9N5._02._03._08._02;
+using LT.LIB.BOOK.C9N5._02._03._08._02;
 using Xunit;
 using Xunit.Abstractions;
 

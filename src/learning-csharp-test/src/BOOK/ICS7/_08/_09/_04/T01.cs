@@ -10,7 +10,7 @@ namespace LT.TEST.BOOK.ICS7._08._09._04
         [Fact]
         public void _01()
         {
-            var myDerivedClass = new LT.BOOK.ICS7._08._09._04.MyDerivedClass();
+            var myDerivedClass = new LT.LIB.BOOK.ICS7._08._09._04.MyDerivedClass();
             Assert.Equal(1, myDerivedClass.Fn01());
         }
     }

@@ -10,7 +10,7 @@ namespace LT.TEST.BOOK.ICS7._08._11._01
         [Fact]
         public void _01()
         {
-            var derivedClass = new LT.BOOK.ICS7._08._11._01.DerivedClass();
+            var derivedClass = new LT.LIB.BOOK.ICS7._08._11._01.DerivedClass();
             Assert.Equal("I am AbClass", derivedClass.IdentifyBase());
             Assert.Equal("I am DerivedClass", derivedClass.IdentifyDerived());
         }

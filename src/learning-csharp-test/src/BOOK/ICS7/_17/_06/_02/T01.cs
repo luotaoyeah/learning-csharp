@@ -1,5 +1,5 @@
 using System;
-using LT.BOOK.ICS7._17._06._02;
+using LT.LIB.BOOK.ICS7._17._06._02;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -16,7 +16,6 @@ namespace LT.TEST.BOOK.ICS7._17._06._02
         {
             this.testOutputHelper = testOutputHelper;
         }
-
 
         /// <summary>
         /// 显式地将父类转换为子类，会在 runtime 抛出 <see cref="InvalidCastException"/> 异常

@@ -1,4 +1,4 @@
-using LT.BOOK.ICS7._06._15;
+using LT.LIB.BOOK.ICS7._06._15;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7._06._15

@@ -1,6 +1,6 @@
 using System;
 using System.Reflection;
-using LT.BOOK.ICS7._09._16;
+using LT.LIB.BOOK.ICS7._09._16;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7._09._16

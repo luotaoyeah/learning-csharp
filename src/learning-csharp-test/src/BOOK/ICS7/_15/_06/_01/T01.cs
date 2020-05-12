@@ -1,4 +1,4 @@
-using LT.BOOK.ICS7._15._06._01;
+using LT.LIB.BOOK.ICS7._15._06._01;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -16,15 +16,11 @@ namespace LT.TEST.BOOK.ICS7._15._06._01
             this.testOutputHelper = testOutputHelper;
         }
 
-
         [Fact]
         public void _01()
         {
             var incrementer = new Incrementer();
-            incrementer.CountedADozen += (_, incrementerEventArgs) =>
-            {
-                testOutputHelper.WriteLine(incrementerEventArgs.IterationCount.ToString());
-            };
+            incrementer.CountedADozen += (_, incrementerEventArgs) => { testOutputHelper.WriteLine(incrementerEventArgs.IterationCount.ToString()); };
 
             incrementer.DoCount();
         }

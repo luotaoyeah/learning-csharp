@@ -1,4 +1,4 @@
-using LT.BOOK.ICS7._16._07;
+using LT.LIB.BOOK.ICS7._16._07;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -15,7 +15,6 @@ namespace LT.TEST.BOOK.ICS7._16._07
         {
             this.testOutputHelper = testOutputHelper;
         }
-
 
         /// <summary>
         /// </summary>

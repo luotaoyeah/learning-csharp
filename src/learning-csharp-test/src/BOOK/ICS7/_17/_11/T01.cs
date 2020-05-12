@@ -1,5 +1,5 @@
 using System;
-using LT.BOOK.ICS7._17._11;
+using LT.LIB.BOOK.ICS7._17._11;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -16,7 +16,6 @@ namespace LT.TEST.BOOK.ICS7._17._11
         {
             this.testOutputHelper = testOutputHelper;
         }
-
 
         /// <summary>
         /// 使用 () 显示转换类型，如果转换失败，会抛出 <see cref="InvalidCastException"/> 异常，

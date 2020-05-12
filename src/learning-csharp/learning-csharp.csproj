@@ -20,23 +20,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Content Include="src\BOOK\C9N5\README.md"/>
-        <Content Include="src\BOOK\ICS7\README.md"/>
-        <None Remove="appsettings.json"/>
-        <Content Include="appsettings.json">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </Content>
-    </ItemGroup>
-
-    <ItemGroup>
-        <Folder Include="src\BOOK\C9N5\_02\_02"/>
-    </ItemGroup>
-
-    <ItemGroup>
-        <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0"/>
-        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0"/>
-        <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0"/>
-        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0"/>
+        <ProjectReference Include="..\learning-csharp-lib\learning-csharp-lib.csproj"/>
     </ItemGroup>
 
 </Project>

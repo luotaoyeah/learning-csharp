@@ -1,4 +1,4 @@
-using LT.BOOK.ICS7._16._04;
+using LT.LIB.BOOK.ICS7._16._04;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -15,7 +15,6 @@ namespace LT.TEST.BOOK.ICS7._16._04
         {
             this.testOutputHelper = testOutputHelper;
         }
-
 
         /// <summary>
         /// interface 是一个 reference 类型，它的变量可以指向一个子类的实例对象，
