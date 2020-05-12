@@ -24,7 +24,7 @@ namespace LT.TEST.BOOK.ICS7._06._20
             //
             // 如果使用 named parameter 的形式，则可以随意让某个 optional parameter 使用默认值，
             //----------------------------------------------------------------------------------------------------
-            Assert.Equal(8, LT.BOOK.ICS7._06._20.C01.Fn02(y: 4));
+            Assert.Equal(5, LT.BOOK.ICS7._06._20.C01.Fn02(y: 4));
         }
     }
 }
