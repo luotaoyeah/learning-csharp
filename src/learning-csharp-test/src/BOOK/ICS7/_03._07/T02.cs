@@ -1,3 +1,4 @@
+using LT.LIB.BOOK.ICS7._03._07;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7._03._07
@@ -7,7 +8,7 @@ namespace LT.TEST.BOOK.ICS7._03._07
         [Fact]
         public void _01()
         {
-            LT.LIB.BOOK.ICS7._03._07.C02.Fn01();
+            C02.Fn01();
         }
     }
 }

@@ -15,7 +15,7 @@ namespace LT.TEST.BOOK.ICS7._06._11
             var person = new Person { Age = 18 };
             int x = 18;
 
-            LT.LIB.BOOK.ICS7._06._11.C01.Fn01(person, x);
+            LIB.BOOK.ICS7._06._11.C01.Fn01(person, x);
 
             Assert.Equal(19, person.Age);
             Assert.Equal(18, x);

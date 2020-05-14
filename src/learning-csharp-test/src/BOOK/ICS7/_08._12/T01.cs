@@ -1,3 +1,4 @@
+using LT.LIB.BOOK.ICS7._08._12;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7._08._12
@@ -10,7 +11,7 @@ namespace LT.TEST.BOOK.ICS7._08._12
         [Fact]
         public void _01()
         {
-            var myClass = new LT.LIB.BOOK.ICS7._08._12.MyClass();
+            var myClass = new MyClass();
             Assert.Equal(6, myClass.Fn01());
         }
     }

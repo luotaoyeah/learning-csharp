@@ -7,12 +7,12 @@ namespace LT.TEST.BOOK.ICS7._06._20
         [Fact]
         public void _01()
         {
-            Assert.Equal(4, LT.LIB.BOOK.ICS7._06._20.C01.Fn01(1, 3));
-            Assert.Equal(13, LT.LIB.BOOK.ICS7._06._20.C01.Fn01(1, 3, 4, 5));
+            Assert.Equal(4, LIB.BOOK.ICS7._06._20.C01.Fn01(1, 3));
+            Assert.Equal(13, LIB.BOOK.ICS7._06._20.C01.Fn01(1, 3, 4, 5));
 
-            Assert.Equal(3, LT.LIB.BOOK.ICS7._06._20.C01.Fn01(1));
+            Assert.Equal(3, LIB.BOOK.ICS7._06._20.C01.Fn01(1));
             int[] arr01 = { 4, 5 };
-            Assert.Equal(12, LT.LIB.BOOK.ICS7._06._20.C01.Fn01(1, arr: arr01));
+            Assert.Equal(12, LIB.BOOK.ICS7._06._20.C01.Fn01(1, arr: arr01));
         }
 
         [Fact]
@@ -24,7 +24,7 @@ namespace LT.TEST.BOOK.ICS7._06._20
             //
             // 如果使用 named parameter 的形式，则可以随意让某个 optional parameter 使用默认值，
             //----------------------------------------------------------------------------------------------------
-            Assert.Equal(5, LT.LIB.BOOK.ICS7._06._20.C01.Fn02(y: 4));
+            Assert.Equal(5, LIB.BOOK.ICS7._06._20.C01.Fn02(y: 4));
         }
     }
 }

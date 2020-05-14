@@ -7,7 +7,7 @@ namespace LT.TEST.BOOK.ICS7._07._08
         [Fact]
         public void _01()
         {
-            Assert.Equal(3.14, LT.LIB.BOOK.ICS7._07._08.C01.Pi);
+            Assert.Equal(3.14, LIB.BOOK.ICS7._07._08.C01.Pi);
         }
     }
 }

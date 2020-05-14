@@ -1,3 +1,4 @@
+using LT.LIB.BOOK.ICS7._08._09._04;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7._08._09._04
@@ -10,7 +11,7 @@ namespace LT.TEST.BOOK.ICS7._08._09._04
         [Fact]
         public void _01()
         {
-            var myDerivedClass = new LT.LIB.BOOK.ICS7._08._09._04.MyDerivedClass();
+            var myDerivedClass = new MyDerivedClass();
             Assert.Equal(1, myDerivedClass.Fn01());
         }
     }

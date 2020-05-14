@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using LT.LIB.BOOK.ICS7._21._03._02._01;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -19,7 +20,7 @@ namespace LT.TEST.BOOK.ICS7._21._03._02._01
         [Fact]
         public void _01()
         {
-            Task task = new LT.LIB.BOOK.ICS7._21._03._02._01.MyClass(testOutputHelper.WriteLine).BadAsync();
+            Task task = new MyClass(testOutputHelper.WriteLine).BadAsync();
             task.Wait();
 
             //----------------------------------------------------------------------------------------------------

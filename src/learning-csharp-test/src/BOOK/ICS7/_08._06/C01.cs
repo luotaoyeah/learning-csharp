@@ -1,3 +1,4 @@
+using LT.LIB.BOOK.ICS7._08._06;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7._08._06
@@ -7,11 +8,11 @@ namespace LT.TEST.BOOK.ICS7._08._06
         [Fact]
         public void _01()
         {
-            LT.LIB.BOOK.ICS7._08._06.C02 c02 = new LT.LIB.BOOK.ICS7._08._06.C02();
+            C02 c02 = new C02();
             //----------------------------------------------------------------------------------------------------
             // 父类变量指向子类实例对象，通过该变量只能访问父类的 member
             //----------------------------------------------------------------------------------------------------
-            LT.LIB.BOOK.ICS7._08._06.C01 c01 = c02;
+            LIB.BOOK.ICS7._08._06.C01 c01 = c02;
 
             Assert.Equal(8, c02.I01);
             Assert.Equal(2, c02.I02);

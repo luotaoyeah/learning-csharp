@@ -1,3 +1,4 @@
+using LT.LIB.BOOK.ICS7._08._02;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7._08._02
@@ -7,7 +8,7 @@ namespace LT.TEST.BOOK.ICS7._08._02
         [Fact]
         public void _01()
         {
-            var c02 = new LT.LIB.BOOK.ICS7._08._02.C02();
+            var c02 = new C02();
 
             //----------------------------------------------------------------------------------------------------
             // 正常访问继承来的 field 和 method

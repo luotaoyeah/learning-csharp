@@ -7,7 +7,7 @@ namespace LT.TEST.BOOK.ICS7._07._11
         [Fact]
         public void _01()
         {
-            var c01 = new LT.LIB.BOOK.ICS7._07._11.C01();
+            var c01 = new LIB.BOOK.ICS7._07._11.C01();
             Assert.NotNull(c01.time);
         }
     }

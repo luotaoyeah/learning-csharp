@@ -1,3 +1,4 @@
+using LT.LIB.BOOK.ICS7._08._13;
 using Xunit;
 
 namespace LT.TEST.BOOK.ICS7._08._13
@@ -10,7 +11,7 @@ namespace LT.TEST.BOOK.ICS7._08._13
         [Fact]
         public void _01()
         {
-            Assert.Equal(3.14f, LT.LIB.BOOK.ICS7._08._13.MyMath.PI);
+            Assert.Equal(3.14f, MyMath.PI);
         }
     }
 }

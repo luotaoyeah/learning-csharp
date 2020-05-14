@@ -7,7 +7,7 @@ namespace LT.TEST.BOOK.ICS7._07._12
         [Fact]
         public void _01()
         {
-            Assert.Equal(2, LT.LIB.BOOK.ICS7._07._12.C01.age);
+            Assert.Equal(2, LIB.BOOK.ICS7._07._12.C01.age);
         }
     }
 }
