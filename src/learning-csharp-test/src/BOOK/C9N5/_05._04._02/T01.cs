@@ -16,7 +16,7 @@ namespace LT.TEST.BOOK.C9N5._05._04._02
         }
 
         /// <summary>
-        /// 使用 Item1, Item2, ... 访问 tuple 的各个元素.
+        /// 使用 Item1, Item2, ... 访问 tuple 的各个元素/字段.
         /// </summary>
         [Fact]
         public void _01()

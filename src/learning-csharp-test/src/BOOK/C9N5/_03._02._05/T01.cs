@@ -27,7 +27,7 @@ namespace LT.TEST.BOOK.C9N5._03._02._05
 
             if (new Random().Next(1, 9) < 5)
             {
-                stream = new FileStream("D:/proj/git/luotaoyeah/learning-csharp/src/learning-csharp-test/src/BOOK/C9N5/_03/_02/_05/T01.cs", FileMode.Open);
+                stream = new FileStream("D:/proj/git/luotaoyeah/learning-csharp/src/learning-csharp-test/src/BOOK/C9N5/_03._02._05/T01.cs", FileMode.Open);
             }
             else
             {
