@@ -8,11 +8,6 @@
         <Authors>luotao</Authors>
     </PropertyGroup>
 
-    <ItemGroup>
-        <Content Include="src\BOOK\C9N5\README.md"/>
-        <Content Include="src\BOOK\ICS7\README.md"/>
-    </ItemGroup>
-
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
         <PlatformTarget>x64</PlatformTarget>
     </PropertyGroup>
