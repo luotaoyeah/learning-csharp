@@ -5,6 +5,7 @@
         <RootNamespace>LT.TEST</RootNamespace>
         <IsPackable>false</IsPackable>
         <Nullable>enable</Nullable>
+        <LangVersion>9.0</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>

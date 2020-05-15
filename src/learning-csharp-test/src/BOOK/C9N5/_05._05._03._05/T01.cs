@@ -34,7 +34,7 @@ namespace LT.TEST.BOOK.C9N5._05._05._03
         public void _02()
         {
             var c01 = new C01();
-            Assert.Equal(9, C01.this[]);
+            Assert.Equal(9, c01[0, 0]);
         }
     }
 

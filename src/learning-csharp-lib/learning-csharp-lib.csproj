@@ -6,6 +6,7 @@
         <AssemblyVersion>1.0.0</AssemblyVersion>
         <Nullable>enable</Nullable>
         <Authors>luotao</Authors>
+        <LangVersion>9.0</LangVersion>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
