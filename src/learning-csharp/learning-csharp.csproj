@@ -13,6 +13,9 @@
         <RuntimeIdentifiers>
             win10-x64
         </RuntimeIdentifiers>
+        <DebugType>embedded</DebugType>
+        <PublishTrimmed>true</PublishTrimmed>
+        <TrimMode>Link</TrimMode>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
