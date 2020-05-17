@@ -7,6 +7,10 @@
         <Nullable>enable</Nullable>
         <Authors>luotao</Authors>
         <LangVersion>9.0</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>luotao.learning-csharp-lib</PackageId>
+        <Title>learning-csharp-lib</Title>
+        <Description>learning-csharp-lib</Description>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
