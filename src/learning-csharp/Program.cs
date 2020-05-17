@@ -1,4 +1,4 @@
-﻿using LT.LIB.BOOK.C9N5._04._03._04;
+﻿using System;
 
 namespace LT
 {
@@ -6,7 +6,7 @@ namespace LT
     {
         public static void Main()
         {
-            C01.F01();
+            Console.WriteLine("HELLO WORLD");
         }
     }
 }

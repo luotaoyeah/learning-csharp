@@ -10,6 +10,9 @@
         <AssemblyVersion>1.0.0</AssemblyVersion>
         <Nullable>enable</Nullable>
         <LangVersion>9.0</LangVersion>
+        <RuntimeIdentifiers>
+            win10-x64
+        </RuntimeIdentifiers>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
