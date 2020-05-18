@@ -1,13 +1,14 @@
 using System;
 using System.Diagnostics;
 using System.Threading;
+using System.Threading.Tasks;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LT.TEST.BOOK.C9N5._13._03._01
+namespace LT.TEST.BOOK.C9N5._13._03._02
 {
     /// <summary>
-    ///     13.3.1 running multiple actions synchronously
+    ///     13.3.2 running multiple actions asynchronously using tasks
     /// </summary>
     public class T01
     {
@@ -22,9 +23,13 @@ namespace LT.TEST.BOOK.C9N5._13._03._01
         public void _01()
         {
             var stopwatch = Stopwatch.StartNew();
-            C01.F01();
-            C01.F02();
-            C01.F03();
+
+            var task01 = new Task(C01.F01);
+            task01.Start();
+
+            var task02 = Task.Factory.StartNew(C01.F02);
+            var task03 = Task.Run(C01.F03);
+
             Console.WriteLine($"TIME: {stopwatch.ElapsedMilliseconds}ms");
         }
     }
