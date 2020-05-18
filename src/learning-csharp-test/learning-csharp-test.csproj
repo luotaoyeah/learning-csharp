@@ -39,4 +39,10 @@
         <Content Include="src\BOOK\ICS7\README.md"/>
     </ItemGroup>
 
+    <ItemGroup>
+        <None Update="sqlite\northwind.db">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
 </Project>

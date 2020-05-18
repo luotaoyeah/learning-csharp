@@ -11,7 +11,7 @@ namespace LT.LIB.BOOK.C9N5._11
         }
 
         public int CategoryID { get; set; }
-        public string? CategoryName { get; set; }
+        public string CategoryName { get; set; }
 
         [Column(TypeName = "ntext")]
         public string? Description { get; set; }
