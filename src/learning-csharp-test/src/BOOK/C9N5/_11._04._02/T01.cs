@@ -1,5 +1,6 @@
 using System.Linq;
 using LT.LIB.BOOK.C9N5._11;
+using Microsoft.EntityFrameworkCore;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -23,6 +24,9 @@ namespace LT.TEST.BOOK.C9N5._11._04._02
             using (var db = new NorthwindDbContext())
             {
                 var products = db.Products.Where(i => i.Cost > 20).OrderBy(i => i.Cost);
+
+                testOutputHelper.WriteLine(products.ToQueryString());
+                testOutputHelper.WriteLine("----------");
                 foreach (var product in products) testOutputHelper.WriteLine($"{product.ProductName,-40}{product.Cost}");
             }
         }
