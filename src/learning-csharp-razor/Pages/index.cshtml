@@ -6,18 +6,12 @@
 
     public void OnGet()
     {
+        ViewData["Title"] = "learning-csharp-razor";
+
         Model.Time = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
     }
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>learning-csharp-razor</title>
-</head>
-<body>
-HELLO, WORLD.
-@Model.Time
-</body>
-</html>
+<div>
+    @Model.Time
+</div>
