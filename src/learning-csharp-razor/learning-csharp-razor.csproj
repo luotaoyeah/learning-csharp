@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\learning-csharp-northwind\learning-csharp-northwind.csproj"/>
+    </ItemGroup>
+
 </Project>

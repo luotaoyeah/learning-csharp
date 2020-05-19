@@ -1,6 +1,8 @@
+using Luotao.Northwind;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -13,6 +15,9 @@ namespace Luotao.Razor
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddDbContext<NorthwindDbContext>(
+                options => { options.UseSqlite(); }
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

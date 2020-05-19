@@ -1,4 +1,3 @@
-using System;
 using System.IO;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,7 +19,6 @@ namespace Luotao.Northwind
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             var path = Path.Combine(Directory.GetCurrentDirectory(), "sqlite/northwind.db");
-            Console.WriteLine($"path:{path}");
             optionsBuilder.UseSqlite($"Filename={path}");
         }
 
