@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LT
+namespace LuotaoYeah
 {
     internal class Program
     {

@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-        <RootNamespace>LT.TEST</RootNamespace>
+        <RootNamespace>LuotaoYeah.Test</RootNamespace>
         <IsPackable>false</IsPackable>
         <Version>1.0.0</Version>
         <Company>luotao</Company>
@@ -32,17 +32,12 @@
 
     <ItemGroup>
         <ProjectReference Include="..\learning-csharp-lib\learning-csharp-lib.csproj"/>
+        <ProjectReference Include="..\learning-csharp-northwind\learning-csharp-northwind.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-        <Content Include="src\BOOK\C9N5\README.md"/>
-        <Content Include="src\BOOK\ICS7\README.md"/>
-    </ItemGroup>
-
-    <ItemGroup>
-        <None Update="sqlite\northwind.db">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
+        <Content Include="src\Books\C9N5\README.md"/>
+        <Content Include="src\Books\ICS7\README.md"/>
     </ItemGroup>
 
 </Project>

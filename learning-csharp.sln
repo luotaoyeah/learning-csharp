@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-csharp-lib", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-csharp-razor", "src\learning-csharp-razor\learning-csharp-razor.csproj", "{DB62554B-9D30-4BE6-AD2C-8C37C9AC92A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-csharp-northwind", "src\learning-csharp-northwind\learning-csharp-northwind.csproj", "{36EEFD00-4EBC-4520-B4C7-C5C3059003F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{DB62554B-9D30-4BE6-AD2C-8C37C9AC92A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB62554B-9D30-4BE6-AD2C-8C37C9AC92A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB62554B-9D30-4BE6-AD2C-8C37C9AC92A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36EEFD00-4EBC-4520-B4C7-C5C3059003F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36EEFD00-4EBC-4520-B4C7-C5C3059003F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36EEFD00-4EBC-4520-B4C7-C5C3059003F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36EEFD00-4EBC-4520-B4C7-C5C3059003F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace LT.Razor.Pages
+namespace LuotaoYeah.Razor.Pages
 {
     public class SuppliersModel : PageModel
     {
