@@ -8,10 +8,14 @@
     {
         ViewData["Title"] = "learning-csharp-razor";
 
-        Model.Time = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+        Time = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
     }
 }
 
 <div>
     @Model.Time
+</div>
+
+<div>
+    <a href="suppliers">suppliers</a>
 </div>

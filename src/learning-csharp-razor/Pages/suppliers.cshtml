@@ -1,0 +1,9 @@
+@page
+@model LT.Razor.Pages.SuppliersModel
+
+<ul>
+    @foreach (var supplier in Model.Suppliers!)
+    {
+        <li>@supplier</li>
+    }
+</ul>
