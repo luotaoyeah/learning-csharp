@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._16._09;
+using Luotao.Lib.Books.ICS7._16._09;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._16._09
+namespace Luotao.Test.Books.ICS7._16._09
 {
     /// <summary>
     ///     16.9 an inherited member as an implementation

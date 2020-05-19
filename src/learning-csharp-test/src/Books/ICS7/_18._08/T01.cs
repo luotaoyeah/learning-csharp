@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._18._08;
+using Luotao.Lib.Books.ICS7._18._08;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._18._08
+namespace Luotao.Test.Books.ICS7._18._08
 {
     /// <summary>
     ///     18.8 generic delegates

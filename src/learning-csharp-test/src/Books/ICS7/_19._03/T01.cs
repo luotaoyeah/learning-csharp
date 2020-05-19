@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._19._03;
+using Luotao.Lib.Books.ICS7._19._03;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._19._03
+namespace Luotao.Test.Books.ICS7._19._03
 {
     /// <summary>
     ///     19.3 the IEnumerable interface

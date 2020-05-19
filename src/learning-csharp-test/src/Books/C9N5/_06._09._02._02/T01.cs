@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._06._09._02._02
+namespace Luotao.Test.Books.C9N5._06._09._02._02
 {
     /// <summary>
     ///     6.9.2.2 Using extension methods to reuse functionality

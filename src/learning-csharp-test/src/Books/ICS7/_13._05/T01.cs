@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._13._05
+namespace Luotao.Test.Books.ICS7._13._05
 {
     /// <summary>
     ///     13.5 instantiating a one-dimensional or rectangular array

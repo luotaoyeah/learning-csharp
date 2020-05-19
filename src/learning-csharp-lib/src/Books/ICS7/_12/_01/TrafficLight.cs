@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._12._01
+namespace Luotao.Lib.Books.ICS7._12._01
 {
     //----------------------------------------------------------------------------------------------------
     // enum 是 value type,

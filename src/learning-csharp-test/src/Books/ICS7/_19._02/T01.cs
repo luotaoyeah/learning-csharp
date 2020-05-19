@@ -2,7 +2,7 @@ using System.Collections;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._19._02
+namespace Luotao.Test.Books.ICS7._19._02
 {
     /// <summary>
     ///     19.2 the IEnumerator interface

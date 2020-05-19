@@ -1,6 +1,6 @@
 using System;
 
-namespace LuotaoYeah.Lib.Books.ICS7._16._02
+namespace Luotao.Lib.Books.ICS7._16._02
 {
     /// <summary>
     ///     interface 中可以包含 method/property/indexer/event

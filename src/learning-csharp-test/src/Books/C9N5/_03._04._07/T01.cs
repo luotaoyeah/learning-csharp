@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._03._04._07
+namespace Luotao.Test.Books.C9N5._03._04._07
 {
     /// <summary>
     ///     3.4.7 handling exceptions when converting types

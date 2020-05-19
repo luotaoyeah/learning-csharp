@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._12._03
+namespace Luotao.Lib.Books.ICS7._12._03
 {
     public enum TrafficLight
     {

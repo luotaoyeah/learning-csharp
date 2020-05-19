@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._17._08
+namespace Luotao.Test.Books.ICS7._17._08
 {
     /// <summary>
     ///     17.8 unboxing conversions

@@ -1,9 +1,9 @@
 using System;
 using System.Reflection;
-using LuotaoYeah.Lib.Books.ICS7._09._16;
+using Luotao.Lib.Books.ICS7._09._16;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._09._16
+namespace Luotao.Test.Books.ICS7._09._16
 {
     /// <summary>
     ///     9.16 the typeof operator

@@ -1,9 +1,9 @@
-using LuotaoYeah.Northwind;
+using Luotao.Northwind;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._11._04
+namespace Luotao.Test.Books.C9N5._11._04
 {
     /// <summary>
     ///     11.4 querying EF Core models

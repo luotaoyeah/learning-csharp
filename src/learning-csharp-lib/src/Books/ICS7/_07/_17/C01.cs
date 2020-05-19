@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._17
+namespace Luotao.Lib.Books.ICS7._07._17
 {
     /// <summary>
     ///     7.17 access modifiers on accessors

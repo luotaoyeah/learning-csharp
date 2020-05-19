@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._17._05._02._01
+namespace Luotao.Test.Books.ICS7._17._05._02._01
 {
     /// <summary>
     ///     17.5.2.1 the checked and unchecked operators

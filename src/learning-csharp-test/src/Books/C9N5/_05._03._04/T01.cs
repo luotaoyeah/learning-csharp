@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.C9N5._05;
+using Luotao.Lib.Books.C9N5._05;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._03._04
+namespace Luotao.Test.Books.C9N5._05._03._04
 {
     /// <summary>
     ///     5.3.4 storing a value using an enum type

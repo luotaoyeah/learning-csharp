@@ -1,7 +1,7 @@
-using LuotaoYeah.Lib.Books.ICS7._08._06._02._02;
+using Luotao.Lib.Books.ICS7._08._06._02._02;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._08._06._02._02
+namespace Luotao.Test.Books.ICS7._08._06._02._02
 {
     /// <summary>
     ///     8.6.2.2 case 2: declaring print with new

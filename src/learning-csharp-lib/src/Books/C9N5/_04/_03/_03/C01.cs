@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace LuotaoYeah.Lib.Books.C9N5._04._03._03
+namespace Luotao.Lib.Books.C9N5._04._03._03
 {
     /// <summary>
     ///     4.3.3 configuring trace listeners

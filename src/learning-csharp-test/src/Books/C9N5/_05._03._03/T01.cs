@@ -1,9 +1,9 @@
 using System;
-using LuotaoYeah.Lib.Books.C9N5._05;
+using Luotao.Lib.Books.C9N5._05;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._03._03
+namespace Luotao.Test.Books.C9N5._05._03._03
 {
     /// <summary>
     ///     5.3.3 setting and outputting field values

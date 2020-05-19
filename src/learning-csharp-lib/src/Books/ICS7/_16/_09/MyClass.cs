@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._16._09
+namespace Luotao.Lib.Books.ICS7._16._09
 {
     /// <summary>
     ///     如果父类中的某个 method 刚好满足 interface 中某个 method 的实现，

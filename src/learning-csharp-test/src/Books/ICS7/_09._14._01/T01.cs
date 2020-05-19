@@ -1,7 +1,7 @@
-using LuotaoYeah.Lib.Books.ICS7._09._14._01;
+using Luotao.Lib.Books.ICS7._09._14._01;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._09._14._01
+namespace Luotao.Test.Books.ICS7._09._14._01
 {
     /// <summary>
     ///     9.14.1 explicit conversion and the cast operator

@@ -2,7 +2,7 @@ using System.Linq;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._20._05._09
+namespace Luotao.Test.Books.ICS7._20._05._09
 {
     /// <summary>
     ///     20.5.9 query continuation: the into clause

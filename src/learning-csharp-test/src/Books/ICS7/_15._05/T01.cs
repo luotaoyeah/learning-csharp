@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._15._05;
+using Luotao.Lib.Books.ICS7._15._05;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._15._05
+namespace Luotao.Test.Books.ICS7._15._05
 {
     /// <summary>
     ///     15.5 raising an event

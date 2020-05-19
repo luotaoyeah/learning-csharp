@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace LuotaoYeah.Razor
+namespace Luotao.Razor
 {
     public class Startup
     {

@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._02._03._02._01
+namespace Luotao.Test.Books.C9N5._02._03._02._01
 {
     /// <summary>
     ///     2.3.2.1 understanding verbatim strings

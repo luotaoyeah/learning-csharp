@@ -1,6 +1,6 @@
 using System;
 
-namespace LuotaoYeah.Lib.Books.ICS7._15._06
+namespace Luotao.Lib.Books.ICS7._15._06
 {
     public class Incrementer
     {

@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._06._03
+namespace Luotao.Lib.Books.ICS7._06._03
 {
     /// <summary>
     ///     6.3.1 type inference and the var keyword

@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._03._04._08
+namespace Luotao.Test.Books.C9N5._03._04._08
 {
     /// <summary>
     ///     3.4.8 checking for overflow

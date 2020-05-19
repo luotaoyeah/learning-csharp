@@ -1,7 +1,7 @@
-using LuotaoYeah.Lib.Books.ICS7._08._06._03;
+using Luotao.Lib.Books.ICS7._08._06._03;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._08._06._03
+namespace Luotao.Test.Books.ICS7._08._06._03
 {
     /// <summary>
     ///     8.6.3 overriding other member types

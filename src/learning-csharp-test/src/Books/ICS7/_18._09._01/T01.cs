@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._18._09._01;
+using Luotao.Lib.Books.ICS7._18._09._01;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._18._09._01
+namespace Luotao.Test.Books.ICS7._18._09._01
 {
     /// <summary>
     ///     18.9.1 an example using generic interfaces

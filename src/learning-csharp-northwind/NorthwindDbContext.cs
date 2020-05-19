@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using Microsoft.EntityFrameworkCore;
 
-namespace LuotaoYeah.Northwind
+namespace Luotao.Northwind
 {
     public class NorthwindDbContext : DbContext
     {

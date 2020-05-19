@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.C9N5._02._03._08._02;
+using Luotao.Lib.Books.C9N5._02._03._08._02;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._02._03._08._02
+namespace Luotao.Test.Books.C9N5._02._03._08._02
 {
     /// <summary>
     ///     2.3.8.2 using target-typed new to instantiate objects

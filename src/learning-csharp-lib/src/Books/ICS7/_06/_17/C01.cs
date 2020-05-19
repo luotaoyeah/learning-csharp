@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._06._17
+namespace Luotao.Lib.Books.ICS7._06._17
 {
     /// <summary>
     ///     6.17 ref local and ref return

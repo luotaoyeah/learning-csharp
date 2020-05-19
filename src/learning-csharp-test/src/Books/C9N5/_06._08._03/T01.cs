@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._06._08._03
+namespace Luotao.Test.Books.C9N5._06._08._03
 {
     /// <summary>
     ///     6.8.3 avoiding casting exceptions

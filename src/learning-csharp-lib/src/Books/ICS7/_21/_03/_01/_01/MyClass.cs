@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace LuotaoYeah.Lib.Books.ICS7._21._03._01._01
+namespace Luotao.Lib.Books.ICS7._21._03._01._01
 {
     public class MyClass
     {

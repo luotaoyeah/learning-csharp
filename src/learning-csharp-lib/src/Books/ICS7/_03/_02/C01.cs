@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._03._02
+namespace Luotao.Lib.Books.ICS7._03._02
 {
     /// <summary>
     ///     3.2. Identifiers

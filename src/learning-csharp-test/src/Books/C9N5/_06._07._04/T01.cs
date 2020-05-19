@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._06._07._04
+namespace Luotao.Test.Books.C9N5._06._07._04
 {
     /// <summary>
     ///     6.7.4 preventing inheritance and overriding

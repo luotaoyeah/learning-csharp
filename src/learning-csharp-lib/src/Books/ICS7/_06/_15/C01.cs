@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._06._15
+namespace Luotao.Lib.Books.ICS7._06._15
 {
     /// <summary>
     ///     6.15 parameter arrays

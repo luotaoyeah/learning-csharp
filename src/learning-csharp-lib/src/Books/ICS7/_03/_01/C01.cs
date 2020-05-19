@@ -1,6 +1,6 @@
 using System;
 
-namespace LuotaoYeah.Lib.Books.ICS7._03._01
+namespace Luotao.Lib.Books.ICS7._03._01
 {
     /// <summary>
     ///     3.1. A Simple C# Program

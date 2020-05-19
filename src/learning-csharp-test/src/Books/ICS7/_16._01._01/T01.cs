@@ -1,9 +1,9 @@
 using System;
-using LuotaoYeah.Lib.Books.ICS7._16._01._01;
+using Luotao.Lib.Books.ICS7._16._01._01;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._16._01._01
+namespace Luotao.Test.Books.ICS7._16._01._01
 {
     /// <summary>
     ///     16.1.1 example using the IComparable interface

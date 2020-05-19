@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._03._11
+namespace Luotao.Test.Books.C9N5._05._03._11
 {
     /// <summary>
     ///     5.3.11 setting fields with default literals

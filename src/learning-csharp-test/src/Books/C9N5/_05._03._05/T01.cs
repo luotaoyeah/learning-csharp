@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._03._05
+namespace Luotao.Test.Books.C9N5._05._03._05
 {
     /// <summary>
     ///     5.3.5 storing multiple values using an enum type

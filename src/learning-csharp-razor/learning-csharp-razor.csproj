@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-        <RootNamespace>LuotaoYeah.Razor</RootNamespace>
+        <RootNamespace>Luotao.Razor</RootNamespace>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 

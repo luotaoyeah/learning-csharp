@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._03._08
+namespace Luotao.Test.Books.C9N5._05._03._08
 {
     /// <summary>
     ///     5.3.8 making a field constant

@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._14._01
+namespace Luotao.Lib.Books.ICS7._14._01
 {
     //----------------------------------------------------------------------------------------------------
     // 可以把 delegate 理解成是 C++ 中的 function pointer

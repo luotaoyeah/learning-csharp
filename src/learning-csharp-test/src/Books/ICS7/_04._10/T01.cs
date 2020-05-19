@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._04._10;
+using Luotao.Lib.Books.ICS7._04._10;
 using Microsoft.CSharp.RuntimeBinder;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._04._10
+namespace Luotao.Test.Books.ICS7._04._10
 {
     public class T01
     {

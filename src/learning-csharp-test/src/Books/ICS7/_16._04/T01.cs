@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._16._04;
+using Luotao.Lib.Books.ICS7._16._04;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._16._04
+namespace Luotao.Test.Books.ICS7._16._04
 {
     /// <summary>
     ///     16.4 an interface is a reference type

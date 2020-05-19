@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace LuotaoYeah.Lib.Books.ICS7._21._03._05
+namespace Luotao.Lib.Books.ICS7._21._03._05
 {
     public class Simple
     {

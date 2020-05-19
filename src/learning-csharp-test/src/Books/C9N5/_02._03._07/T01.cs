@@ -2,7 +2,7 @@ using Microsoft.CSharp.RuntimeBinder;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._02._03._07
+namespace Luotao.Test.Books.C9N5._02._03._07
 {
     /// <summary>
     ///     2.3.7 storing dynamic types

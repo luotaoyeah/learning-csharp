@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._05._07
+namespace Luotao.Lib.Books.ICS7._05._07
 {
     /// <summary>
     ///     5.7 instance members

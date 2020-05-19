@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._11._04._01
+namespace Luotao.Lib.Books.ICS7._11._04._01
 {
     //----------------------------------------------------------------------------------------------------
     // struct 默认都会隐式地定义一个 parameterless constructor，这个 parameterless constructor 不能被删除/修改，

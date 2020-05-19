@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._06._09
+namespace Luotao.Test.Books.ICS7._06._09
 {
     /// <summary>
     ///     6.9 local functions

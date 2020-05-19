@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._10
+namespace Luotao.Lib.Books.ICS7._07._10
 {
     /// <summary>
     ///     7.10.9 automatically implemented properties: auto-properties

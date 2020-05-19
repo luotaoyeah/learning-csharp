@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._04._02._01
+namespace Luotao.Test.Books.C9N5._05._04._02._01
 {
     /// <summary>
     ///     5.4.2.1 naming the fields of a tuple

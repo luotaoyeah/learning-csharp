@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._13._03._02
+namespace Luotao.Test.Books.C9N5._13._03._02
 {
     /// <summary>
     ///     13.3.2 running multiple actions asynchronously using tasks

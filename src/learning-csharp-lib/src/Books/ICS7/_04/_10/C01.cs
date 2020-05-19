@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._04._10
+namespace Luotao.Lib.Books.ICS7._04._10
 {
     /// <summary>
     ///     static typing and the dynamic keyword

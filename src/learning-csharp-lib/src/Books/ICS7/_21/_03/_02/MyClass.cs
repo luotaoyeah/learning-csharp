@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LuotaoYeah.Lib.Books.ICS7._21._03._02
+namespace Luotao.Lib.Books.ICS7._21._03._02
 {
     public class MyClass
     {

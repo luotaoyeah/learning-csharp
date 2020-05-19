@@ -2,7 +2,7 @@ using System.Linq;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._20._05._04._02
+namespace Luotao.Test.Books.ICS7._20._05._04._02
 {
     /// <summary>
     ///     20.5.4.2 the let clause

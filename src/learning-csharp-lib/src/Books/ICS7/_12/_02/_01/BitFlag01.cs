@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._12._02._01
+namespace Luotao.Lib.Books.ICS7._12._02._01
 {
     public enum BitFlag01 : uint
     {

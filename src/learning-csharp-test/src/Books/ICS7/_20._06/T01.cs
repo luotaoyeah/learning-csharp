@@ -2,7 +2,7 @@ using System.Linq;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._20._06
+namespace Luotao.Test.Books.ICS7._20._06
 {
     /// <summary>
     ///     20.6 the standard query operators

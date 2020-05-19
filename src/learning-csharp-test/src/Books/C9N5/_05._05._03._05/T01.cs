@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._05._03
+namespace Luotao.Test.Books.C9N5._05._05._03
 {
     /// <summary>
     ///     5.5.3 defining indexers

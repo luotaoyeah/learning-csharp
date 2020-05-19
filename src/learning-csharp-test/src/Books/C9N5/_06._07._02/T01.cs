@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._06._07._02
+namespace Luotao.Test.Books.C9N5._06._07._02
 {
     /// <summary>
     ///     6.7.2 hiding members

@@ -4,7 +4,7 @@ using System.Threading;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._13._03._01
+namespace Luotao.Test.Books.C9N5._13._03._01
 {
     /// <summary>
     ///     13.3.1 running multiple actions synchronously

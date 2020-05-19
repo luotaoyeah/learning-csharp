@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._13._07._01
+namespace Luotao.Test.Books.ICS7._13._07._01
 {
     /// <summary>
     ///     13.7.1 explicit initialization of one-dimensional arrays

@@ -2,7 +2,7 @@ using System.Diagnostics;
 using System.IO;
 using Microsoft.Extensions.Configuration;
 
-namespace LuotaoYeah.Lib.Books.C9N5._04._03._04
+namespace Luotao.Lib.Books.C9N5._04._03._04
 {
     /// <summary>
     ///     4.3.4 switching trace levels

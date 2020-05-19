@@ -1,7 +1,7 @@
 #nullable enable
 using System;
 
-namespace LuotaoYeah.Lib.Books.ICS7._16._01._01
+namespace Luotao.Lib.Books.ICS7._16._01._01
 {
     public class MyClass : IComparable
     {

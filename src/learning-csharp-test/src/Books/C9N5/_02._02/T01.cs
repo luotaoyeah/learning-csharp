@@ -3,7 +3,7 @@ using Xunit;
 // 下面的指令会导致编译报错，报错信息中包含 compiler 的版本和 C# 的版本
 // #error version
 
-namespace LuotaoYeah.Test.Books.C9N5._02._02
+namespace Luotao.Test.Books.C9N5._02._02
 {
     /// <summary>
     ///     2.2 understanding c# basics

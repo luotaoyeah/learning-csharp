@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._14._09;
+using Luotao.Lib.Books.ICS7._14._09;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._14._09
+namespace Luotao.Test.Books.ICS7._14._09
 {
     /// <summary>
     ///     14.9 invoking a delegate

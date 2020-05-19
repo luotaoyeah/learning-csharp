@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._03._04._05
+namespace Luotao.Test.Books.C9N5._03._04._05
 {
     /// <summary>
     ///     3.4.5 converting from a binary object to a string

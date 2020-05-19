@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._13._14;
+using Luotao.Lib.Books.ICS7._13._14;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._13._14
+namespace Luotao.Test.Books.ICS7._13._14
 {
     /// <summary>
     ///     13.14 arrays and ref return and ref local

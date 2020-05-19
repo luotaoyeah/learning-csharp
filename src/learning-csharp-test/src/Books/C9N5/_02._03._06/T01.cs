@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._02._03._06
+namespace Luotao.Test.Books.C9N5._02._03._06
 {
     /// <summary>
     ///     2.3.6 storing any type of object

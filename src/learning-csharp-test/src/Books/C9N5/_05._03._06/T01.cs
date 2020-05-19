@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._03._06
+namespace Luotao.Test.Books.C9N5._05._03._06
 {
     /// <summary>
     ///     5.3.6 storing multiple values using collections

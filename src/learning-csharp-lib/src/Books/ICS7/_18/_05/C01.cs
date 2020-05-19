@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._18._05
+namespace Luotao.Lib.Books.ICS7._18._05
 {
     public class C01
     {

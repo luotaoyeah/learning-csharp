@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._18._04
+namespace Luotao.Test.Books.ICS7._18._04
 {
     /// <summary>
     ///     18.4 constraints on type parameters

@@ -3,9 +3,9 @@
 //----------------------------------------------------------------------------------------------------
 
 using Xunit;
-using static LuotaoYeah.Lib.Books.ICS7._07._05.C01;
+using static Luotao.Lib.Books.ICS7._07._05.C01;
 
-namespace LuotaoYeah.Test.Books.ICS7._07._05
+namespace Luotao.Test.Books.ICS7._07._05
 {
     public class C01
     {

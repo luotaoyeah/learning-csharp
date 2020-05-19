@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._06._11
+namespace Luotao.Lib.Books.ICS7._06._11
 {
     /// <summary>
     ///     6.11 value parameters

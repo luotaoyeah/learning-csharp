@@ -1,7 +1,7 @@
-using LuotaoYeah.Lib.Books.ICS7._08._09._04;
+using Luotao.Lib.Books.ICS7._08._09._04;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._08._09._04
+namespace Luotao.Test.Books.ICS7._08._09._04
 {
     /// <summary>
     ///     8.9.4 protected member accessibility

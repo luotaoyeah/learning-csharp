@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._05._04
+namespace Luotao.Lib.Books.ICS7._05._04
 {
     /// <summary>
     ///     explicit and implicit field initialization

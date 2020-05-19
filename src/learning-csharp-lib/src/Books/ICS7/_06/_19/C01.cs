@@ -1,6 +1,6 @@
 using System.Linq;
 
-namespace LuotaoYeah.Lib.Books.ICS7._06._19
+namespace Luotao.Lib.Books.ICS7._06._19
 {
     /// <summary>
     ///     6.19 named parameters

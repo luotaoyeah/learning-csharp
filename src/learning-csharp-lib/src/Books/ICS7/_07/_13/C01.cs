@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._13
+namespace Luotao.Lib.Books.ICS7._07._13
 {
     /// <summary>
     ///     7.13 object initializers

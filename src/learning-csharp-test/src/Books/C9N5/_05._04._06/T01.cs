@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._04._06
+namespace Luotao.Test.Books.C9N5._05._04._06
 {
     /// <summary>
     ///     5.4.6 controlling how parameters are passed

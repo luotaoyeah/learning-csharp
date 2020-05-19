@@ -1,7 +1,7 @@
-using LuotaoYeah.Lib.Books.ICS7._08._05;
+using Luotao.Lib.Books.ICS7._08._05;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._08._05
+namespace Luotao.Test.Books.ICS7._08._05
 {
     public class C01
     {

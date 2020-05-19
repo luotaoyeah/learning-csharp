@@ -1,6 +1,6 @@
 using System;
 
-namespace LuotaoYeah.Lib.Books.ICS7._07._12
+namespace Luotao.Lib.Books.ICS7._07._12
 {
     /// <summary>
     ///     7.12 static constructors

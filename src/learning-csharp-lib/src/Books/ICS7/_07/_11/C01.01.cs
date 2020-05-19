@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._11
+namespace Luotao.Lib.Books.ICS7._07._11
 {
     /// <summary>
     ///     7.11.1 constructors with parameters

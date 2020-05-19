@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._08._06._03
+namespace Luotao.Lib.Books.ICS7._08._06._03
 {
     public class MyDerivedClass : MyBaseClass
     {

@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using LuotaoYeah.Lib.Books.ICS7._21._03._02._01;
+using Luotao.Lib.Books.ICS7._21._03._02._01;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._21._03._02._01
+namespace Luotao.Test.Books.ICS7._21._03._02._01
 {
     /// <summary>
     ///     21.3.2.1 exception handling and the await expression

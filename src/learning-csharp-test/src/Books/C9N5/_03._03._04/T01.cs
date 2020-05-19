@@ -2,7 +2,7 @@ using System.Collections;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._03._03._04
+namespace Luotao.Test.Books.C9N5._03._03._04
 {
     /// <summary>
     ///     3.3.4 looping with the foreach statement

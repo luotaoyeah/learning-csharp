@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._08._13
+namespace Luotao.Lib.Books.ICS7._08._13
 {
     //----------------------------------------------------------------------------------------------------
     // static class 的所有 member 都必须是 static member，

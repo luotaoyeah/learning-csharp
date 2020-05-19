@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._08._06
+namespace Luotao.Lib.Books.ICS7._08._06
 {
     /// <summary>
     ///     8.6 using references to a base class

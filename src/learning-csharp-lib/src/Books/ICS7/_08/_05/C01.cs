@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._08._05
+namespace Luotao.Lib.Books.ICS7._08._05
 {
     /// <summary>
     ///     8.5 base access

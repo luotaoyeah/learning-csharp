@@ -1,6 +1,6 @@
 using System.Linq;
 
-namespace LuotaoYeah.Lib.Books.ICS7._06._20
+namespace Luotao.Lib.Books.ICS7._06._20
 {
     /// <summary>
     ///     6.20 optional parameters

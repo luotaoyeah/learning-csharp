@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._08._02
+namespace Luotao.Lib.Books.ICS7._08._02
 {
     /// <summary>
     ///     8.2 accessing the inherited members

@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._02._03._09
+namespace Luotao.Test.Books.C9N5._02._03._09
 {
     /// <summary>
     ///     2.3.9 getting default values for types

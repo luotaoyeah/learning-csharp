@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._06._03._01
+namespace Luotao.Test.Books.C9N5._06._03._01
 {
     /// <summary>
     ///     6.3.1 calling methods using delegates

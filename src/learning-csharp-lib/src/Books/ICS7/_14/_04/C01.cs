@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._14._04
+namespace Luotao.Lib.Books.ICS7._14._04
 {
     public delegate int MyDel(int x);
 

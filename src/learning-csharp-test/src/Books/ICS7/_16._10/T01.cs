@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._16._10;
+using Luotao.Lib.Books.ICS7._16._10;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._16._10
+namespace Luotao.Test.Books.ICS7._16._10
 {
     /// <summary>
     ///     16.10 explicit interface member implementations

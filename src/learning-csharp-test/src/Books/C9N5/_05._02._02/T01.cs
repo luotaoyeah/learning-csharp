@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.C9N5._05;
+using Luotao.Lib.Books.C9N5._05;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._02._02
+namespace Luotao.Test.Books.C9N5._05._02._02
 {
     /// <summary>
     ///     5.2.2 instantiating a class
@@ -20,7 +20,7 @@ namespace LuotaoYeah.Test.Books.C9N5._05._02._02
         public void _01()
         {
             var person = new Person();
-            Assert.Equal("LuotaoYeah.Lib.Books.C9N5._05.Person", person.ToString());
+            Assert.Equal("Luotao.Lib.Books.C9N5._05.Person", person.ToString());
         }
     }
 }

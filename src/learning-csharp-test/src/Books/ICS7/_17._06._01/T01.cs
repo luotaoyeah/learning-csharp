@@ -3,7 +3,7 @@ using System.Collections;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._17._06._01
+namespace Luotao.Test.Books.ICS7._17._06._01
 {
     /// <summary>
     ///     17.6.1 implicit reference conversions

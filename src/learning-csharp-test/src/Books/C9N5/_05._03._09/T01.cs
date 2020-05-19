@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._03._09
+namespace Luotao.Test.Books.C9N5._05._03._09
 {
     /// <summary>
     ///     5.3.9 making a field read-only

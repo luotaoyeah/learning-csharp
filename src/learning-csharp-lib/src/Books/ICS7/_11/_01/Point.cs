@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._11._01
+namespace Luotao.Lib.Books.ICS7._11._01
 {
     //----------------------------------------------------------------------------------------------------
     // struct 比较类似于 class，可以定义 data member 和 function member，

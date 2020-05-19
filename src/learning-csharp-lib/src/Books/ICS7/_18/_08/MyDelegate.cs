@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._18._08
+namespace Luotao.Lib.Books.ICS7._18._08
 {
     /// <summary>
     ///     generic delegate

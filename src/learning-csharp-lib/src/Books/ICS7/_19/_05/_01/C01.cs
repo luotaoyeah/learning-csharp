@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace LuotaoYeah.Lib.Books.ICS7._19._05._01
+namespace Luotao.Lib.Books.ICS7._19._05._01
 {
     public class C01
     {

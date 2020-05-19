@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._09
+namespace Luotao.Lib.Books.ICS7._07._09
 {
     /// <summary>
     ///     7.9 constants are like statics

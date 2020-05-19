@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._06
+namespace Luotao.Lib.Books.ICS7._07._06
 {
     /// <summary>
     ///     7.6 static function members

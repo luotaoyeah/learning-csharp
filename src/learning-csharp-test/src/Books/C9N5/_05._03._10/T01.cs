@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._03._10
+namespace Luotao.Test.Books.C9N5._05._03._10
 {
     /// <summary>
     ///     5.3.10 initializing fields with constructors

@@ -3,7 +3,7 @@ using System.Reflection;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._08._07._03
+namespace Luotao.Test.Books.C9N5._08._07._03
 {
     /// <summary>
     ///     8.7.3 creating custom attributes

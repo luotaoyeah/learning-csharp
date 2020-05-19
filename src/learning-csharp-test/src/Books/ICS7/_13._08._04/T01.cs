@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._13._08._04
+namespace Luotao.Test.Books.ICS7._13._08._04
 {
     /// <summary>
     ///     13.8.4 subarrays in jagged arrays

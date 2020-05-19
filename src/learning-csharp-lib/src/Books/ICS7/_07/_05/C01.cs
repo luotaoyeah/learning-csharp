@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._05
+namespace Luotao.Lib.Books.ICS7._07._05
 {
     /// <summary>
     ///     7.5 accessing static members from outside the class

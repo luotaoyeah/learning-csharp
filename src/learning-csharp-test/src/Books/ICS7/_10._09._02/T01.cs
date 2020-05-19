@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using LuotaoYeah.Lib.Books.ICS7._10._09._02;
+using Luotao.Lib.Books.ICS7._10._09._02;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._10._09._02
+namespace Luotao.Test.Books.ICS7._10._09._02
 {
     /// <summary>
     ///     10.9.2 other types of pattern expressions

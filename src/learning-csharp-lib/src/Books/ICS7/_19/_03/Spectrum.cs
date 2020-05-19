@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace LuotaoYeah.Lib.Books.ICS7._19._03
+namespace Luotao.Lib.Books.ICS7._19._03
 {
     public class Spectrum : IEnumerable
     {

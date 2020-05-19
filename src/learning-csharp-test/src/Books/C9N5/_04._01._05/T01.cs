@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._04._01._05
+namespace Luotao.Test.Books.C9N5._04._01._05
 {
     /// <summary>
     ///     4.1.5 using lambdas in function implementations

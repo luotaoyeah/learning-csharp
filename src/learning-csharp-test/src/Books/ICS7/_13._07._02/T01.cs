@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._13._07._02
+namespace Luotao.Test.Books.ICS7._13._07._02
 {
     /// <summary>
     ///     13.7.2 explicit initialization of rectangular arrays

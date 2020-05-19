@@ -2,7 +2,7 @@ using System.Linq;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._20._06._03
+namespace Luotao.Test.Books.ICS7._20._06._03
 {
     /// <summary>
     ///     20.6.3 delegates as parameters

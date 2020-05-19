@@ -1,6 +1,6 @@
 using System;
 
-namespace LuotaoYeah.Lib.Books.C9N5._05
+namespace Luotao.Lib.Books.C9N5._05
 {
     /// <summary>
     /// </summary>

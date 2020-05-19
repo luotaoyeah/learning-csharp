@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._20._06._04
+namespace Luotao.Test.Books.ICS7._20._06._04
 {
     /// <summary>
     ///     20.6.4 the LINQ predefined delegate types

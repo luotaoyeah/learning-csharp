@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._08
+namespace Luotao.Lib.Books.ICS7._07._08
 {
     /// <summary>
     ///     7.8 member constants

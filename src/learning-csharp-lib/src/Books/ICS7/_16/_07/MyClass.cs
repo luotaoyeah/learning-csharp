@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._16._07
+namespace Luotao.Lib.Books.ICS7._16._07
 {
     //----------------------------------------------------------------------------------------------------
     // 如果实现了多个 interface，并且这些 interface 有相同签名的 method，

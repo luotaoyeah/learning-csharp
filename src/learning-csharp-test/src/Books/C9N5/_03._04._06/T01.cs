@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._03._04._06
+namespace Luotao.Test.Books.C9N5._03._04._06
 {
     /// <summary>
     ///     3.4.6 parsing from strings to numbers or dates and times

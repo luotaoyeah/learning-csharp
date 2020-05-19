@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._17._07
+namespace Luotao.Test.Books.ICS7._17._07
 {
     /// <summary>
     ///     17.7 boxing conversions

@@ -2,7 +2,7 @@ using System.Linq;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._20._05._05
+namespace Luotao.Test.Books.ICS7._20._05._05
 {
     /// <summary>
     ///     20.5.5 the orderby clause

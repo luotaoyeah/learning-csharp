@@ -1,7 +1,7 @@
-using LuotaoYeah.Lib.Books.ICS7._09._14;
+using Luotao.Lib.Books.ICS7._09._14;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._09._14
+namespace Luotao.Test.Books.ICS7._09._14
 {
     /// <summary>
     ///     9.14 user-defined type conversions

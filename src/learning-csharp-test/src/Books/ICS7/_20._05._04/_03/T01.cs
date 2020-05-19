@@ -2,7 +2,7 @@ using System.Linq;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._20._05._04._03
+namespace Luotao.Test.Books.ICS7._20._05._04._03
 {
     /// <summary>
     ///     20.5.4.3 the where clause

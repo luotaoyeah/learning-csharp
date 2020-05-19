@@ -1,6 +1,6 @@
 using System;
 
-namespace LuotaoYeah.Lib.Books.ICS7._12._02
+namespace Luotao.Lib.Books.ICS7._12._02
 {
     //----------------------------------------------------------------------------------------------------
     // bit flag 是一种特殊的 enum，

@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._07._19
+namespace Luotao.Test.Books.ICS7._07._19
 {
     public class C01
     {

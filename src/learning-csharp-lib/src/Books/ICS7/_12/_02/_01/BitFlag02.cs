@@ -1,6 +1,6 @@
 using System;
 
-namespace LuotaoYeah.Lib.Books.ICS7._12._02._01
+namespace Luotao.Lib.Books.ICS7._12._02._01
 {
     [Flags]
     public enum BitFlag02 : uint

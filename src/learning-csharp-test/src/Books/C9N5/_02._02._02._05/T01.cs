@@ -3,7 +3,7 @@ using System.Reflection;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._02._02._02._05
+namespace Luotao.Test.Books.C9N5._02._02._02._05
 {
     /// <summary>
     ///     2.2.2.5 revealing the extent of the c# vocabulary

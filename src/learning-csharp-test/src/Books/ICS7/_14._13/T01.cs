@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._14._13;
+using Luotao.Lib.Books.ICS7._14._13;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._14._13
+namespace Luotao.Test.Books.ICS7._14._13
 {
     /// <summary>
     ///     14.13 anonymous methods

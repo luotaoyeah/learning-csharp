@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._19
+namespace Luotao.Lib.Books.ICS7._07._19
 {
     /// <summary>
     ///     7.19 partial methods

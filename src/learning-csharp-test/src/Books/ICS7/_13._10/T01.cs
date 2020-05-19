@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._13._10
+namespace Luotao.Test.Books.ICS7._13._10
 {
     /// <summary>
     ///     13.10 the foreach statement

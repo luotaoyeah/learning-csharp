@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._03._02._03
+namespace Luotao.Test.Books.C9N5._03._02._03
 {
     /// <summary>
     ///     3.2.3 pattern matching with the if statement

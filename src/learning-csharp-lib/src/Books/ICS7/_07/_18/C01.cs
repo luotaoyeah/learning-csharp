@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._18
+namespace Luotao.Lib.Books.ICS7._07._18
 {
     /// <summary>
     ///     7.18 partial classes and partial types

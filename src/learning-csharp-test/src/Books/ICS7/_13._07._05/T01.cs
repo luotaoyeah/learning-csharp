@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._13._07._05
+namespace Luotao.Test.Books.ICS7._13._07._05
 {
     /// <summary>
     ///     13.7.5 implicitly typed arrays

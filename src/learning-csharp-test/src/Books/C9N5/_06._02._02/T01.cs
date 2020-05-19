@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._06._02._02
+namespace Luotao.Test.Books.C9N5._06._02._02
 {
     /// <summary>
     ///     6.2.2 implementing functionality using operators

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace LuotaoYeah.Lib.Books.ICS7._19._08
+namespace Luotao.Lib.Books.ICS7._19._08
 {
     public class Spectrum
     {

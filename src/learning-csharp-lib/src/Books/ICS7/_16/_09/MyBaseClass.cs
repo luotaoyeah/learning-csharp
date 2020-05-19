@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._16._09
+namespace Luotao.Lib.Books.ICS7._16._09
 {
     public class MyBaseClass
     {

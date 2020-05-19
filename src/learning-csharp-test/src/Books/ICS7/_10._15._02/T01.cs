@@ -2,7 +2,7 @@ using System.IO;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._10._15._02
+namespace Luotao.Test.Books.ICS7._10._15._02
 {
     /// <summary>
     ///     10.15.2 example of the using statement

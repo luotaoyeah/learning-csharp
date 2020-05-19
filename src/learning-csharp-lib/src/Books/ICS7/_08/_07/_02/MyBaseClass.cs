@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._08._07._02
+namespace Luotao.Lib.Books.ICS7._08._07._02
 {
     //----------------------------------------------------------------------------------------------------
     // class 的 access modifier 有两种：public / internal，

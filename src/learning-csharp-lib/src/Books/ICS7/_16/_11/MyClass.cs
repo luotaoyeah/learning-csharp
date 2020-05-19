@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._16._11
+namespace Luotao.Lib.Books.ICS7._16._11
 {
     public class MyClass : IMyInterface03
     {

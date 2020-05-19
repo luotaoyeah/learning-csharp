@@ -1,8 +1,8 @@
-using LuotaoYeah.Lib.Books.ICS7._18._06;
+using Luotao.Lib.Books.ICS7._18._06;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._18._06
+namespace Luotao.Test.Books.ICS7._18._06
 {
     /// <summary>
     ///     18.6 extension methods with generic classes

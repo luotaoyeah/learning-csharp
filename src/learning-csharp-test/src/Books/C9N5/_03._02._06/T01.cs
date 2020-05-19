@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._03._02._06
+namespace Luotao.Test.Books.C9N5._03._02._06
 {
     /// <summary>
     ///     3.2.6 simplifying switch statements with switch expressions

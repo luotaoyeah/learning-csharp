@@ -1,7 +1,7 @@
-using LuotaoYeah.Lib.Books.ICS7._09._15._01;
+using Luotao.Lib.Books.ICS7._09._15._01;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._09._15._01
+namespace Luotao.Test.Books.ICS7._09._15._01
 {
     /// <summary>
     ///     9.15.1 example of operator overloading

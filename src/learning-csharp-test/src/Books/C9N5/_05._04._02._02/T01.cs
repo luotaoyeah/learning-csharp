@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._05._04._02._02
+namespace Luotao.Test.Books.C9N5._05._04._02._02
 {
     /// <summary>
     ///     5.4.2.2 inferring tuple names

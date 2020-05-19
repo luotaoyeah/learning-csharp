@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._08._06._02._02
+namespace Luotao.Lib.Books.ICS7._08._06._02._02
 {
     public class SecondDerived : MyDerivedClass
     {

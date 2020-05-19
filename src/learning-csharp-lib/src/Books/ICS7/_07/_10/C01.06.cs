@@ -1,6 +1,6 @@
 using System;
 
-namespace LuotaoYeah.Lib.Books.ICS7._07._10
+namespace Luotao.Lib.Books.ICS7._07._10
 {
     /// <summary>
     ///     7.10.6 read-only and write-only properties

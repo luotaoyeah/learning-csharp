@@ -3,7 +3,7 @@ using System.Net;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._08._06._01
+namespace Luotao.Test.Books.C9N5._08._06._01
 {
     /// <summary>
     ///     8.6.1 working with URIs, DNS, and IP addresses

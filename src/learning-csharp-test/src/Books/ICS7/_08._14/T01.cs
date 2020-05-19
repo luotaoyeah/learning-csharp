@@ -1,7 +1,7 @@
-using LuotaoYeah.Lib.Books.ICS7._08._14;
+using Luotao.Lib.Books.ICS7._08._14;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._08._14
+namespace Luotao.Test.Books.ICS7._08._14
 {
     /// <summary>
     ///     8.14 extension methods

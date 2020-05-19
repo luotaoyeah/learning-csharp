@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._15
+namespace Luotao.Lib.Books.ICS7._07._15
 {
     /// <summary>
     ///     7.15 the readonly modifier

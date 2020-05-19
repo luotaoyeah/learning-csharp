@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.C9N5._05
+namespace Luotao.Lib.Books.C9N5._05
 {
     public enum WondersOfTheAncientWorld
     {

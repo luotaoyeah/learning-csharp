@@ -2,7 +2,7 @@ using System;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._08._05._04
+namespace Luotao.Test.Books.C9N5._08._05._04
 {
     /// <summary>
     ///     8.5.4 using indexes and ranges

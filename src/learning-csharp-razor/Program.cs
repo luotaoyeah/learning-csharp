@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace LuotaoYeah.Razor
+namespace Luotao.Razor
 {
     public class Program
     {

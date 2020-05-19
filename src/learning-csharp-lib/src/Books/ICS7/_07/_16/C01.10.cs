@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._07._16
+namespace Luotao.Lib.Books.ICS7._07._16
 {
     /// <summary>
     ///     7.16.10 indexer overloading

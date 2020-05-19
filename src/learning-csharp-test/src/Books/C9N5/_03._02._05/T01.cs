@@ -3,7 +3,7 @@ using System.IO;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._03._02._05
+namespace Luotao.Test.Books.C9N5._03._02._05
 {
     /// <summary>
     ///     3.2.5 pattern matching with the switch statement

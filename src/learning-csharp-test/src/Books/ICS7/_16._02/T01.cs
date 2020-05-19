@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._16._02
+namespace Luotao.Test.Books.ICS7._16._02
 {
     /// <summary>
     ///     16.2 declaring an interface

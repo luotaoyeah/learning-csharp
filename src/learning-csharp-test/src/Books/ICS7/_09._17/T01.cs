@@ -1,7 +1,7 @@
-using LuotaoYeah.Lib.Books.ICS7._09._17;
+using Luotao.Lib.Books.ICS7._09._17;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._09._17
+namespace Luotao.Test.Books.ICS7._09._17
 {
     /// <summary>
     ///     9.17 the nameof operator

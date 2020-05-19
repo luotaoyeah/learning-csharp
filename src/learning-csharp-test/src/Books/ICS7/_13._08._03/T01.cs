@@ -1,7 +1,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.ICS7._13._08._03
+namespace Luotao.Test.Books.ICS7._13._08._03
 {
     /// <summary>
     ///     13.8.3 instantiating a jagged array

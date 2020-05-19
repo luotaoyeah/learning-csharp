@@ -2,7 +2,7 @@ using System.Reflection;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace LuotaoYeah.Test.Books.C9N5._08._07._02
+namespace Luotao.Test.Books.C9N5._08._07._02
 {
     /// <summary>
     ///     8.7.2 reading assembly metadata

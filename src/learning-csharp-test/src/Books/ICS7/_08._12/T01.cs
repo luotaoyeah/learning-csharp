@@ -1,7 +1,7 @@
-using LuotaoYeah.Lib.Books.ICS7._08._12;
+using Luotao.Lib.Books.ICS7._08._12;
 using Xunit;
 
-namespace LuotaoYeah.Test.Books.ICS7._08._12
+namespace Luotao.Test.Books.ICS7._08._12
 {
     /// <summary>
     ///     8.12 sealed classes

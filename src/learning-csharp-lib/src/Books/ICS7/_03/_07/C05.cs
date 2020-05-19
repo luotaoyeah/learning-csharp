@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._03._07
+namespace Luotao.Lib.Books.ICS7._03._07
 {
     /// <summary>
     ///     formatting numeric strings

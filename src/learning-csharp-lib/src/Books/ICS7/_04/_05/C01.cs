@@ -1,4 +1,4 @@
-namespace LuotaoYeah.Lib.Books.ICS7._04._05
+namespace Luotao.Lib.Books.ICS7._04._05
 {
     /// <summary>
     ///     more about the predefined types
