@@ -20,12 +20,14 @@ namespace LT.Razor
             if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
 
             app.UseRouting();
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
 
             app.UseEndpoints(
                 endpoints =>
                 {
                     endpoints.MapGet(
-                        "/",
+                        "/hello",
                         async context => { await context.Response.WriteAsync("Hello World!"); }
                     );
                 }

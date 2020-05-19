@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-    <configuration default="false" name="learning-csharp-razor: learning-csharp-razor" type="LaunchSettings"
+    <configuration default="false" name="learning-csharp-razor" type="LaunchSettings"
                    factoryName=".NET Launch Settings Profile">
         <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH"
                 value="$PROJECT_DIR$/src/learning-csharp-razor/learning-csharp-razor.csproj"/>
