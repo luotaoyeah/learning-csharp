@@ -1,0 +1,13 @@
+﻿@page
+@using Luotao.Northwind
+@model Luotao.RazorLib.Areas.MyFeature.Pages.ProductsModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@foreach (Product product in Model.Products ?? new Product[] { })
+{
+    <fieldset>
+        <legend>@product.ProductName</legend>
+
+        <partial model="product" name="Shared/_Product"/>
+    </fieldset>
+}

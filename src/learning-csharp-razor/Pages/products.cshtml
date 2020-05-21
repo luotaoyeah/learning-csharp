@@ -2,7 +2,7 @@
 @model Luotao.Razor.Pages.ProductsModel
 
 <ul>
-    @foreach (var product in Model.Products!)
+    @foreach (var product in Model.Products ?? new string[] { })
     {
         <li>@product</li>
     }
