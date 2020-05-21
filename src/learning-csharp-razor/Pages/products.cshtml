@@ -1,0 +1,9 @@
+@page
+@model Luotao.Razor.Pages.ProductsModel
+
+<ul>
+    @foreach (var product in Model.Products!)
+    {
+        <li>@product</li>
+    }
+</ul>

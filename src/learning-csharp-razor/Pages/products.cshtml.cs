@@ -5,22 +5,22 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Luotao.Razor.Pages
 {
-    public class SuppliersModel : PageModel
+    public class ProductsModel : PageModel
     {
         private readonly NorthwindDbContext db;
 
-        public SuppliersModel(NorthwindDbContext dbContext)
+        public ProductsModel(NorthwindDbContext dbContext)
         {
             db = dbContext;
         }
 
-        public IEnumerable<string>? Suppliers { get; private set; }
+        public IEnumerable<string>? Products { get; set; }
 
         public void OnGet()
         {
-            ViewData["Title"] = "suppliers";
+            ViewData["Title"] = "products";
 
-            Suppliers = db.Products?.Select(i => i.ProductName ?? string.Empty);
+            Products = db.Products?.Select(i => i.ProductName ?? string.Empty);
         }
     }
 }
