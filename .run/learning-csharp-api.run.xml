@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
-    <configuration default="false" name="learning-csharp-razor" type="LaunchSettings"
+    <configuration default="false" name="learning-csharp-api" type="LaunchSettings"
                    factoryName=".NET Launch Settings Profile">
         <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH"
-                value="$PROJECT_DIR$/src/learning-csharp-mvc/learning-csharp-mvc.csproj"/>
+                value="$PROJECT_DIR$/src/learning-csharp-api/learning-csharp-api.csproj"/>
         <option name="LAUNCH_PROFILE_TFM" value="net5.0"/>
-        <option name="LAUNCH_PROFILE_NAME" value="learning-csharp-mvc"/>
+        <option name="LAUNCH_PROFILE_NAME" value="learning-csharp-api"/>
         <option name="USE_EXTERNAL_CONSOLE" value="0"/>
         <option name="USE_MONO" value="0"/>
         <option name="RUNTIME_ARGUMENTS" value=""/>
@@ -13,7 +13,7 @@
         <option name="SEND_DEBUG_REQUEST" value="1"/>
         <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value=""/>
         <method v="2">
-            <option name="Build Solution" enabled="true"/>
+            <option name="Build"/>
         </method>
     </configuration>
 </component>

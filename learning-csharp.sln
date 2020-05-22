@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-csharp-razor-lib",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-csharp-mvc", "src\learning-csharp-mvc\learning-csharp-mvc.csproj", "{51073340-1B73-442A-82A1-2ECA4E2B3484}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-csharp-api", "src\learning-csharp-api\learning-csharp-api.csproj", "{6CE9DE95-E2BC-470F-8055-3895E6EF3C51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{51073340-1B73-442A-82A1-2ECA4E2B3484}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51073340-1B73-442A-82A1-2ECA4E2B3484}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51073340-1B73-442A-82A1-2ECA4E2B3484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE9DE95-E2BC-470F-8055-3895E6EF3C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE9DE95-E2BC-470F-8055-3895E6EF3C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE9DE95-E2BC-470F-8055-3895E6EF3C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE9DE95-E2BC-470F-8055-3895E6EF3C51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
