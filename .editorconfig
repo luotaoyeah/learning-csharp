@@ -3,8 +3,10 @@ charset = utf-8
 end_of_line = crlf
 trim_trailing_whitespace = true
 insert_final_newline = true
+tab_width = 2
 indent_style = space
 indent_size = 2
+max_line_length = 160
 
 # Microsoft .NET properties
 csharp_new_line_before_members_in_object_initializers = false
@@ -27,12 +29,6 @@ dotnet_naming_rule.private_static_readonly_rule.import_to_resharper = as_predefi
 dotnet_naming_rule.private_static_readonly_rule.severity = warning
 dotnet_naming_rule.private_static_readonly_rule.style = upper_camel_case_style
 dotnet_naming_rule.private_static_readonly_rule.symbols = private_static_readonly_symbols
-dotnet_naming_rule.unity_serialized_field_rule.import_to_resharper = True
-dotnet_naming_rule.unity_serialized_field_rule.resharper_description = Unity serialized field
-dotnet_naming_rule.unity_serialized_field_rule.resharper_guid = 5f0fdb63-c892-4d2c-9324-15c80b22a7ef
-dotnet_naming_rule.unity_serialized_field_rule.severity = warning
-dotnet_naming_rule.unity_serialized_field_rule.style = lower_camel_case_style
-dotnet_naming_rule.unity_serialized_field_rule.symbols = unity_serialized_field_symbols
 dotnet_naming_style.lower_camel_case_style.capitalization = camel_case
 dotnet_naming_style.upper_camel_case_style.capitalization = pascal_case
 dotnet_naming_symbols.private_constants_symbols.applicable_accessibilities = private
@@ -46,10 +42,6 @@ dotnet_naming_symbols.private_static_fields_symbols.required_modifiers = static
 dotnet_naming_symbols.private_static_readonly_symbols.applicable_accessibilities = private
 dotnet_naming_symbols.private_static_readonly_symbols.applicable_kinds = field
 dotnet_naming_symbols.private_static_readonly_symbols.required_modifiers = static, readonly
-dotnet_naming_symbols.unity_serialized_field_symbols.applicable_accessibilities = *
-dotnet_naming_symbols.unity_serialized_field_symbols.applicable_kinds = unity_serialised_field
-dotnet_naming_symbols.unity_serialized_field_symbols.resharper_applicable_kinds = unity_serialised_field
-dotnet_naming_symbols.unity_serialized_field_symbols.resharper_required_modifiers = instance
 dotnet_style_parentheses_in_arithmetic_binary_operators = never_if_unnecessary:none
 dotnet_style_parentheses_in_other_binary_operators = never_if_unnecessary:none
 dotnet_style_parentheses_in_relational_binary_operators = never_if_unnecessary:none
@@ -104,20 +96,9 @@ resharper_web_config_module_not_resolved_highlighting = warning
 resharper_web_config_type_not_resolved_highlighting = warning
 resharper_web_config_wrong_module_highlighting = warning
 
-[{*.har, *.inputactions, *.jsb2, *.jsb3, *.json, .babelrc, .eslintrc, .stylelintrc, bowerrc, jest.config}]
-indent_style = space
-indent_size = 2
+[*.cs]
+dotnet_diagnostic.CS8603.severity = error
+dotnet_diagnostic.CS8618.severity = warning
 
-[*.js.map]
-indent_style = space
-indent_size = 2
 
-[*.{appxmanifest, axaml, build, cg, cginc, compute, dtd, fs, fsi, fsscript, fsx, hlsl, hlsli, hlslinc, ml, mli, nuspec, paml, resw, resx, shader, usf, ush, vb, xaml, xamlx, xoml, xsd}]
-indent_style = space
-indent_size = 2
-tab_width = 2
-
-[*.{asax, ascx, aspx, cs, cshtml, master, razor, skin}]
-indent_style = space
-indent_size = 2
-tab_width = 2
+dotnet_analyzer_diagnostic.category-Style.severity = warning
