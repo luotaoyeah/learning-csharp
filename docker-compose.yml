@@ -1,1 +1,10 @@
-version: 3.7
+version: "3.7"
+
+services:
+  learning-csharp-blazor:
+    image: registry.cn-hangzhou.aliyuncs.com/luotaoyeah/learning-csharp-blazor
+    build:
+      context: ./
+      dockerfile: src/learning-csharp-blazor/Dockerfile
+    ports:
+    - 6001:80
