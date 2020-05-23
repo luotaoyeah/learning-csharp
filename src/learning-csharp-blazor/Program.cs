@@ -26,8 +26,8 @@ namespace Luotao.Blazor
             _ = builder.Services.AddScoped(_ => httpClient);
 
             using var response = await httpClient.GetAsync("mysettings.json");
-            using var readAsStreamAsync = await response.Content.ReadAsStreamAsync();
-            builder.Configuration.AddJsonStream(readAsStreamAsync);
+            await using var readAsStreamAsync = await response.Content.ReadAsStreamAsync();
+            _ = builder.Configuration.AddJsonStream(readAsStreamAsync);
 
             await builder.Build().RunAsync();
         }
