@@ -3,7 +3,7 @@ WORKDIR /src/learning-csharp-blazor
 COPY ["src/learning-csharp-blazor/learning-csharp-blazor.csproj", "."]
 RUN dotnet restore "learning-csharp-blazor.csproj"
 COPY src/learning-csharp-blazor .
-WORKDIR "/src/learning-csharp-blazor"
+WORKDIR /src/learning-csharp-blazor
 RUN dotnet publish "learning-csharp-blazor.csproj" -c Release -o /app/publish
 
 FROM nginx:1.20.0 AS stage-nginx
