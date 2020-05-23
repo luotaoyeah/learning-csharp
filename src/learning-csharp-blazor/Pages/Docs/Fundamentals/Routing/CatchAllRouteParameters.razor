@@ -3,6 +3,8 @@ https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=as
 -->
 
 @page "/docs/fundamentals/routing/catch-all-route-parameters/{*PageRoute}"
+@using Microsoft.Extensions.Logging
+@inject ILogger<CatchAllRouteParameters> logger;
 
 <fieldset>
   <legend>Catch-all route parameters</legend>
@@ -26,7 +28,7 @@ https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=as
 
   protected override void OnParametersSet()
   {
-    Console.WriteLine($"PageRoute:{PageRoute}");
+    logger.LogInformation(PageRoute);
   }
 
 }

@@ -3,6 +3,8 @@ https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=as
 -->
 
 @page "/docs/fundamentals/routing/route-parameters/{Text?}"
+@using Microsoft.Extensions.Logging
+@inject ILogger<RouteParameters> logger;
 
 <fieldset>
   <legend>Route parameters</legend>
@@ -31,17 +33,17 @@ https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=as
 
   protected override void OnInitialized()
   {
-    Console.WriteLine($"OnInitialized(): {Text}");
+    logger.LogInformation($"OnInitialized(): {Text}");
   }
 
   protected override void OnParametersSet()
   {
-    Console.WriteLine($"OnParametersSet(): {Text}");
+    logger.LogInformation($"OnParametersSet(): {Text}");
   }
 
   protected override void OnAfterRender(bool firstRender)
   {
-    Console.WriteLine($"OnAfterRender(): {firstRender}");
+    logger.LogInformation($"OnAfterRender(): {firstRender}");
   }
 
 }

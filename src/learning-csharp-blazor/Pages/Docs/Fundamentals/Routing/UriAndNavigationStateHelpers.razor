@@ -1,0 +1,43 @@
+<!--
+https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-5.0#uri-and-navigation-state-helpers
+-->
+
+@page "/docs/fundamentals/routing/uri-and-navigation-state-helpers"
+@inject ILogger<UriAndNavigationStateHelpers> logger;
+@inject NavigationManager navigationManager;
+@using Microsoft.Extensions.Logging
+@using System.Text.Json
+@implements IDisposable;
+
+<fieldset>
+  <legend>URI and navigation state helpers</legend>
+
+  <button @onclick="NavigateToCounterComponent">/counter</button>
+</fieldset>
+
+@code {
+
+  protected override void OnInitialized()
+  {
+    logger.LogInformation(JsonSerializer.Serialize(navigationManager, new JsonSerializerOptions { WriteIndented = true }));
+    logger.LogInformation(navigationManager.ToBaseRelativePath(navigationManager.Uri));
+
+    navigationManager.LocationChanged += NavigationManagerOnLocationChanged;
+  }
+
+  private void NavigationManagerOnLocationChanged(object? sender, LocationChangedEventArgs eventArgs)
+  {
+    logger.LogInformation(JsonSerializer.Serialize(eventArgs, new JsonSerializerOptions { WriteIndented = true }));
+  }
+
+  private void NavigateToCounterComponent(MouseEventArgs mouseEventArgs)
+  {
+    navigationManager.NavigateTo("counter");
+  }
+
+  public void Dispose()
+  {
+    navigationManager.LocationChanged -= NavigationManagerOnLocationChanged;
+  }
+
+}
