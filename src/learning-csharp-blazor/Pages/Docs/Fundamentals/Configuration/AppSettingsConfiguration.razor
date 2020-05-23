@@ -1,0 +1,20 @@
+<!--
+https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/configuration?view=aspnetcore-5.0#app-settings-configuration
+-->
+
+@page "/docs/fundamentals/configuration/app-settings-configuration"
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration configuration;
+
+<fieldset>
+  <legend>App settings configuration</legend>
+
+  <div>
+    @configuration["Key01"]
+  </div>
+
+</fieldset>
+
+@code {
+
+}
