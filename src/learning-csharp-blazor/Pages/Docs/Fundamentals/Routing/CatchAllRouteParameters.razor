@@ -1,0 +1,32 @@
+<!--
+https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-5.0#catch-all-route-parameters
+-->
+
+@page "/docs/fundamentals/routing/catch-all-route-parameters/{*PageRoute}"
+
+<fieldset>
+  <legend>Catch-all route parameters</legend>
+
+  PageRoute: @PageRoute
+
+  <div>
+    <a href="/docs/fundamentals/routing/catch-all-route-parameters/a">/docs/fundamentals/routing/catch-all-route-parameters/a</a>
+    <br>
+    <a href="/docs/fundamentals/routing/catch-all-route-parameters/a/b">/docs/fundamentals/routing/catch-all-route-parameters/a/b</a>
+    <br>
+    <a href="/docs/fundamentals/routing/catch-all-route-parameters/a/b/c">/docs/fundamentals/routing/catch-all-route-parameters/a/b/c</a>
+  </div>
+
+</fieldset>
+
+@code {
+
+  [Parameter]
+  public string? PageRoute { get; set; }
+
+  protected override void OnParametersSet()
+  {
+    Console.WriteLine($"PageRoute:{PageRoute}");
+  }
+
+}
