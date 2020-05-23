@@ -1,16 +1,21 @@
-﻿@page "/"
+@page "/docs/fundamentals/routing/route-constraints/{Text}"
 
 <fieldset>
-  <legend>链接</legend>
+  <legend>Route constraints</legend>
 
-  <div>
-    <a href="/docs/fundamentals/routing/route-parameters/amazing">/docs/fundamentals/routing/route-parameters/amazing</a>
-  </div>
+  Text: @Text
+
   <div>
     <a href="/docs/fundamentals/routing/route-constraints/666">/docs/fundamentals/routing/route-constraints/666</a>
     <br>
     <a href="/docs/fundamentals/routing/route-constraints/foo">/docs/fundamentals/routing/route-constraints/foo</a>
   </div>
+
 </fieldset>
 
-<SurveyPrompt Title="How is Blazor working for you?"/>
+@code {
+
+  [Parameter]
+  public string? Text { get; set; }
+
+}
