@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Memory;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -25,9 +27,14 @@ namespace Luotao.Blazor
             using var httpClient = new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) };
             _ = builder.Services.AddScoped(_ => httpClient);
 
+            // 加载自定义的配置文件
             using var response = await httpClient.GetAsync("mysettings.json");
             await using var readAsStreamAsync = await response.Content.ReadAsStreamAsync();
             _ = builder.Configuration.AddJsonStream(readAsStreamAsync);
+
+            // 加载内存中(代码中)的配置数据
+            var memoryConfig = new Dictionary<string, string> { { "Key03", "Value03" } };
+            _ = builder.Configuration.Add(new MemoryConfigurationSource { InitialData = memoryConfig });
 
             await builder.Build().RunAsync();
         }
