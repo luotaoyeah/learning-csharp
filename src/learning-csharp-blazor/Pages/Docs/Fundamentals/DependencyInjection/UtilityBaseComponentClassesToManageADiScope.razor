@@ -1,0 +1,22 @@
+<!--
+https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/dependency-injection?view=aspnetcore-5.0&pivots=webassembly#utility-base-component-classes-to-manage-a-di-scope
+-->
+
+@page "/docs/fundamentals/dependency-injection/utility-base-component-classes-to-manage-a-di-scope"
+@inject ILogger<UtilityBaseComponentClassesToManageADiScope> logger;
+@using Microsoft.Extensions.DependencyInjection
+@using Microsoft.Extensions.Logging
+@using Luotao.Blazor.Services
+@inherits OwningComponentBase;
+
+@code
+{
+  private ITestService? testService;
+
+  protected override void OnInitialized()
+  {
+    testService = ScopedServices.GetRequiredService<ITestService>();
+
+    logger.LogInformation(testService?.F01().ToString());
+  }
+}

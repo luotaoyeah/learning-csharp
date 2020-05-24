@@ -7,7 +7,7 @@ namespace Luotao.Blazor.Services
     /// <summary>
     /// 测试服务.
     /// </summary>
-    public class TestService
+    public class TestService : ITestService
     {
         /// <summary>
         /// F01.
