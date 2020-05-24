@@ -46,6 +46,8 @@ namespace Luotao.Blazor
             var value03 = host.Configuration["Key03"];
             Console.WriteLine(value03);
 
+            Console.WriteLine(builder.HostEnvironment.Environment);
+
             await host.RunAsync();
         }
     }
