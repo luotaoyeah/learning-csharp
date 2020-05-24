@@ -1,3 +1,4 @@
+using Luotao.Blazor.Services;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Memory;
@@ -36,7 +37,16 @@ namespace Luotao.Blazor
             var memoryConfig = new Dictionary<string, string> { { "Key03", "Value03" } };
             _ = builder.Configuration.Add(new MemoryConfigurationSource { InitialData = memoryConfig });
 
-            await builder.Build().RunAsync();
+            // 注册服务
+            _ = builder.Services.AddSingleton<TestService>();
+            var host = builder.Build();
+            var testService = host.Services.GetRequiredService<TestService>();
+            Console.WriteLine(testService.F01());
+
+            var value03 = host.Configuration["Key03"];
+            Console.WriteLine(value03);
+
+            await host.RunAsync();
         }
     }
 }
