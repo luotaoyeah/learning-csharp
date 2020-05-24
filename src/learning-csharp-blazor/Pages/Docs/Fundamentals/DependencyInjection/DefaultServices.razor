@@ -1,0 +1,18 @@
+<!--
+https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/dependency-injection?view=aspnetcore-5.0&pivots=webassembly#default-services
+-->
+
+@page "/docs/fundamentals/dependency-injection/default-services"
+@using Microsoft.Extensions.Logging
+@inject IJSRuntime jsRuntime;
+@inject NavigationManager navigationManager;
+@inject ILogger<DefaultServices> logger;
+
+@code
+{
+  protected override void OnInitialized()
+  {
+    logger.LogInformation((jsRuntime != null).ToString());
+    logger.LogInformation((navigationManager != null).ToString());
+  }
+}

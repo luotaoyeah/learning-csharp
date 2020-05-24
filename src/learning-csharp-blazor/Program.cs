@@ -18,7 +18,7 @@ namespace Luotao.Blazor
         /// Main.
         /// </summary>
         /// <param name="args">args.</param>
-        /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
+        /// <returns>A <see cref="Task"/>representing the asynchronous operation.</returns>
         public static async Task Main(string[] args)
         {
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
