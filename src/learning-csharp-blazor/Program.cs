@@ -38,7 +38,7 @@ namespace Luotao.Blazor
             _ = builder.Configuration.Add(new MemoryConfigurationSource { InitialData = memoryConfig });
 
             // 注册服务
-            _ = builder.Services.AddSingleton<ITestService, TestService>();
+            _ = builder.Services.AddScoped<ITestService, TestService>();
             var host = builder.Build();
             var testService = host.Services.GetRequiredService<ITestService>();
             Console.WriteLine(testService.F01());

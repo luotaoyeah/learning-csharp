@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 namespace Luotao.Blazor.Pages.Docs.Components
 {
     /// <summary>
-    /// https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-5.0#partial-class-support
+    /// https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-5.0#partial-class-support.
     /// </summary>
     [Route("/docs/components/partial-class-support")]
     public partial class PartialClassSupport

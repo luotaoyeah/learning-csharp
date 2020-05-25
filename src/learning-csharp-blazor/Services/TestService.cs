@@ -1,6 +1,8 @@
+using Luotao.Blazor.Pages;
 using System;
-
-#pragma warning disable CA5394
+using System.Net.Http;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
 
 namespace Luotao.Blazor.Services
 {
@@ -9,6 +11,17 @@ namespace Luotao.Blazor.Services
     /// </summary>
     public class TestService : ITestService
     {
+        private readonly HttpClient httpClient;
+
+        /// <summary>
+        /// TestService.
+        /// </summary>
+        /// <param name="_httpClient">_httpClient.</param>
+        public TestService(HttpClient _httpClient)
+        {
+            httpClient = _httpClient;
+        }
+
         /// <summary>
         /// F01.
         /// </summary>
@@ -17,7 +30,14 @@ namespace Luotao.Blazor.Services
         {
             return new Random().Next(1, 9);
         }
+
+        /// <summary>
+        /// HTTP 请求.
+        /// </summary>
+        /// <returns>请求返回数据.</returns>
+        public Task<FetchData.WeatherForecast[]?> F02()
+        {
+            return httpClient.GetFromJsonAsync<FetchData.WeatherForecast[]>("sample-data/weather.json");
+        }
     }
 }
-
-#pragma warning restore CA5394
