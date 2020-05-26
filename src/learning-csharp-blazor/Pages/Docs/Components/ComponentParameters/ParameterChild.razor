@@ -1,0 +1,5 @@
+@using System.Text.Json
+<fieldset>
+  <div>Text: @Text</div>
+  <div>PanelBody: @(JsonSerializer.Serialize(PanelBody, new JsonSerializerOptions { WriteIndented = true }))</div>
+</fieldset>
