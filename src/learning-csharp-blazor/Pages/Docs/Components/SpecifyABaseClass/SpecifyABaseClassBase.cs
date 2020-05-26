@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Components;
 
-namespace Luotao.Blazor.Pages.Docs.Components
+namespace Luotao.Blazor.Pages.Docs.Components.SpecifyABaseClass
 {
     /// <summary>
     /// 组件基类.
