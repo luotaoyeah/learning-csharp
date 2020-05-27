@@ -1,0 +1,10 @@
+@template01
+@template02("template02")
+
+
+@code
+{
+  private readonly RenderFragment template01 = @<div>template01</div>;
+
+  private readonly RenderFragment<string> template02 = str => @<div>@str</div>;
+}
