@@ -40,4 +40,10 @@
     <AdditionalFiles Include="stylecop.json"/>
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Layouts\ApplyALayoutToArbitraryContentLayoutviewComponent\ApplyALayoutToArbitraryContentLayoutviewComponent.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Layouts\CreateALayoutComponent\CreateALayoutComponent.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\CascadingValuesAndParameters\ApplyALayoutToArbitraryContentLayoutviewComponent\ApplyALayoutToArbitraryContentLayoutviewComponent.razor"/>
+  </ItemGroup>
+
 </Project>
