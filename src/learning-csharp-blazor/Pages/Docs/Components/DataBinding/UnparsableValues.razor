@@ -1,0 +1,7 @@
+<div>
+  <input @bind="@inputValue">
+
+  <fieldset>
+    @(inputValue?.ToString() ?? "NULL")
+  </fieldset>
+</div>
