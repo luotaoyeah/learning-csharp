@@ -9,11 +9,7 @@ namespace Luotao.Blazor.Pages.Docs.Components.CaptureReferencesToComponents
     [Route("/docs/components/capture-references-to-components")]
     public partial class CaptureReferencesToComponents
     {
-#pragma warning disable S3459
-
         private ReferenceChild? referenceChild;
-
-#pragma warning restore S3459
 
         [Inject]
         private ILogger<CaptureReferencesToComponents>? Logger { get; set; }

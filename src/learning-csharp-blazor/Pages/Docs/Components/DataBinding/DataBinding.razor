@@ -1,0 +1,17 @@
+<div>
+  <input @bind="@inputValue01">
+  <input value="@inputValue01" @onchange="@(args => inputValue01 = args.Value?.ToString())">
+
+  <fieldset>
+    @inputValue01
+  </fieldset>
+</div>
+
+<div>
+  <input @bind="@inputValue02" @bind:event="oninput">
+  <input value="@inputValue02" @oninput="@(args => inputValue02 = args.Value?.ToString())">
+
+  <fieldset>
+    @inputValue02
+  </fieldset>
+</div>
