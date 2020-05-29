@@ -1,0 +1,7 @@
+<div>
+  <input style="width:100%;" @bind="@inputValue" @bind:format="yyyy-MM-dd HH:mm:ss.fff">
+
+  <fieldset>
+    @(inputValue?.ToString() ?? "NULL")
+  </fieldset>
+</div>
