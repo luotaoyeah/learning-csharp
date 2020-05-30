@@ -1,0 +1,5 @@
+@using Microsoft.Extensions.Logging
+@inject ILogger<LambdaExpressions> logger;
+
+<!-- 直接使用 lambda 作为事件处理函数 -->
+<button @onclick="@(e => { logger.LogInformation($"{e.ClientX}, {e.ClientY}"); })">click me</button>
