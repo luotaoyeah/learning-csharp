@@ -1,0 +1,23 @@
+<fieldset>
+  <legend>列表</legend>
+
+  @if (datasRetrieving)
+  {
+    <div style="text-align: center">loading</div>
+  }
+
+
+  @if (!datasRetrieving)
+  {
+    <ul>
+      @foreach (var data in datas)
+      {
+        <li>@data</li>
+      }
+    </ul>
+  }
+</fieldset>
+
+<div>
+  <button @onclick="OnClickAsync">retrieve</button>
+</div>
