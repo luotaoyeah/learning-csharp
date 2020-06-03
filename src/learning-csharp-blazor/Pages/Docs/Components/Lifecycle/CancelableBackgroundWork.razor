@@ -1,0 +1,23 @@
+<fieldset>
+  <legend>异步任务</legend>
+
+  @if (running)
+  {
+    <div>running...</div>
+  }
+  else if (canceled)
+  {
+    <div>canceled</div>
+  }
+  else
+  {
+    <div>complete</div>
+  }
+</fieldset>
+
+<p>
+  <button @onclick="StartTask" disabled="@cancellationTokenSource.Token.IsCancellationRequested">start</button>
+</p>
+<p>
+  <button @onclick="CancelTask">cancel</button>
+</p>
