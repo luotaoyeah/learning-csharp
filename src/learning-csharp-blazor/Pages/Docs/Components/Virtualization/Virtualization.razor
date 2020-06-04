@@ -1,0 +1,16 @@
+<fieldset>
+  <div style="height: 500px;overflow-y: scroll;border: 1px solid #ddd;border-radius: 3px;">
+    @foreach (var flight in allFlights)
+    {
+      <FlightSummary @key="@flight.FlightId" Details="@flight.Summary"></FlightSummary>
+    }
+  </div>
+</fieldset>
+
+<fieldset>
+  <div style="height: 500px;overflow-y: scroll;border: 1px solid #ddd;border-radius: 3px;">
+    <Virtualize Items="allFlights">
+      <FlightSummary @key="@context.FlightId" Details="@context.Summary"></FlightSummary>
+    </Virtualize>
+  </div>
+</fieldset>
