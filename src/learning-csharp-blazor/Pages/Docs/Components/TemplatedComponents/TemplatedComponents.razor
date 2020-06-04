@@ -1,0 +1,11 @@
+<TableTemplate Items="@pets" TItem="Pet">
+  <TableHeader>
+    <th>ID</th>
+    <th>NAME</th>
+  </TableHeader>
+
+  <RowTemplate>
+    <td>@context.PetId</td>
+    <td style="color:red;">@context.Name</td>
+  </RowTemplate>
+</TableTemplate>
