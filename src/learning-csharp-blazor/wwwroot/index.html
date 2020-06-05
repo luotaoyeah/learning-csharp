@@ -21,7 +21,14 @@
     <a class="dismiss">🗙</a>
   </div>
 
-  <script src="_framework/blazor.webassembly.js"></script>
+  <script autostart="false" src="_framework/blazor.webassembly.js"></script>
+  <script>
+    Blazor.start({
+      applicationCulture: 'zh-Hans'
+    }).then(() => {
+    }).catch(() => {
+    });
+  </script>
 
 </body>
 </html>
