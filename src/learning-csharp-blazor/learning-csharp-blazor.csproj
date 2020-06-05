@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>learning-csharp-blazor</AssemblyName>
+    <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Luotao.Blazor</RootNamespace>
     <Nullable>enable</Nullable>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
