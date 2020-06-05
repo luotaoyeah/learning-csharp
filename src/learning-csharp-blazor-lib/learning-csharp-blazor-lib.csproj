@@ -1,15 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <AssemblyName>luotao.learning-csharp-blazor-lib</AssemblyName>
-    <Version>1.0.1</Version>
-    <Title>learning-csharp-blazor-lib</Title>
-    <Description>learning-csharp-blazor-lib</Description>
+    <AssemblyName>Luotao.LearningCsharp.BlazorLib</AssemblyName>
+    <Title>Luotao.LearningCsharp.BlazorLib</Title>
+    <Description>Luotao.LearningCsharp.BlazorLib</Description>
     <Authors>luotao</Authors>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Luotao.BlazorLib</RootNamespace>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Luotao.LearningCsharp.BlazorLib</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
