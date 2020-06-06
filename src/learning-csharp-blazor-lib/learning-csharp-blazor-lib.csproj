@@ -10,7 +10,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Luotao.LearningCsharp.BlazorLib</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +19,31 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.7"/>
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.7"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Components\Component01.razor.zh-Hans.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Component01.razor.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Components\Component01.razor.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Component01.razor.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Components\Component01.razor.zh-Hans.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Component01.razor.zh-Hans.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Component01.razor.en.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Component01.razor.en.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
 </Project>
