@@ -6,6 +6,7 @@
     <RootNamespace>Luotao.Blazor</RootNamespace>
     <Nullable>enable</Nullable>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <NeutralLanguage>en-US</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
@@ -41,6 +42,30 @@
     <AdditionalFiles Include=".editorconfig"/>
     <None Remove="stylecop.json"/>
     <AdditionalFiles Include="stylecop.json"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Pages\Docs\GlobalizationLocalization\MakeTheAppsContentLocalizable.razor.zh-Hans.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MakeTheAppsContentLocalizable.razor.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\Docs\GlobalizationLocalization\MakeTheAppsContentLocalizable.razor.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MakeTheAppsContentLocalizable.razor.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Pages\Docs\GlobalizationLocalization\MakeTheAppsContentLocalizable.razor.zh-Hans.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MakeTheAppsContentLocalizable.zh-Hans.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\Docs\GlobalizationLocalization\MakeTheAppsContentLocalizable.razor.en.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MakeTheAppsContentLocalizable.en.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
 </Project>
