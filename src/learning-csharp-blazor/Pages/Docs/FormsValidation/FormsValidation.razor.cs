@@ -22,9 +22,33 @@ namespace Luotao.Blazor.Pages.Docs.FormsValidation
             editContext = new EditContext(exampleModel);
         }
 
-        private void OnValueSumit()
+        private void OnValidSubmit()
         {
-            Logger.LogInformation("OnValueSumit");
+            Logger.LogInformation($"{nameof(OnValidSubmit)}()");
+        }
+
+        private void OnInvalidSubmit()
+        {
+            Logger.LogInformation($"{nameof(OnInvalidSubmit)}()");
+        }
+
+        /// <summary>
+        /// <see cref="OnSubmit"/> 不能跟 <see cref="OnValidSubmit"/> 或者 <see cref="OnInvalidSubmit"/> 以前使用.
+        /// </summary>
+        /// <param name="editContext">editContext.</param>
+        private void OnSubmit(EditContext editContext)
+        {
+            if (editContext.Validate())
+            {
+                Logger.LogInformation($"{nameof(OnSubmit)}()");
+            }
+            else
+            {
+                foreach (var validationMessage in editContext.GetValidationMessages())
+                {
+                    Logger.LogInformation(validationMessage);
+                }
+            }
         }
     }
 }
