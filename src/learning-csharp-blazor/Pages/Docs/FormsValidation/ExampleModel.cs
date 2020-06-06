@@ -11,7 +11,7 @@ namespace Luotao.Blazor.Pages.Docs.FormsValidation
         /// 名称.
         /// </summary>
         [Required]
-        [StringLength(10, ErrorMessage = "最多 10 个字符")]
+        [StringLength(10, ErrorMessage = "最多 10 个字符", MinimumLength = 5)]
         public string? Name { get; set; }
     }
 }
