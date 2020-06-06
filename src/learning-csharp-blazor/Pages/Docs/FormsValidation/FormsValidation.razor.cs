@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.Extensions.Logging;
 
 namespace Luotao.Blazor.Pages.Docs.FormsValidation
@@ -10,9 +11,16 @@ namespace Luotao.Blazor.Pages.Docs.FormsValidation
     public partial class FormsValidation
     {
         private readonly ExampleModel exampleModel = new() { Name = "luotao" };
+        private EditContext editContext;
 
         [Inject]
         private ILogger<FormsValidation>? Logger { get; set; }
+
+        /// <inheritdoc/>
+        protected override void OnInitialized()
+        {
+            editContext = new EditContext(exampleModel);
+        }
 
         private void OnValueSumit()
         {
