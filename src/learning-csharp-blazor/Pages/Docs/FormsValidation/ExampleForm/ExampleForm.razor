@@ -4,19 +4,19 @@
   <p>
     <label>
       Identifier:
-      <InputText @bind-Value="starship.Identifier"/>
+      <InputText @bind-Value="starship.Identifier" DisplayName="ID"/>
     </label>
   </p>
   <p>
     <label>
       Description (optional):
-      <InputTextArea @bind-Value="starship.Description"/>
+      <InputTextArea @bind-Value="starship.Description" DisplayName="描述"/>
     </label>
   </p>
   <p>
     <label>
       Primary Classification:
-      <InputSelect @bind-Value="starship.Classification">
+      <InputSelect @bind-Value="starship.Classification" DisplayName="分类">
         <option value="">Select classification ...</option>
         <option value="Exploration">Exploration</option>
         <option value="Diplomacy">Diplomacy</option>
@@ -27,19 +27,19 @@
   <p>
     <label>
       Maximum Accommodation:
-      <InputNumber @bind-Value="starship.MaximumAccommodation"/>
+      <InputNumber @bind-Value="starship.MaximumAccommodation" DisplayName="最多容量"/>
     </label>
   </p>
   <p>
     <label>
       Engineering Approval:
-      <InputCheckbox @bind-Value="starship.IsValidatedDesign"/>
+      <InputCheckbox @bind-Value="starship.IsValidatedDesign" DisplayName="工程审批"/>
     </label>
   </p>
   <p>
     <label>
       Production Date:
-      <InputDate @bind-Value="starship.ProductionDate"/>
+      <InputDate @bind-Value="starship.ProductionDate" DisplayName="生产日期"/>
     </label>
   </p>
 
