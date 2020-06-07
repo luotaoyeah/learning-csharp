@@ -1,15 +1,7 @@
-<!--
-https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-5.0#catch-all-route-parameters
--->
-
-@page "/docs/fundamentals/routing/catch-all-route-parameters/{*PageRoute}"
-@using Microsoft.Extensions.Logging
-@inject ILogger<CatchAllRouteParameters> logger;
-
 <fieldset>
   <legend>Catch-all route parameters</legend>
 
-  PageRoute: @PageRoute
+  {*PageRoute}: @PageRoute
 
   <div>
     <a href="/docs/fundamentals/routing/catch-all-route-parameters/a">/docs/fundamentals/routing/catch-all-route-parameters/a</a>
@@ -20,15 +12,3 @@ https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=as
   </div>
 
 </fieldset>
-
-@code {
-
-  [Parameter]
-  public string? PageRoute { get; set; }
-
-  protected override void OnParametersSet()
-  {
-    logger.LogInformation(PageRoute);
-  }
-
-}
