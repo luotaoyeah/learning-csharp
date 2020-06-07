@@ -1,49 +1,17 @@
-<!--
-https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-5.0#route-parameters
--->
-
-@page "/docs/fundamentals/routing/route-parameters/{Text?}"
-@using Microsoft.Extensions.Logging
-@inject ILogger<RouteParameters> logger;
-
 <fieldset>
   <legend>Route parameters</legend>
 
-  <div>
-    path 参数: @Text
-  </div>
+  <div>Name: @Name</div>
+  <div>Text: @Text</div>
   <div>
     Text == null: @(Text == null)
   </div>
 
   <div>
-    <a href="/docs/fundamentals/routing/route-parameters/111">/docs/fundamentals/routing/route-parameters/111</a>
+    <a href="/docs/fundamentals/routing/route-parameters/x">/docs/fundamentals/routing/route-parameters/x</a>
     <br>
-    <a href="/docs/fundamentals/routing/route-parameters/222">/docs/fundamentals/routing/route-parameters/222</a>
+    <a href="/docs/fundamentals/routing/route-parameters/y/111">/docs/fundamentals/routing/route-parameters/y/111</a>
+    <br>
+    <a href="/docs/fundamentals/routing/route-parameters/z/222">/docs/fundamentals/routing/route-parameters/z/222</a>
   </div>
 </fieldset>
-
-@code {
-
-  /// <summary>
-  /// URL 路径参数.
-  /// </summary>
-  [Parameter]
-  public string? Text { get; set; }
-
-  protected override void OnInitialized()
-  {
-    logger.LogInformation($"OnInitialized(): {Text}");
-  }
-
-  protected override void OnParametersSet()
-  {
-    logger.LogInformation($"OnParametersSet(): {Text}");
-  }
-
-  protected override void OnAfterRender(bool firstRender)
-  {
-    logger.LogInformation($"OnAfterRender(): {firstRender}");
-  }
-
-}
