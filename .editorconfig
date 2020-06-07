@@ -99,6 +99,8 @@ resharper_web_config_type_not_resolved_highlighting = warning
 resharper_web_config_wrong_module_highlighting = warning
 
 [*.cs]
+indent_size = 4
+
 dotnet_diagnostic.CS8603.severity = error
 dotnet_diagnostic.CS8618.severity = warning
 
