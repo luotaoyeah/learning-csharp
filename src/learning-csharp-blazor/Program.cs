@@ -36,6 +36,7 @@ namespace Luotao.Blazor
             // 加载内存中(代码中)的配置数据
             var memoryConfig = new Dictionary<string, string> { { "Key03", "Value03" }, { "Key03:Key0301", "Value0301" } };
             _ = builder.Configuration.Add(new MemoryConfigurationSource { InitialData = memoryConfig });
+            Console.WriteLine(builder.Configuration["Key03:Key0301"]);
 
             // 注册服务
             _ = builder.Services.AddSingleton<NotifierService>();
@@ -46,9 +47,6 @@ namespace Luotao.Blazor
             var host = builder.Build();
             var testService = host.Services.GetRequiredService<ITestService>();
             Console.WriteLine(testService.F01());
-
-            var value03 = host.Configuration["Key03"];
-            Console.WriteLine(value03);
 
             Console.WriteLine(builder.HostEnvironment.Environment);
 
