@@ -1,0 +1,9 @@
+<EditForm OnValidSubmit="@OnValidSubmit" OnInvalidSubmit="@OnInvalidSubmit" EditContext="editContext">
+
+  <Input @bind-Value="holodeck.Type1"/>
+
+  <ValidationMessage For="() => holodeck.Type1"/>
+
+  <button type="submit">提交</button>
+
+</EditForm>
