@@ -2,6 +2,10 @@
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+body {
+  overflow-y: scroll;
+}
+
 button {
   border-radius: 3px;
   padding: 2px 6px;

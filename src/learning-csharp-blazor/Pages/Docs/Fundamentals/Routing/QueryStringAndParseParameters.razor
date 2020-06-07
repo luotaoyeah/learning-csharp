@@ -1,23 +1,5 @@
-<!--
-https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-5.0#query-string-and-parse-parameters
--->
-
-@page "/docs/fundamentals/routing/query-string-and-parse-parameters"
-@using Microsoft.Extensions.Logging
-@inject ILogger<UriAndNavigationStateHelpers> logger;
-@inject NavigationManager navigationManager;
-
 <fieldset>
   <legend>Query string and parse parameters</legend>
 
+  <div>@Query</div>
 </fieldset>
-
-@code {
-
-  protected override void OnInitialized()
-  {
-  // 获取 query 参数
-    logger.LogInformation(new Uri(navigationManager.Uri).Query);
-  }
-
-}
