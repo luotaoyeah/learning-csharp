@@ -34,7 +34,7 @@ namespace Luotao.Blazor
             _ = builder.Configuration.AddJsonStream(readAsStreamAsync);
 
             // 加载内存中(代码中)的配置数据
-            var memoryConfig = new Dictionary<string, string> { { "Key03", "Value03" } };
+            var memoryConfig = new Dictionary<string, string> { { "Key03", "Value03" }, { "Key03:Key0301", "Value0301" } };
             _ = builder.Configuration.Add(new MemoryConfigurationSource { InitialData = memoryConfig });
 
             // 注册服务
