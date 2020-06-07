@@ -8,7 +8,7 @@ namespace Luotao.Test.Books.ICS7._03._07
         [Fact]
         public void _01()
         {
-            Assert.Equal("   $500.00", C05.F01());
+            Assert.Equal("    500.00", C05.F01());
         }
     }
 }
