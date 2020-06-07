@@ -1,13 +1,7 @@
-<!--
-https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-5.0#route-constraints
--->
-
-@page "/docs/fundamentals/routing/route-constraints/{Id:int}"
-
 <fieldset>
   <legend>Route constraints</legend>
 
-  Id: @Id
+  {Id:int}: @Id
 
   <div>
     <a href="/docs/fundamentals/routing/route-constraints/666">/docs/fundamentals/routing/route-constraints/666</a>
@@ -16,10 +10,3 @@ https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=as
   </div>
 
 </fieldset>
-
-@code {
-
-  [Parameter]
-  public int Id { get; set; }
-
-}

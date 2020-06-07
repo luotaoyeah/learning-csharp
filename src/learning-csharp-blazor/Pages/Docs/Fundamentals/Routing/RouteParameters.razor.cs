@@ -7,7 +7,7 @@ namespace Luotao.Blazor.Pages.Docs.Fundamentals.Routing
     /// https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-5.0#route-parameters.
     /// </summary>
     [Route("/docs/fundamentals/routing/route-parameters/{Name}/{Text?}")]
-    public partial class RouteParameters : ComponentBase
+    public partial class RouteParameters
     {
         /// <summary>
         /// 路径参数.
