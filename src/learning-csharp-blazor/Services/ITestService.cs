@@ -1,4 +1,4 @@
-using Luotao.Blazor.Pages;
+using Luotao.Blazor.Models;
 using System.Threading.Tasks;
 
 namespace Luotao.Blazor.Services
@@ -10,6 +10,6 @@ namespace Luotao.Blazor.Services
     {
         int F01();
 
-        Task<FetchData.WeatherForecast[]?> F02();
+        Task<WeatherForecast[]?> GetWeatherForecastsAsync();
     }
 }

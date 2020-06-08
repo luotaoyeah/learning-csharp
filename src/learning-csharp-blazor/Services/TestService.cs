@@ -1,4 +1,4 @@
-using Luotao.Blazor.Pages;
+using Luotao.Blazor.Models;
 using System;
 using System.Net.Http;
 using System.Net.Http.Json;
@@ -14,18 +14,18 @@ namespace Luotao.Blazor.Services
         private readonly HttpClient httpClient;
 
         /// <summary>
-        /// TestService.
+        /// service 中需要使用 constructor injection 的方式来注入.
         /// </summary>
-        /// <param name="_httpClient">_httpClient.</param>
-        public TestService(HttpClient _httpClient)
+        /// <param name="httpClient">HttpClient.</param>
+        public TestService(HttpClient httpClient)
         {
-            httpClient = _httpClient;
+            this.httpClient = httpClient;
         }
 
         /// <summary>
         /// F01.
         /// </summary>
-        /// <returns>随机数字.</returns>
+        /// <returns>一个随机整数.</returns>
         public int F01()
         {
             return new Random().Next(1, 9);
@@ -35,9 +35,9 @@ namespace Luotao.Blazor.Services
         /// HTTP 请求.
         /// </summary>
         /// <returns>请求返回数据.</returns>
-        public Task<FetchData.WeatherForecast[]?> F02()
+        public Task<WeatherForecast[]?> GetWeatherForecastsAsync()
         {
-            return httpClient.GetFromJsonAsync<FetchData.WeatherForecast[]>("sample-data/weather.json");
+            return httpClient.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
         }
     }
 }
