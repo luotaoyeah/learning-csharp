@@ -41,6 +41,7 @@ namespace Luotao.Blazor
             // 注册服务
             _ = builder.Services.AddSingleton<NotifierService>();
             _ = builder.Services.AddScoped<ITestService, TestService>();
+            _ = builder.Services.AddScoped<DisposableService>();
             _ = builder.Services.AddLocalization();
             _ = builder.Services.AddAntDesign();
 

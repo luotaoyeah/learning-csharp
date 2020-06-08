@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Luotao.Blazor.Pages.Docs.Fundamentals.DependencyInjection
 {
     /// <summary>
-    /// https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/dependency-injection?view=aspnetcore-5.0&pivots=webassembly#use-di-in-services.
+    /// sdf.
     /// </summary>
     [Route("/docs/fundamentals/dependency-injection/use-di-in-services")]
     public partial class UseDiInServices
