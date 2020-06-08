@@ -19,7 +19,7 @@ namespace Luotao.Blazor.Pages.Docs.Fundamentals.DependencyInjection
         private ITestService? testService;
 
         /// <summary>
-        /// 通过 [Inject] 注入的 service 依然是 singleton 的.
+        /// 通过 [Inject] 或者 @inject 注入的 service 依然是 singleton 的.
         /// </summary>
         [Inject]
         private DisposableService? DisposableService02 { get; set; }

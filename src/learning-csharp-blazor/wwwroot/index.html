@@ -25,7 +25,10 @@
   <script autostart="false" src="_framework/blazor.webassembly.js"></script>
   <script>
     Blazor.start({
-      applicationCulture: 'zh-Hans'
+      applicationCulture: 'zh-Hans',
+      loadBootResource: function (type, name, defaultUri, integrity) {
+        return undefined;
+      }
     }).then(() => {
     }).catch(() => {
     });
