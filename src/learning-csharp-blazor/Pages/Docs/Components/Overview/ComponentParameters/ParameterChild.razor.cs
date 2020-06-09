@@ -9,10 +9,11 @@ namespace Luotao.Blazor.Pages.Docs.Components.Overview.ComponentParameters
     public partial class ParameterChild
     {
         /// <summary>
-        /// Text.
+        /// <para>如果父组件不传该参数, 则它会使用默认值.</para>
+        /// <para>父组件有可能会传一个 null.</para>
         /// </summary>
         [Parameter]
-        public string Text { get; set; } = "DEFAULT";
+        public string? Text { get; set; } = "DEFAULT";
 
         /// <summary>
         /// PanelBody.
