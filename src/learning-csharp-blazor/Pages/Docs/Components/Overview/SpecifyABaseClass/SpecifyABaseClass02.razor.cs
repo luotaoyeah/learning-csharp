@@ -14,7 +14,7 @@ namespace Luotao.Blazor.Pages.Docs.Components.Overview.SpecifyABaseClass
         /// <inheritdoc/>
         protected override void OnInitialized()
         {
-            Logger.LogInformation(Text);
+            Logger.LogInformation(SomeText);
         }
     }
 }

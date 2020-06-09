@@ -10,6 +10,6 @@ namespace Luotao.Blazor.Pages.Docs.Components.Overview.SpecifyABaseClass
         /// <summary>
         /// 文本.
         /// </summary>
-        public string Text { get; set; } = "666";
+        public string SomeText { get; } = "666";
     }
 }
