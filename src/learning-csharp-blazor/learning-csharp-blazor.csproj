@@ -69,4 +69,23 @@
     </Compile>
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\CaptureReferencesToComponents\CaptureReferencesToComponents.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\CaptureReferencesToComponents\ReferenceChild.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\ChildContent\ChildContent.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\ChildContent\RenderFragmentChild.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\ComponentParameters\ComponentParameters.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\ComponentParameters\ParameterChild.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\InvokeComponentMethodsExternallyToUpdateState\InvokeComponentMethodsExternallyToUpdateState.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\RawHtml\RawHtml.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\RazorTemplates\RazorTemplates.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\SpecifyABaseClass\SpecifyABaseClass.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\SpecifyABaseClass\SpecifyABaseClass01.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\SpecifyABaseClass\SpecifyABaseClass02.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\UseKeyToControlThePreservationOfElementsAndComponents\Detail.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\UseKeyToControlThePreservationOfElementsAndComponents\People.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\UseKeyToControlThePreservationOfElementsAndComponents\UseKeyToControlThePreservationOfElementsAndComponents.razor"/>
+    <_ContentIncludedByDefault Remove="Pages\Docs\Components\WhenToUseKey\WhenToUseKey.razor"/>
+  </ItemGroup>
+
 </Project>
