@@ -11,13 +11,16 @@ namespace Luotao.Blazor.Pages.Docs.Components.Overview.PartialClassSupport
     {
         private string? Text { get; set; }
 
+        /// <summary>
+        /// 使用 <see cref="InjectAttribute"/> 注入依赖.
+        /// </summary>
         [Inject]
         private ILogger<PartialClassSupport>? Logger { get; set; }
 
         /// <inheritdoc/>
         protected override void OnInitialized()
         {
-            Text = "使用[Inject]注入";
+            Text = "partial class approach";
             Logger?.LogInformation(Text);
         }
     }
