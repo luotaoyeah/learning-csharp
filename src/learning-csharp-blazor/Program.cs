@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Memory;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -46,6 +47,9 @@ namespace Luotao.Blazor
             _ = builder.Services.AddAntDesign();
 
             Console.WriteLine(builder.HostEnvironment.Environment);
+
+            // 设置最小日志等级, 小于它的日志不会打印
+            builder.Logging.SetMinimumLevel(LogLevel.Information);
 
             var host = builder.Build();
             var testService = host.Services.GetRequiredService<ITestService>();
