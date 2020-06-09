@@ -45,11 +45,11 @@ namespace Luotao.Blazor
             _ = builder.Services.AddLocalization();
             _ = builder.Services.AddAntDesign();
 
+            Console.WriteLine(builder.HostEnvironment.Environment);
+
             var host = builder.Build();
             var testService = host.Services.GetRequiredService<ITestService>();
             Console.WriteLine(testService.F01());
-
-            Console.WriteLine(builder.HostEnvironment.Environment);
 
             await host.RunAsync();
         }
