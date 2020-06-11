@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 namespace Luotao.Blazor.Pages.Docs.Components.Overview.CaptureReferencesToComponents
 {
     /// <summary>
-    /// https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-5.0#capture-references-to-components.
+    /// https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-5.0#capture-references-to-components-1.
     /// </summary>
     [Route("/docs/components/capture-references-to-components")]
     public partial class CaptureReferencesToComponents

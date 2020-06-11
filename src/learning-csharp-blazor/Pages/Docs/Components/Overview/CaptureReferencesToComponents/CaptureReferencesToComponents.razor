@@ -1,7 +1,7 @@
 <ReferenceChild @ref="referenceChild"></ReferenceChild>
 
 <div>
-  <button @onclick="() => { referenceChild?.ChildMethod(666); }">call child component method 1</button>
+  <button @onclick="@(() => { referenceChild?.ChildMethod(666); })">call child component method 1</button>
 </div>
 <div>
   <button @onclick="OnClick02">call child component method 2</button>
