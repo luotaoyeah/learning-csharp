@@ -1,1 +1,17 @@
-<RenderFragmentChild>content</RenderFragmentChild>
+<div>
+  如果组件位于 for 循环中, 并且组件的 child content 中使用了循环变量,
+  则需要先捕获循环变量, 再使用.
+</div>
+
+@for (var i = 1; i <= 3; i++)
+{
+  var index = i;
+
+  <RenderFragmentChild>
+    <ChildContent>CONTENT</ChildContent>
+    <Header>HEADER</Header>
+    <Footer>
+      @index
+    </Footer>
+  </RenderFragmentChild>
+}
