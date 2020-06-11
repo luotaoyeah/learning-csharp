@@ -1,7 +1,11 @@
 <div>
-  @(lastNotification.key ?? "NULL"): @lastNotification.value
+  key: @(lastNotification.key ?? "[null]")
 </div>
 
 <div>
-  <button @onclick="OnClick">trigger NotifyEvent</button>
+  value: @(lastNotification.value)
+</div>
+
+<div>
+  <Button Type="primary" @onclick="OnClick">trigger Notify event</Button>
 </div>

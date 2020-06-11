@@ -1,4 +1,4 @@
-namespace Luotao.Blazor.Services
+namespace Luotao.Blazor.Models
 {
     /// <summary>
     /// 通知事件对象.

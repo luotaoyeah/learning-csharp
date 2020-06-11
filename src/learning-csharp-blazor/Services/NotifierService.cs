@@ -1,3 +1,4 @@
+using Luotao.Blazor.Models;
 using System;
 
 #pragma warning disable S3906
@@ -10,19 +11,19 @@ namespace Luotao.Blazor.Services
     public class NotifierService
     {
         /// <summary>
-        /// 通知事件.
-        /// </summary>
-        public event EventHandler<NotifyEventArgs>? NotifyEvent;
-
-        /// <summary>
         /// 触发 NotifyEvent 事件.
         /// </summary>
         /// <param name="key">key.</param>
         /// <param name="value">value.</param>
-        public void Update(string key, int value)
+        public void TriggerNotify(string key, int value)
         {
-            NotifyEvent?.Invoke(this, new NotifyEventArgs { Key = key, Value = value });
+            Notify?.Invoke(this, new NotifyEventArgs { Key = key, Value = value });
         }
+
+        /// <summary>
+        /// 通知事件.
+        /// </summary>
+        public event EventHandler<NotifyEventArgs>? Notify;
     }
 }
 
