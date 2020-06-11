@@ -17,7 +17,8 @@ namespace Luotao.Blazor.Pages.Docs.Components.Overview.AttributeSplattingAndArbi
 #pragma warning disable CA2227,S4004
 
         /// <summary>
-        /// 没有被其他 parameter 匹配的 attributes 都会放到这个 parameter 里面.
+        /// 所有未被其他 parameter 匹配的 attributes 都会一起打包放到这个 parameter 里面.
+        /// 组件中最多只有一个 parameter 可以设置 Parameter(CaptureUnmatchedValues = true).
         /// </summary>
         [Parameter(CaptureUnmatchedValues = true)]
         public IDictionary<string, object>? OtherParameters { get; set; }
