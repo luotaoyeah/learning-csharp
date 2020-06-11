@@ -1,0 +1,8 @@
+<Button Type="primary" @onclick="ToggleExpanded">toggle @expanded</Button>
+
+@if (expanded)
+{
+  <div style="border: 1px solid red;border-radius: 3px;padding: 12px;">
+    @ChildContent
+  </div>
+}
