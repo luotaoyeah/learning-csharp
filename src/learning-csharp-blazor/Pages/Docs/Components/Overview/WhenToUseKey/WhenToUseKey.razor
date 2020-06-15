@@ -1,11 +1,12 @@
 <div>
-  <input type="text" value="@time"/>
-</div>
-
-<div>
-  <input type="text"/>
+  <Input Type="text" DefaultValue="@(DateTime.Now.ToString("HH:mm:ss"))"/>
 </div>
 
 <div @key="0000">
-  <input type="text"/>
+  <Input Type="text" DefaultValue="@(DateTime.Now.ToString("HH:mm:ss"))"/>
+</div>
+
+<div @key="time">
+  <div>元素或者组件加上 @@key 之后, 只要 @@key 的值发生变更, 元素或者组件就会强制重新渲染.</div>
+  <Input Type="text" DefaultValue="@(DateTime.Now.ToString("HH:mm:ss"))"/>
 </div>

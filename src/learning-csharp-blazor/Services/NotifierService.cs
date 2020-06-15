@@ -11,6 +11,11 @@ namespace Luotao.Blazor.Services
     public class NotifierService
     {
         /// <summary>
+        /// 通知事件.
+        /// </summary>
+        public event EventHandler<NotifyEventArgs>? Notify;
+
+        /// <summary>
         /// 触发 NotifyEvent 事件.
         /// </summary>
         /// <param name="key">key.</param>
@@ -19,11 +24,6 @@ namespace Luotao.Blazor.Services
         {
             Notify?.Invoke(this, new NotifyEventArgs { Key = key, Value = value });
         }
-
-        /// <summary>
-        /// 通知事件.
-        /// </summary>
-        public event EventHandler<NotifyEventArgs>? Notify;
     }
 }
 
