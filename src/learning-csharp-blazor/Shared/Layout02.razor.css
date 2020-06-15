@@ -1,0 +1,7 @@
+﻿fieldset {
+  border: 2px groove blue !important;
+}
+
+fieldset legend {
+  color: blue !important;
+}
