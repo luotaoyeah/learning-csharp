@@ -12,32 +12,32 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="coverlet.msbuild" Version="3.0.3">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="luotao.learning-csharp-lib" Version="1.0.0"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.7"/>
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0"/>
-    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0"/>
-    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0"/>
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0"/>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0"/>
-    <PackageReference Include="xunit" Version="2.4.1"/>
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+      <PackageReference Include="coverlet.msbuild" Version="3.1.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="luotao.learning-csharp-lib" Version="1.0.0"/>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.8"/>
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0"/>
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0"/>
+      <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0"/>
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0"/>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0"/>
+      <PackageReference Include="xunit" Version="2.4.1"/>
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\learning-csharp-lib\learning-csharp-lib.csproj"/>
-    <ProjectReference Include="..\learning-csharp-northwind\learning-csharp-northwind.csproj"/>
-  </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\learning-csharp-lib\learning-csharp-lib.csproj"/>
+        <ProjectReference Include="..\learning-csharp-northwind\learning-csharp-northwind.csproj"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <Content Include="src\Books\C9N5\README.md"/>
-    <Content Include="src\Books\ICS7\README.md"/>
-  </ItemGroup>
+    <ItemGroup>
+        <Content Include="src\Books\C9N5\README.md"/>
+        <Content Include="src\Books\ICS7\README.md"/>
+    </ItemGroup>
 
 </Project>

@@ -10,11 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AntDesign" Version="0.8.2"/>
+    <PackageReference Include="AntDesign" Version="0.9.0"/>
     <PackageReference Include="Luotao.LearningCsharp.BlazorLib" Version="1.0.3"/>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.7"/>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.7" PrivateAssets="all"/>
-    <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.7"/>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.8"/>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.8" PrivateAssets="all"/>
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.8"/>
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0"/>
     <PackageReference Include="AsyncFixer" Version="1.5.1">
       <PrivateAssets>all</PrivateAssets>
@@ -24,11 +24,11 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Roslynator.Formatting.Analyzers" Version="1.2.0">
+    <PackageReference Include="Roslynator.Formatting.Analyzers" Version="1.2.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="8.25.0.33663">
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="8.27.0.35380">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>

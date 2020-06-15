@@ -1,8 +1,13 @@
-﻿@inherits LayoutComponentBase;
+﻿@* layout 组件需要继承 LayoutComponentBase 基类 *@
+@inherits LayoutComponentBase;
 @layout MainLayout;
 
 <fieldset>
-  <legend>layout 01</legend>
+  <legend>LAYOUT 01</legend>
 
-  @Body
+  <div>@@Body 属性用来指定嵌套组件的插入位置.</div>
+
+  <div style="border: 1px solid red;border-radius: 3px;padding: 12px;">
+    @Body
+  </div>
 </fieldset>
