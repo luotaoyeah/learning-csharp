@@ -1,10 +1,14 @@
 @template01
-@template02("template02")
+@template02("TEMPLATE02")
 
 
 @code
 {
-  private readonly RenderFragment template01 = @<div>template01</div>;
+  /// <summary>
+  /// 可以直接定义一个 <see cref="RenderFragment"/> 类型的变量, 它的值就是一段模板, 以 @ 开头.
+  /// 注意, 这种用法必须写在 .razor 文件中, 不能写在 .cs 文件中.
+  /// </summary>
+  private readonly RenderFragment template01 = @<div>TEMPLATE01</div>;
 
   private readonly RenderFragment<string> template02 = str => @<div>@str</div>;
 }
