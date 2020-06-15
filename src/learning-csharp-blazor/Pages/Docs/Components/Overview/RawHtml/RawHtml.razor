@@ -1,2 +1,10 @@
-<div>@html</div>
-<div>@((MarkupString)html)</div>
+<div>
+  string 类型的数据, 会当成普通文本数据进行显示.
+</div>
+<p>@html01</p>
+
+<div>
+  MarkupString 类型的数据, 会当成 HTML 内容进行解析并显示.
+</div>
+<p>@((MarkupString)html01)</p>
+<p>@(html02)</p>

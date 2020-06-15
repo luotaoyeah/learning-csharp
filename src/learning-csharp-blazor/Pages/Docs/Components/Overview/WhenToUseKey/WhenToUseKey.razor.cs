@@ -23,10 +23,15 @@ namespace Luotao.Blazor.Pages.Docs.Components.Overview.WhenToUseKey
             timer.Start();
         }
 
-        private void OnElapsed(object sender, ElapsedEventArgs e)
+        private async void OnElapsed(object sender, ElapsedEventArgs e)
         {
-            InvokeAsync(() => time = DateTime.Now.ToString("HH:mm:ss.fff"));
-            StateHasChanged();
+            await InvokeAsync(
+                () =>
+                {
+                    time = DateTime.Now.ToString("HH:mm:ss.fff");
+                    StateHasChanged();
+                }
+            );
         }
     }
 }
