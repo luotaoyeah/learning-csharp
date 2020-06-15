@@ -5,7 +5,7 @@ namespace Luotao.Blazor.Pages.Docs.Components.Overview.UseKeyToControlThePreserv
     /// <summary>
     /// Detail.
     /// </summary>
-    public partial class Detail
+    public partial class Details
     {
         /// <summary>
         /// Data.

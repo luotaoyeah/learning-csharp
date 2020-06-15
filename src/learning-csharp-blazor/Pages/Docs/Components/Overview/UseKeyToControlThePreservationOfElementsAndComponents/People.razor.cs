@@ -23,10 +23,22 @@ namespace Luotao.Blazor.Pages.Docs.Components.Overview.UseKeyToControlThePreserv
             timer.Start();
         }
 
-        private void OnTimerCallback(object sender, ElapsedEventArgs e)
+        private async void OnTimerCallback(object sender, ElapsedEventArgs e)
         {
-            InvokeAsync(() => peoples.Insert(0, new Person { Data = DateTime.Now.ToString("HH:mm:ss") }));
-            StateHasChanged();
+            await InvokeAsync(
+                () =>
+                {
+                    if (peoples.Count < 10)
+                    {
+                        peoples.Insert(0, new Person { Data = DateTime.Now.ToString("HH:mm:ss") });
+                        StateHasChanged();
+                    }
+                    else
+                    {
+                        timer.Stop();
+                    }
+                }
+            );
         }
 
         /// <inheritdoc/>
