@@ -1,0 +1,9 @@
+<fieldset>
+  <legend>@(nameof(BindAcrossMoreThanTwoComponents))</legend>
+
+  <NestedChild @bind-ChildMessage="parentMessage"></NestedChild>
+
+  <div>
+    <Button Type="primary" OnClick="OnClick">update</Button>
+  </div>
+</fieldset>

@@ -1,0 +1,9 @@
+<fieldset>
+  <legend>@(nameof(NestedChild))</legend>
+
+  <NestedGrandChild @bind-GrandChildMessage="BoundValue"></NestedGrandChild>
+
+  <div>
+    <Button Type="primary" OnClick="OnClick">update</Button>
+  </div>
+</fieldset>
