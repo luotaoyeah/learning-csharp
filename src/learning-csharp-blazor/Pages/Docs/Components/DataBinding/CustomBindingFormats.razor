@@ -1,7 +1,4 @@
-<div>
+<fieldset>
   <input style="width:100%;" @bind="@InputValue">
-
-  <fieldset>
-    @(InputValue ?? "NULL")
-  </fieldset>
-</div>
+  <div>@(InputValue ?? "NULL")</div>
+</fieldset>
