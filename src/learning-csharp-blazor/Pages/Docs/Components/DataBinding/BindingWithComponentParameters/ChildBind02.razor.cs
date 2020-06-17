@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 namespace Luotao.Blazor.Pages.Docs.Components.DataBinding.BindingWithComponentParameters
 {
     /// <summary>
-    /// 自定义组件如何实现 @bind 双向绑定语法.
+    /// ChildBind02.
     /// </summary>
-    public partial class ChildBind
+    public partial class ChildBind02
     {
         /// <summary>
         /// 定义被绑定的属性.
@@ -16,16 +16,14 @@ namespace Luotao.Blazor.Pages.Docs.Components.DataBinding.BindingWithComponentPa
 
         /// <summary>
         /// 定义被绑定的属性的变更事件, 按照约定, 该属性名命名规则为 {PARAMETER NAME}Changed.
+        /// 如果我们不按照这个规则来命名, 则需要使用 @bind-Year:event="YearOtherChange" 来显式指定这个事件参数.
         /// </summary>
         [Parameter]
-        public EventCallback<int> YearChanged { get; set; }
+        public EventCallback<int> YearOtherChange { get; set; }
 
-        /// <summary>
-        /// 调用 <see cref="EventCallback.InvokeAsync(object?)"/> 方法触发事件.
-        /// </summary>
         private Task OnClick()
         {
-            return YearChanged.InvokeAsync(2021);
+            return YearOtherChange.InvokeAsync(2021);
         }
     }
 }

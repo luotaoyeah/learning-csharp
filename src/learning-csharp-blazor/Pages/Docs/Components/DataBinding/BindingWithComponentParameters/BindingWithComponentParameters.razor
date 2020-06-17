@@ -4,6 +4,12 @@
   <ChildBind @bind-Year="@year"></ChildBind>
 
   <div>
-    <button @onclick="OnClick">update from parent</button>
+    如果用于双向绑定的事件属性的命名不满足 {PROPERTY NAME}Changed 命名规则,
+    那么我们需要显式指定这个事件名称: @@bind-Year:event="{EVENT}"
+  </div>
+  <ChildBind02 @bind-Year="@year" @bind-Year:event="YearOtherChange"></ChildBind02>
+
+  <div>
+    <Button Type="primaty" OnClick="OnClick">update from parent</Button>
   </div>
 </fieldset>

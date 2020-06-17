@@ -1,0 +1,7 @@
+fieldset {
+  border: 2px groove red !important;
+}
+
+fieldset legend {
+  color: red !important;
+}
