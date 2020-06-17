@@ -1,17 +1,22 @@
-<div>
+<fieldset>
+
+  <div>
+    @@bind 用来实现双向绑定, 可以绑定 field/property/indexer.
+  </div>
+
   <input @bind="@inputValue01">
   <input value="@inputValue01" @onchange="@(args => inputValue01 = args.Value?.ToString())">
 
-  <fieldset>
-    @inputValue01
-  </fieldset>
-</div>
+  @inputValue01
+</fieldset>
 
-<div>
+<fieldset>
+  <div>
+    @@bind 默认使用的是 onchange 事件, 可以通过 @@bind:event 指定使用其他的事件.
+  </div>
+
   <input @bind="@inputValue02" @bind:event="oninput">
   <input value="@inputValue02" @oninput="@(args => inputValue02 = args.Value?.ToString())">
 
-  <fieldset>
-    @inputValue02
-  </fieldset>
-</div>
+  @inputValue02
+</fieldset>
