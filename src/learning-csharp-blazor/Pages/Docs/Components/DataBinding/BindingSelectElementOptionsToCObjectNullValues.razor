@@ -1,0 +1,22 @@
+<div>
+
+  <div>@@bind 在双向绑定的过程中, 会自动进行类型转换, 如果转换失败, 则绑定属性的值不会被修改.</div>
+
+  <div>
+    由于 option 的 value 不能被设置为 null,
+    所以如果绑定属性的值为 null, 会被转换为空字符串之后, 再跟 option 的 value 进行匹配.
+  </div>
+
+  <select @bind="inputValue">
+    <option value="">[empty]</option>
+    <option value="@optionValue01">1</option>
+    <option value="@optionValue02">2</option>
+    <option value="3">3</option>
+    <option value="x">无法转换类型, 因此无法选中</option>
+  </select>
+
+  <fieldset>
+    <div>value: @inputValue</div>
+    <div>&nbsp;&nbsp;type: @(inputValue?.GetType().Name)</div>
+  </fieldset>
+</div>
