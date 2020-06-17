@@ -1,7 +1,6 @@
-<div>
+<fieldset>
   <input @bind="@inputValue">
 
-  <fieldset>
-    @(inputValue?.ToString() ?? "NULL")
-  </fieldset>
-</div>
+  <div><b>inputValue:</b> [@(inputValue)]</div>
+  <div><b>inputValue == null:</b> [@(inputValue == null)]</div>
+</fieldset>
