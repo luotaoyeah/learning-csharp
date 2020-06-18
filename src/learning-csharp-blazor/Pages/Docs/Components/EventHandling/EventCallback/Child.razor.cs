@@ -14,7 +14,7 @@ namespace Luotao.Blazor.Pages.Docs.Components.EventHandling.EventCallback
         [Parameter]
         public EventCallback<int> MyClick { get; set; }
 
-        private Task OnClick()
+        private Task OnClickAsync()
         {
             return MyClick.InvokeAsync(666);
         }
