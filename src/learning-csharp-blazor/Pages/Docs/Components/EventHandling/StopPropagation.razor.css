@@ -1,0 +1,5 @@
+div.bordered {
+  border: 1px solid red;
+  border-radius: 3px;
+  padding: 12px;
+}

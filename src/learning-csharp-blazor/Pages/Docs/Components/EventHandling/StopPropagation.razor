@@ -1,0 +1,17 @@
+<fieldset>
+  <legend></legend>
+
+  <div>如何实现 DOM 事件的 stopPropagation() 功能:</div>
+  <div>使用 <code>@@onclick:stopPropagation="@@true"</code></div>
+
+  <Checkbox @bind-Checked="stopPropagation">
+    stopPropagation
+  </Checkbox>
+
+  <div @onclick="OnParentClick" class="bordered">
+    <div @onclick="OnChildClick" @onclick:stopPropagation="stopPropagation" class="bordered">
+      click me
+    </div>
+  </div>
+
+</fieldset>
