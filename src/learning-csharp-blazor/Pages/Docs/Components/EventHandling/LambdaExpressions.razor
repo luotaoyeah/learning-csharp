@@ -1,5 +1,12 @@
-@using Microsoft.Extensions.Logging
-@inject ILogger<LambdaExpressions> logger;
+<fieldset>
+  <legend></legend>
 
-<!-- 直接使用 lambda 作为事件处理函数 -->
-<button @onclick="@(e => { logger.LogInformation($"{e.ClientX}, {e.ClientY}"); })">click me</button>
+  <div>直接使用 lambda 作为事件处理函数, 这样就可以传递额外的参数.</div>
+
+  @for (int i = 1; i <= 3; i++)
+  {
+    var index = i;
+    <Button Type="primary" OnClick="@(e => OnClick(e, index))">@index</Button>
+  }
+
+</fieldset>
