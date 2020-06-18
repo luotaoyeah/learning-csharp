@@ -10,15 +10,16 @@ namespace Luotao.Blazor.Pages.Docs.Components.EventHandling
     [Route("/docs/components/event-handling")]
     public sealed partial class EventHandling
     {
-        private string? value = DateTime.Now.ToString("HH:mm:ss.fff");
+        private string? value = DateTime.Now.ToString("mm:ss");
 
         /// <summary>
-        /// 事件处理函数支持异步.
+        /// 事件处理函数支持异步函数.
+        /// 事件处理函数执行完毕之后, 会自动触发界面渲染.
         /// </summary>
-        private async Task OnClick()
+        private async Task OnClickAsync()
         {
-            await Task.Delay(1000);
-            value = DateTime.Now.ToString("HH:mm:ss.fff");
+            await Task.Delay(2000);
+            value = DateTime.Now.ToString("mm:ss");
         }
     }
 }
