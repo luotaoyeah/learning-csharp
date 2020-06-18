@@ -6,6 +6,11 @@ body {
   overflow-y: scroll;
 }
 
+code {
+  font-family: Monaco, serif !important;
+  font-size: 90%;
+}
+
 button {
   border-radius: 3px;
   padding: 2px 6px;
