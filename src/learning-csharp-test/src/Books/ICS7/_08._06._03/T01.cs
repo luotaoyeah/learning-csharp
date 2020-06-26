@@ -1,4 +1,3 @@
-using Luotao.Lib.Books.ICS7._08._06._03;
 using Xunit;
 
 namespace Luotao.Test.Books.ICS7._08._06._03
@@ -11,11 +10,6 @@ namespace Luotao.Test.Books.ICS7._08._06._03
         [Fact]
         public void _01()
         {
-            var myDerivedClass = new MyDerivedClass();
-            MyBaseClass myBaseClass = myDerivedClass;
-
-            Assert.Equal(2, myBaseClass.P01);
-            Assert.Equal(2, myBaseClass[0]);
         }
     }
 }
