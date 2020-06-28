@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="push:learning-csharp-blazor-lib" type="RunNativeExe" factoryName="Native Executable">
+    <option name="EXE_PATH" value="C:/Program Files/dotnet/dotnet.exe" />
+    <option name="PROGRAM_PARAMETERS" value="nuget push --source https://api.nuget.org/v3/index.json --api-key oy2diin6wxk4vwnniw5ae7rml5okggjezbgotkclpqgn5a Luotao.LearningCsharp.BlazorLib.*.nupkg" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/learning-csharp-blazor-lib/bin/Release" />
+    <option name="PASS_PARENT_ENVS" value="1" />
+    <option name="USE_EXTERNAL_CONSOLE" value="0" />
+    <method v="2">
+      <option name="Build Solution" enabled="true" />
+    </method>
+  </configuration>
+</component>
