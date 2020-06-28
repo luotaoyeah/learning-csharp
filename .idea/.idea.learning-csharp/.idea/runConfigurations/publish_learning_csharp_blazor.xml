@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="publish:learning-csharp-blazor" type="DotNetFolderPublish" factoryName="Publish to folder">
+    <riderPublish configuration="Release" platform="Any CPU" runtime="Portable" self_contained="true" target_folder="$PROJECT_DIR$/src/learning-csharp-blazor/bin/Release/net5.0/publish" target_framework="net6.0" uuid_high="-4758214779640066291" uuid_low="-5867860613270874630" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -2,18 +2,16 @@
   <configuration default="false" name="docker:learning-csharp-blazor" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
     <deployment type="docker-compose.yml">
       <settings>
-        <option name="envFilePath" value=""/>
-        <option name="commandLineOptions" value="--build"/>
+        <option name="envFilePath" value="" />
+        <option name="commandLineOptions" value="--build" />
         <option name="services">
           <list>
-            <option value="learning-csharp-blazor"/>
+            <option value="learning-csharp-blazor" />
           </list>
         </option>
-        <option name="sourceFilePath" value="docker-compose.yml"/>
-        <option name="upExitCodeFromService" value=""/>
-        <option name="upTimeout" value=""/>
+        <option name="sourceFilePath" value="docker-compose.yml" />
       </settings>
     </deployment>
-    <method v="2"/>
+    <method v="2" />
   </configuration>
 </component>
