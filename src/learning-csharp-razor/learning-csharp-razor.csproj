@@ -1,14 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <RootNamespace>Luotao.Razor</RootNamespace>
         <Nullable>enable</Nullable>
+      <LangVersion>10</LangVersion>
     </PropertyGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="..\learning-csharp-northwind\learning-csharp-northwind.csproj"/>
-        <ProjectReference Include="..\learning-csharp-razor-lib\learning-csharp-razor-lib.csproj"/>
-    </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\learning-csharp-northwind\learning-csharp-northwind.csproj"/>
+    <ProjectReference Include="..\learning-csharp-razor-lib\learning-csharp-razor-lib.csproj"/>
+  </ItemGroup>
 
 </Project>

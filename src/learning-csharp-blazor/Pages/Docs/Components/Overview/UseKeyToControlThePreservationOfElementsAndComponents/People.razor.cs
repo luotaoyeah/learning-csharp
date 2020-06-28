@@ -17,13 +17,16 @@ namespace Luotao.Blazor.Pages.Docs.Components.Overview.UseKeyToControlThePreserv
         private readonly Timer timer = new(3000);
 
         /// <inheritdoc/>
+        public void Dispose() => timer.Dispose();
+
+        /// <inheritdoc/>
         protected override void OnInitialized()
         {
             timer.Elapsed += OnTimerCallback;
             timer.Start();
         }
 
-        private async void OnTimerCallback(object sender, ElapsedEventArgs e)
+        private async void OnTimerCallback(object? sender, ElapsedEventArgs e)
         {
             await InvokeAsync(
                 () =>
@@ -40,8 +43,5 @@ namespace Luotao.Blazor.Pages.Docs.Components.Overview.UseKeyToControlThePreserv
                 }
             );
         }
-
-        /// <inheritdoc/>
-        public void Dispose() => timer.Dispose();
     }
 }

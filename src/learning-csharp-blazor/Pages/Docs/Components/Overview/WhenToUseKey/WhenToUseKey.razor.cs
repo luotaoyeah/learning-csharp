@@ -23,7 +23,7 @@ namespace Luotao.Blazor.Pages.Docs.Components.Overview.WhenToUseKey
             timer.Start();
         }
 
-        private async void OnElapsed(object sender, ElapsedEventArgs e)
+        private async void OnElapsed(object? sender, ElapsedEventArgs e)
         {
             await InvokeAsync(
                 () =>

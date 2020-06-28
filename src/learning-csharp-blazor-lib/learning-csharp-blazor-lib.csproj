@@ -5,22 +5,23 @@
     <Title>Luotao.LearningCsharp.BlazorLib</Title>
     <Description>Luotao.LearningCsharp.BlazorLib</Description>
     <Authors>luotao</Authors>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>Luotao.BlazorLib</RootNamespace>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Luotao.LearningCsharp.BlazorLib</PackageId>
     <PackageVersion>1.0.3</PackageVersion>
+    <LangVersion>10</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <SupportedPlatform Include="browser"/>
   </ItemGroup>
 
-    <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.8"/>
-        <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.8"/>
-    </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.8"/>
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.8"/>
+  </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Components\Component01.razor.zh-Hans.resx">
