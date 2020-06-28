@@ -9,11 +9,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+      <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\learning-csharp-northwind\learning-csharp-northwind.csproj"/>
+      <ProjectReference Include="..\learning-csharp-northwind\learning-csharp-northwind.csproj" />
     </ItemGroup>
 
 </Project>

@@ -11,12 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AntDesign" Version="0.9.0"/>
-    <PackageReference Include="Luotao.LearningCsharp.BlazorLib" Version="1.0.3"/>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.8"/>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.8" PrivateAssets="all"/>
-    <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.8"/>
-    <PackageReference Include="System.Net.Http.Json" Version="5.0.0"/>
+    <PackageReference Include="AntDesign" Version="0.9.0" />
+    <PackageReference Include="Luotao.LearningCsharp.BlazorLib" Version="1.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.8" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.8" />
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
     <PackageReference Include="AsyncFixer" Version="1.5.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
@@ -40,10 +40,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove=".editorconfig"/>
-    <AdditionalFiles Include=".editorconfig"/>
-    <None Remove="stylecop.json"/>
-    <AdditionalFiles Include="stylecop.json"/>
+    <None Remove=".editorconfig" />
+    <AdditionalFiles Include=".editorconfig" />
+    <None Remove="stylecop.json" />
+    <AdditionalFiles Include="stylecop.json" />
   </ItemGroup>
 
   <ItemGroup>

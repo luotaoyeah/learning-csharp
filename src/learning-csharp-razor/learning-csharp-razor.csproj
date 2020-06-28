@@ -8,8 +8,8 @@
     </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\learning-csharp-northwind\learning-csharp-northwind.csproj"/>
-    <ProjectReference Include="..\learning-csharp-razor-lib\learning-csharp-razor-lib.csproj"/>
+    <ProjectReference Include="..\learning-csharp-northwind\learning-csharp-northwind.csproj" />
+    <ProjectReference Include="..\learning-csharp-razor-lib\learning-csharp-razor-lib.csproj" />
   </ItemGroup>
 
 </Project>

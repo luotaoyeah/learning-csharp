@@ -15,12 +15,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <SupportedPlatform Include="browser"/>
+    <SupportedPlatform Include="browser" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.8"/>
-    <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.8"/>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.8" />
   </ItemGroup>
 
   <ItemGroup>
