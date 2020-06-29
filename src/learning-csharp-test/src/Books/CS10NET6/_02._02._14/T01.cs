@@ -27,10 +27,10 @@ namespace Luotao.Test.Books.CS10NET6._02._02._14
             foreach (AssemblyName name in referencedAssemblies)
             {
                 Assembly assembly = Assembly.Load(name);
-                Type[] types = assembly.GetTypes();
+                IEnumerable<TypeInfo> types = assembly.DefinedTypes;
 
                 int methodCount = 0;
-                foreach (Type type in types)
+                foreach (TypeInfo type in types)
                 {
                     methodCount += type.GetMethods().Length;
                 }

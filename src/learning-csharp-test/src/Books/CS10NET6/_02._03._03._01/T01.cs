@@ -1,7 +1,7 @@
-namespace Luotao.Test.Books.CS10NET6._02._03._02._01
+namespace Luotao.Test.Books.CS10NET6._02._03._03._01
 {
     /// <summary>
-    ///     2.3.2.1 understanding verbatim strings
+    /// 2.3.3.1 understanding verbatim strings
     /// </summary>
     public class T01
     {
@@ -13,8 +13,8 @@ namespace Luotao.Test.Books.CS10NET6._02._03._02._01
         }
 
         /// <summary>
-        ///     string literal 前面加上 @ 表示它是一个 verbatim string，
-        ///     里面的转义字符不会转义，所有字符都会原样打印，
+        /// string literal 前面加上 @ 表示它是一个 verbatim string,
+        /// verbatim string 中的转义字符不会被转义, 所有字符都会原样打印.
         /// </summary>
         [Fact]
         public void _01()
@@ -24,21 +24,27 @@ namespace Luotao.Test.Books.CS10NET6._02._03._02._01
         }
 
         /// <summary>
-        ///     例外1："" 会被解析为 "
+        /// verbatim string 可以跨越多行.
         /// </summary>
         [Fact]
         public void _02()
         {
-            testOutputHelper.WriteLine(@"_""_"); // _"_
+            testOutputHelper.WriteLine(
+                @"
+1
+2
+3
+                "
+            );
         }
 
         /// <summary>
-        ///     例外2：如果 verbatim string 又是一个 interpolated string，则 `{{` 会被解析为 `{`，`}}` 会被解析为 `}`，
+        /// 例外1："" 会被解析为 "
         /// </summary>
         [Fact]
         public void _03()
         {
-            testOutputHelper.WriteLine(@"_{1}_"); // _{1}_
+            testOutputHelper.WriteLine(@"_""_"); // _"_
         }
     }
 }
