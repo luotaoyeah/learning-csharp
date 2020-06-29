@@ -3,7 +3,7 @@ using System.Reflection;
 namespace Luotao.Test.Books.CS10NET6._02._02._14
 {
     /// <summary>
-    /// 2.2.14 revealing the extent of the c# vocabulary
+    /// 2.2.14. revealing the extent of the c# vocabulary
     /// </summary>
     public class T01
     {

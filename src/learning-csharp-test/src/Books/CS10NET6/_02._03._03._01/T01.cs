@@ -1,7 +1,7 @@
 namespace Luotao.Test.Books.CS10NET6._02._03._03._01
 {
     /// <summary>
-    /// 2.3.3.1 understanding verbatim strings
+    /// 2.3.3.1. understanding verbatim strings
     /// </summary>
     public class T01
     {

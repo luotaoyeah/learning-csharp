@@ -1,9 +1,7 @@
-using Microsoft.CSharp.RuntimeBinder;
-
 namespace Luotao.Test.Books.CS10NET6._02._03._07
 {
     /// <summary>
-    ///     2.3.7 storing dynamic types
+    /// 2.3.7. storing any type of object
     /// </summary>
     public class T01
     {
@@ -15,19 +13,20 @@ namespace Luotao.Test.Books.CS10NET6._02._03._07
         }
 
         /// <summary>
-        ///     dynamic 类似于 typescript 中的 any 类型，不会在编译时检查类型，而是在运行时检查类型，
-        ///     如果运行时检查到类型有错误，会抛出异常，
+        /// object 是所有类型的基类.
         /// </summary>
         [Fact]
         public void _01()
         {
-            Assert.Throws<RuntimeBinderException>(
-                () =>
-                {
-                    dynamic i = "luotao";
-                    int length = i.Length02;
-                }
-            );
+            object name = "luotao";
+            object height = 1.88;
+            testOutputHelper.WriteLine($"{name} is {height} meters tall.");
+
+            //----------------------------------------------------------------------------------------------------
+            // 将 object 类型强制转换为实际的类型
+            //----------------------------------------------------------------------------------------------------
+            int length = ((string)name).Length;
+            testOutputHelper.WriteLine($"{name} has {length} characters.");
         }
     }
 }
