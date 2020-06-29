@@ -1,5 +1,3 @@
-using Xunit;
-
 namespace Luotao.Test.Books.ICS7._03._07
 {
     public class C0502
@@ -14,7 +12,7 @@ namespace Luotao.Test.Books.ICS7._03._07
 
             var i01 = 12.345678;
             Assert.Equal("12.35", $"{i01:F2}"); // 四舍五入
-            Assert.Equal("0000000F", $"{15:X8}"); // 
+            Assert.Equal("0000000F", $"{15:X8}"); //
         }
     }
 }

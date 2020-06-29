@@ -1,6 +1,3 @@
-using Xunit;
-using Xunit.Abstractions;
-
 namespace Luotao.Test.Books.ICS7._17._08
 {
     /// <summary>
@@ -28,7 +25,7 @@ namespace Luotao.Test.Books.ICS7._17._08
             Assert.Equal(10, obj01);
 
             // unboxing
-            var i02 = (int) obj01;
+            var i02 = (int)obj01;
             Assert.Equal(10, i02);
         }
     }

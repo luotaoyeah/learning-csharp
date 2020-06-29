@@ -1,5 +1,3 @@
-using Xunit;
-
 namespace Luotao.Test.Books.ICS7._07._16
 {
     public class C0110

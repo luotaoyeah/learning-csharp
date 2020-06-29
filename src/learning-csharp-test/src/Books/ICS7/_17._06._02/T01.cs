@@ -1,7 +1,4 @@
-using System;
 using Luotao.Lib.Books.ICS7._17._06._02;
-using Xunit;
-using Xunit.Abstractions;
 
 namespace Luotao.Test.Books.ICS7._17._06._02
 {
@@ -26,7 +23,7 @@ namespace Luotao.Test.Books.ICS7._17._06._02
             var a = new A();
             try
             {
-                B b = (B) a;
+                B b = (B)a;
             }
             catch (InvalidCastException e)
             {

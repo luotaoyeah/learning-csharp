@@ -1,5 +1,3 @@
-using System;
-
 namespace Luotao.Test.Books.ICS7._08._02
 {
     /// <summary>

@@ -1,7 +1,4 @@
-using System;
 using Luotao.Lib.Books.ICS7._16._01._01;
-using Xunit;
-using Xunit.Abstractions;
 
 namespace Luotao.Test.Books.ICS7._16._01._01
 {

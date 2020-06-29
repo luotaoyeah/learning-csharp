@@ -1,6 +1,4 @@
 using Luotao.Lib.Books.ICS7._12._01;
-using Xunit;
-using Xunit.Abstractions;
 
 namespace Luotao.Test.Books.ICS7._12._01
 {
@@ -19,9 +17,9 @@ namespace Luotao.Test.Books.ICS7._12._01
         [Fact]
         public void _01()
         {
-            Assert.Equal(0, (int) TrafficLight.Green);
-            Assert.Equal(1, (int) TrafficLight.Yellow);
-            Assert.Equal(2, (int) TrafficLight.Red);
+            Assert.Equal(0, (int)TrafficLight.Green);
+            Assert.Equal(1, (int)TrafficLight.Yellow);
+            Assert.Equal(2, (int)TrafficLight.Red);
         }
 
         [Fact]
@@ -31,7 +29,7 @@ namespace Luotao.Test.Books.ICS7._12._01
             // 可以定义 enum 类型的变量，它的值只能是该 enum 的某个 member，
             //----------------------------------------------------------------------------------------------------
             var trafficLight = TrafficLight.Yellow;
-            Assert.Equal(1, (int) trafficLight);
+            Assert.Equal(1, (int)trafficLight);
         }
     }
 }

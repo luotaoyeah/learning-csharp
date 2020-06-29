@@ -1,5 +1,3 @@
-using Xunit;
-
 namespace Luotao.Test.Books.ICS7._21._01._01
 {
     /// <summary>

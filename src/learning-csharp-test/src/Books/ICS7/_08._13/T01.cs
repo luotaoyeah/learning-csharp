@@ -1,5 +1,4 @@
 using Luotao.Lib.Books.ICS7._08._13;
-using Xunit;
 
 namespace Luotao.Test.Books.ICS7._08._13
 {

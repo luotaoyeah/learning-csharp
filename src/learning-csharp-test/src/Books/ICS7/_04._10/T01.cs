@@ -1,6 +1,5 @@
 using Luotao.Lib.Books.ICS7._04._10;
 using Microsoft.CSharp.RuntimeBinder;
-using Xunit;
 
 namespace Luotao.Test.Books.ICS7._04._10
 {

@@ -1,6 +1,4 @@
 using System.Collections;
-using Xunit;
-using Xunit.Abstractions;
 
 namespace Luotao.Test.Books.CS10NET6._03._03._04
 {

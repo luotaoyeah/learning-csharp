@@ -10,6 +10,7 @@
     <Nullable>enable</Nullable>
     <LangVersion>10</LangVersion>
     <NeutralLanguage>en-US</NeutralLanguage>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,6 +31,13 @@
   <ItemGroup>
     <ProjectReference Include="..\learning-csharp-lib\learning-csharp-lib.csproj" />
     <ProjectReference Include="..\learning-csharp-northwind\learning-csharp-northwind.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Remove="System.Threading" />
+    <Using Remove="System.Threading.Tasks" />
+    <Using Include="Xunit" />
+    <Using Include="Xunit.Abstractions" />
   </ItemGroup>
 
   <ItemGroup>

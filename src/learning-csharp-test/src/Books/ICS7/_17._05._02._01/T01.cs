@@ -1,7 +1,3 @@
-using System;
-using Xunit;
-using Xunit.Abstractions;
-
 namespace Luotao.Test.Books.ICS7._17._05._02._01
 {
     /// <summary>
@@ -27,7 +23,7 @@ namespace Luotao.Test.Books.ICS7._17._05._02._01
             ushort sh = 2000;
 
             // unchecked operator
-            var sb01 = unchecked((byte) sh);
+            var sb01 = unchecked((byte)sh);
             Assert.Equal(208, sb01);
 
             try
@@ -35,7 +31,7 @@ namespace Luotao.Test.Books.ICS7._17._05._02._01
                 // checked statement
                 checked
                 {
-                    var sb02 = (byte) sh;
+                    var sb02 = (byte)sh;
                 }
             }
             catch (OverflowException e)

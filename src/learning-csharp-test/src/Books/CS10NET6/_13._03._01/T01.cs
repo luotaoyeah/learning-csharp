@@ -1,8 +1,5 @@
-using System;
 using System.Diagnostics;
 using System.Threading;
-using Xunit;
-using Xunit.Abstractions;
 
 namespace Luotao.Test.Books.CS10NET6._13._03._01
 {

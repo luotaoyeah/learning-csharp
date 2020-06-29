@@ -1,6 +1,3 @@
-using Xunit;
-using Xunit.Abstractions;
-
 namespace Luotao.Test.Books.CS10NET6._04._01._05
 {
     /// <summary>

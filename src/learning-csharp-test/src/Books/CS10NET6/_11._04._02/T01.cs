@@ -1,8 +1,5 @@
 using Luotao.Northwind;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
-using Xunit;
-using Xunit.Abstractions;
 
 namespace Luotao.Test.Books.CS10NET6._11._04._02
 {

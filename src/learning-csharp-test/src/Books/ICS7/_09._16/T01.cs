@@ -1,7 +1,5 @@
-using System;
-using System.Reflection;
 using Luotao.Lib.Books.ICS7._09._16;
-using Xunit;
+using System.Reflection;
 
 namespace Luotao.Test.Books.ICS7._09._16
 {

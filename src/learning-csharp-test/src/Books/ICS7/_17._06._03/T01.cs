@@ -1,6 +1,4 @@
 using Luotao.Lib.Books.ICS7._17._06._03;
-using Xunit;
-using Xunit.Abstractions;
 
 namespace Luotao.Test.Books.ICS7._17._06._03
 {
@@ -23,7 +21,7 @@ namespace Luotao.Test.Books.ICS7._17._06._03
         public void _01()
         {
             A a = null;
-            B b = (B) a;
+            B b = (B)a;
         }
 
         /// <summary>
@@ -34,7 +32,7 @@ namespace Luotao.Test.Books.ICS7._17._06._03
         {
             B b01 = new();
             A a = b01;
-            B b = (B) a;
+            B b = (B)a;
         }
     }
 }

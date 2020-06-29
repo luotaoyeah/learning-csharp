@@ -1,6 +1,4 @@
 using Luotao.Lib.Books.ICS7._12._02._01;
-using Xunit;
-using Xunit.Abstractions;
 
 namespace Luotao.Test.Books.ICS7._12._02._01
 {
@@ -20,7 +18,7 @@ namespace Luotao.Test.Books.ICS7._12._02._01
         public void _01()
         {
             //----------------------------------------------------------------------------------------------------
-            // [Flags] 不是非得添加, 但是添加之后会有额外的特性, 
+            // [Flags] 不是非得添加, 但是添加之后会有额外的特性,
             // 比如在转换为 string 类型时, 结果会不一样.
             //----------------------------------------------------------------------------------------------------
             Assert.Equal("3", (BitFlag01.A | BitFlag01.B).ToString());

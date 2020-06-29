@@ -2,7 +2,6 @@
 // 使用 using static <类> 将某个 class 中的所有 static member 引入，然后直接使用，
 //----------------------------------------------------------------------------------------------------
 
-using Xunit;
 using static Luotao.Lib.Books.ICS7._07._05.C01;
 
 namespace Luotao.Test.Books.ICS7._07._05

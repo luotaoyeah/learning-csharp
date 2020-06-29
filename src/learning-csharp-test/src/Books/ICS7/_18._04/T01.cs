@@ -1,6 +1,3 @@
-using Xunit;
-using Xunit.Abstractions;
-
 namespace Luotao.Test.Books.ICS7._18._04
 {
     /// <summary>

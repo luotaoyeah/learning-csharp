@@ -1,7 +1,3 @@
-using System;
-using Xunit;
-using Xunit.Abstractions;
-
 namespace Luotao.Test.Docs.Csharp.ProgrammingGuide.ClassesAndStructs.Destructors
 {
     /// <summary>

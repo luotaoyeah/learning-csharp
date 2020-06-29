@@ -1,6 +1,4 @@
 using Luotao.Lib.Books.ICS7._14._13._03._01;
-using Xunit;
-using Xunit.Abstractions;
 
 namespace Luotao.Test.Books.ICS7._14._13._03._01
 {
@@ -37,7 +35,7 @@ namespace Luotao.Test.Books.ICS7._14._13._03._01
 
             //----------------------------------------------------------------------------------------------------
             // 此时 GetMyDel() 执行完毕，x 是它里面的 local variable，因此也被销毁，
-            // 但是返回的 delegate 中因为 capture 了这个 x，因此它依然可以访问 x 变量， 
+            // 但是返回的 delegate 中因为 capture 了这个 x，因此它依然可以访问 x 变量，
             //----------------------------------------------------------------------------------------------------
             Assert.Equal(6, GetMyDel()());
         }
