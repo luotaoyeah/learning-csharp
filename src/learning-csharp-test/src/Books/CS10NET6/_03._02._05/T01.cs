@@ -1,7 +1,7 @@
-namespace Luotao.Test.Books.CS10NET6._03._02._06
+namespace Luotao.Test.Books.CS10NET6._03._02._05
 {
     /// <summary>
-    ///     3.2.6 simplifying switch statements with switch expressions
+    /// 3.2.5 simplifying switch statements with switch expressions
     /// </summary>
     public class T01
     {
@@ -13,6 +13,7 @@ namespace Luotao.Test.Books.CS10NET6._03._02._06
         }
 
         /// <summary>
+        /// 适用 switch expression 的简单场景: 所有的 case 都对同一个变量赋值.
         /// </summary>
         [Fact]
         public void _01()
@@ -29,6 +30,7 @@ namespace Luotao.Test.Books.CS10NET6._03._02._06
                 7 => "柒",
                 8 => "捌",
                 9 => "玖",
+                // _ 表示 default
                 _ => "零"
             };
 
