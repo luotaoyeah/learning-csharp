@@ -34,7 +34,7 @@ namespace Luotao.Test.Books.CS10NET6._03._03._04
         [Fact]
         public void _02()
         {
-            string[] names = { "D", "E", "F" };
+            string[] names = { "A", "B", "C" };
 
             IEnumerator enumerator = names.GetEnumerator();
 
