@@ -23,7 +23,10 @@ namespace Luotao.Test.Books.CS10NET6._03._04._05
 
             string hexString = string.Empty;
 
-            foreach (var b in bytes) hexString += $"{b:X} ";
+            foreach (var b in bytes)
+            {
+                hexString += $"{b:X} ";
+            }
 
             testOutputHelper.WriteLine("HEX:\n----------");
             testOutputHelper.WriteLine(hexString);
