@@ -1,7 +1,7 @@
 namespace Luotao.Test.Books.CS10NET6._03._04._06
 {
     /// <summary>
-    ///     3.4.6 parsing from strings to numbers or dates and times
+    /// 3.4.6 converting from a binary object to a string
     /// </summary>
     public class T01
     {
@@ -13,43 +13,50 @@ namespace Luotao.Test.Books.CS10NET6._03._04._06
         }
 
         /// <summary>
-        ///     将字符串转换为数字/日期.
+        /// <para>使用 <see cref="System.Convert.ToBase64String(byte[])"/> 将二进制数据转换为 Base64 字符串.</para>
+        /// <para>使用 <see cref="System.Convert.FromBase64String(string)"/> 将 Base64 字符串转换为二进制数据.</para>
         /// </summary>
         [Fact]
         public void _01()
         {
-            var i01 = int.Parse("6");
-            Assert.Equal(6, i01);
-        }
+            byte[] bytes01 = new byte[128];
+            new Random().NextBytes(bytes01);
 
-        /// <summary>
-        ///     <see cref="System.Int32.Parse(string)" /> 方法转换失败时会抛出异常.
-        /// </summary>
-        [Fact]
-        public void _02()
-        {
-            Assert.Throws<FormatException>(ParseIntFail);
-        }
+            #region 打印 byte[] 的十六进制
 
-        /// <summary>
-        ///     <see cref="System.Int32.TryParse(string?, out int)" /> 方法转换失败时会返回 false,
-        ///     转化成功时会返回 true, 并将转换结果存到 out 参数中.
-        /// </summary>
-        [Fact]
-        public void _03()
-        {
-            int i01;
+            string hexString01 = string.Empty;
 
-            Assert.False(int.TryParse("A", out i01));
-            Assert.Equal(0, i01);
+            foreach (var b in bytes01)
+            {
+                hexString01 += $"{b:X} ";
+            }
 
-            Assert.True(int.TryParse("6", out i01));
-            Assert.Equal(6, i01);
-        }
+            testOutputHelper.WriteLine("HEX:\n----------");
+            testOutputHelper.WriteLine(hexString01);
 
-        private void ParseIntFail()
-        {
-            var i01 = int.Parse("A");
+            #endregion
+
+            #region byte[] 转换为 base64
+
+            testOutputHelper.WriteLine("\nBASE64:\n----------");
+            testOutputHelper.WriteLine(Convert.ToBase64String(bytes01));
+
+            #endregion
+
+            #region base64 转换为 byte[]
+
+            byte[] bytes02 = Convert.FromBase64String(Convert.ToBase64String(bytes01));
+            string hexString02 = string.Empty;
+
+            foreach (var b in bytes02)
+            {
+                hexString02 += $"{b:X} ";
+            }
+
+            testOutputHelper.WriteLine("\nHEX:\n----------");
+            testOutputHelper.WriteLine(hexString02);
+
+            #endregion
         }
     }
 }
