@@ -1,54 +1,34 @@
-namespace Luotao.Test.Books.CS10NET6._05._03._05
+namespace Luotao.Test.Books.CS10NET6._05._03._05;
+
+/// <summary>
+/// 5.3.5. storing multiple values using an enum type
+/// </summary>
+public class T01
 {
-    /// <summary>
-    ///     5.3.5 storing multiple values using an enum type
-    /// </summary>
-    public class T01
+    [Fact]
+    public void _01()
     {
-        private readonly ITestOutputHelper testOutputHelper;
-
-        public T01(ITestOutputHelper testOutputHelper)
+        var person = new Person
         {
-            this.testOutputHelper = testOutputHelper;
-        }
+            BucketList = WondersOfTheAncientWorld.A | WondersOfTheAncientWorld.E
+        };
 
-        /// <summary>
-        /// </summary>
-        [Fact]
-        public void _01()
-        {
-            var person01 = new Person
-            {
-                BucketList = WondersOfTheAncientWorld.A | WondersOfTheAncientWorld.E
-            };
-            Assert.Equal((WondersOfTheAncientWorld)17, person01.BucketList);
-            Assert.Equal(17, (byte)person01.BucketList);
-            Assert.Equal("A, E", person01.BucketList.ToString());
-            Assert.Equal(WondersOfTheAncientWorld.A | WondersOfTheAncientWorld.E, person01.BucketList);
-
-            var person02 = new Person
-            {
-                BucketList = (WondersOfTheAncientWorld)17
-            };
-
-            Assert.Equal(person01.BucketList, person02.BucketList);
-        }
+        Assert.Equal((WondersOfTheAncientWorld)17, person.BucketList);
+        Assert.Equal(17, (byte)person.BucketList);
+        Assert.Equal("A, E", person.BucketList.ToString());
+        Assert.Equal(WondersOfTheAncientWorld.A | WondersOfTheAncientWorld.E, person.BucketList);
     }
 
-    public class Person
+    [Fact]
+    public void _02()
     {
-        public WondersOfTheAncientWorld BucketList = WondersOfTheAncientWorld.C;
-    }
+        var person = new Person
+        {
+            // 直接将一个数字转换成枚举类型
+            // 17 = 1 + 16 = WondersOfTheAncientWorld.A | WondersOfTheAncientWorld.E
+            BucketList = (WondersOfTheAncientWorld)17
+        };
 
-    [Flags]
-    public enum WondersOfTheAncientWorld : byte
-    {
-        A = 0b_0000_0001,
-        B = 0b_0000_0010,
-        C = 0b_0000_0100,
-        D = 0b_0000_1000,
-        E = 0b_0001_0000,
-        F = 0b_0010_0000,
-        G = 0b_0100_0000
+        Assert.Equal(WondersOfTheAncientWorld.A | WondersOfTheAncientWorld.E, person.BucketList);
     }
 }
