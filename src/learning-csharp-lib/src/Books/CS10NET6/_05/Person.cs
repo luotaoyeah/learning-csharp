@@ -15,8 +15,23 @@ public class Person
     /// </summary>
     public readonly string HomePlanet = "Earth";
 
+    public readonly DateTime Instantiated;
+
     public List<Person> Children = new();
     public DateTime DateOfBirth;
     public WondersOfTheAncientWorld Favorite;
     public string? Name;
+
+    public Person()
+    {
+        Name = "Unknown";
+        Instantiated = DateTime.Now;
+    }
+
+    public Person(string? initialName, string homePlanet)
+    {
+        Name = initialName;
+        HomePlanet = homePlanet;
+        Instantiated = DateTime.Now;
+    }
 }
