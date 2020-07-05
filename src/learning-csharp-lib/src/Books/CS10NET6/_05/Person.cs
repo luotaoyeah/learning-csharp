@@ -34,4 +34,13 @@ public class Person
         HomePlanet = homePlanet;
         Instantiated = DateTime.Now;
     }
+
+    /// <summary>
+    /// 使用 tuple 类型作为方法的返回类型, 让方法返回多个数据.
+    /// </summary>
+    /// <returns>水果名称及其数量.</returns>
+    public (string, int) GetFruit()
+    {
+        return ("Apples", 5);
+    }
 }
