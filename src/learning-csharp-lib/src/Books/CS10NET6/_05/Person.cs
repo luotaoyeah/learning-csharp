@@ -43,4 +43,15 @@ public class Person
     {
         return ("Apples", 5);
     }
+
+    /// <summary>
+    /// 任何类型, 只要实现了 Deconstruct() 方法, 就支持解构.
+    /// </summary>
+    /// <param name="name">姓名.</param>
+    /// <param name="planet">星球.</param>
+    public void Deconstruct(out string? name, out string planet)
+    {
+        name = Name;
+        planet = HomePlanet;
+    }
 }
