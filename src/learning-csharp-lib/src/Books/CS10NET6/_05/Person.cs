@@ -10,6 +10,11 @@ public class Person
     /// </summary>
     public const string Species = "Homo Sapiens";
 
+    /// <summary>
+    /// readonly field 可以是 instance field, 也可以是 static field.
+    /// </summary>
+    public readonly string HomePlanet = "Earth";
+
     public List<Person> Children = new();
     public DateTime DateOfBirth;
     public WondersOfTheAncientWorld Favorite;
