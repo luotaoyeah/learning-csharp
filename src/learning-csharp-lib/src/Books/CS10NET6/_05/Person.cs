@@ -36,6 +36,33 @@ public class Person
     }
 
     /// <summary>
+    /// indexer 是一种特殊的 property.
+    /// </summary>
+    /// <param name="index"></param>
+    public Person this[int index]
+    {
+        get => Children[index];
+        set => Children[index] = value;
+    }
+
+    /// <summary>
+    /// indexer 可以重载, 可以支持多个索引参数.
+    /// </summary>
+    /// <param name="x"></param>
+    /// <param name="y"></param>
+    public Person this[int x, int y]
+    {
+        get => Children[x];
+        set => Children[x] = value;
+    }
+
+    public Person this[string index]
+    {
+        get => Children[int.Parse(index)];
+        set => Children[int.Parse(index)] = value;
+    }
+
+    /// <summary>
     /// 使用 tuple 类型作为方法的返回类型, 让方法返回多个数据.
     /// </summary>
     /// <returns>水果名称及其数量.</returns>
