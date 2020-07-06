@@ -54,4 +54,17 @@ public class Person
         name = Name;
         planet = HomePlanet;
     }
+
+    /// <summary>
+    /// 给参数指定默认值, 表示该参数是一个 optional parameter,
+    /// 所有的 optional parameter 必须位于所有的 required parameter 后面.
+    /// </summary>
+    /// <param name="command"></param>
+    /// <param name="number"></param>
+    /// <param name="active"></param>
+    /// <returns></returns>
+    public string OptionalParameters(string command = "Run", double number = 0.0, bool active = true)
+    {
+        return $"{command}, {number}, {active}";
+    }
 }

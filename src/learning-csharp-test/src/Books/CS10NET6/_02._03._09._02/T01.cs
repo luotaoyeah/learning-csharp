@@ -1,4 +1,4 @@
-using Luotao.Lib.Books.CS10NET6._02._03._08._02;
+using Luotao.Lib.Books.CS10NET6._02;
 
 namespace Luotao.Test.Books.CS10NET6._02._03._09._02
 {

@@ -9,7 +9,7 @@ namespace Luotao.Lib.Books.ICS7._06._20
     {
         //----------------------------------------------------------------------------------------------------
         // 如果参数声明了默认值，则它是一个 optional parameter，
-        // 所有的 optional parameter 必须位于所有的 non-optional parameter 后面，
+        // 所有的 optional parameter 必须位于所有的 required parameter 后面，
         // params parameter 必须位于 optional parameter 后面，
         //----------------------------------------------------------------------------------------------------
 
