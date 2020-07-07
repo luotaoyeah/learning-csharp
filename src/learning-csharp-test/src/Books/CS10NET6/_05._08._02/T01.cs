@@ -14,7 +14,7 @@ public class T01
             Wheels = 4,
         };
 
-        // 使用 with 在不修改原对象的基础上, 创建一个新的对象, 并更改某些属性的值
+        // 在不修改原对象的基础上, 使用 with 创建一个新的对象, 并更改某些属性的值
         var car02 = car01 with { Color = "Blue" };
         Assert.Equal("Blue", car02.Color);
     }
