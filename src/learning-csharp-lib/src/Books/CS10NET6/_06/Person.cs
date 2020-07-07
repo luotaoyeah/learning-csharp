@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace Luotao.Lib.Books.CS10NET6._06;
@@ -29,5 +30,34 @@ public class Person
     public static Person operator *(Person father, Person mother)
     {
         return Procreate(father, mother);
+    }
+
+    /// <summary>
+    /// 计算阶乘.
+    /// </summary>
+    /// <param name="n"></param>
+    /// <returns></returns>
+    /// <exception cref="ArgumentException"></exception>
+    public static int Factorial(int n)
+    {
+        if (n < 0)
+        {
+            throw new ArgumentException($"{nameof(n)} cannot be less than 0.");
+        }
+
+        return LocalFactorial(n);
+
+        //----------------------------------------------------------------------------------------------------
+        // local function 的作用域为当前 method
+        //----------------------------------------------------------------------------------------------------
+        int LocalFactorial(int x)
+        {
+            if (x == 0)
+            {
+                return 1;
+            }
+
+            return x * LocalFactorial(x - 1);
+        }
     }
 }
