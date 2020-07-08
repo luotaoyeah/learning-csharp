@@ -5,6 +5,14 @@ namespace Luotao.Lib.Books.CS10NET6._06;
 
 public class Person
 {
+    //----------------------------------------------------------------------------------------------------
+    // EventHandler 是一个内置的 delegate 类型, 专门用来定义事件.
+    //
+    // delegate 类型签名加上 event 关键字, 表示这是一个特殊的 delegate,
+    // 只能往里面添加/移除事件监听函数, 不能重新对它赋值.
+    //----------------------------------------------------------------------------------------------------
+    public event EventHandler? Shout;
+    public int AngerLevel;
     public List<Person> Children = new();
     public string? Name;
 
@@ -58,6 +66,17 @@ public class Person
             }
 
             return x * LocalFactorial(x - 1);
+        }
+    }
+
+    public void Poke()
+    {
+        AngerLevel++;
+
+        if (AngerLevel >= 3)
+        {
+            // 发起一个事件
+            Shout?.Invoke(this, EventArgs.Empty);
         }
     }
 }
