@@ -3,7 +3,10 @@ using System.Collections.Generic;
 
 namespace Luotao.Lib.Books.CS10NET6._06;
 
-public class Person
+/// <summary>
+/// 实现 IComparable 接口.
+/// </summary>
+public class Person : IComparable<Person>
 {
     //----------------------------------------------------------------------------------------------------
     // EventHandler 是一个内置的 delegate 类型, 专门用来定义事件.
@@ -15,6 +18,17 @@ public class Person
     public int AngerLevel;
     public List<Person> Children = new();
     public string? Name;
+
+    /// <inheritdoc />
+    public int CompareTo(Person? other)
+    {
+        if (Name is null)
+        {
+            return 0;
+        }
+
+        return Name.CompareTo(other?.Name);
+    }
 
     public static Person Procreate(Person p1, Person p2)
     {
