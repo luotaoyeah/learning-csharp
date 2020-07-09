@@ -6,7 +6,7 @@ namespace Luotao.Lib.Books.CS10NET6._06;
 /// <summary>
 /// 实现 IComparable 接口.
 /// </summary>
-public class Person : IComparable<Person>
+public class Person : IComparable<Person>, IGamePlayer, IKeyHolder
 {
     //----------------------------------------------------------------------------------------------------
     // EventHandler 是一个内置的 delegate 类型, 专门用来定义事件.
@@ -28,6 +28,26 @@ public class Person : IComparable<Person>
         }
 
         return Name.CompareTo(other?.Name);
+    }
+
+    /// <summary>
+    /// 隐式实现接口方法 (implicit implementation),
+    /// 实现的多个接口中包含相同签名并且同名的方法, 则只有其中一个可以使用 implicit implementation 的方式,
+    /// 其他的都必须使用 explicit implementation 的方式, 也就是必须在方法名前面加上接口名限定, 并且方法不能使用 public 限定.
+    /// </summary>
+    public void Lose()
+    {
+        Console.WriteLine($"{nameof(IGamePlayer)}.{nameof(Lose)}()");
+    }
+
+    /// <summary>
+    /// 显式实现接口方法 (explicit implementation),
+    /// 方法名前面必须加上接口名来显式指定我是实现的哪个接口的方法,
+    /// 并且方法不能使用 public 限定.
+    /// </summary>
+    void IKeyHolder.Lose()
+    {
+        Console.WriteLine($"{nameof(IKeyHolder)}.{nameof(Lose)}()");
     }
 
     public static Person Procreate(Person p1, Person p2)
