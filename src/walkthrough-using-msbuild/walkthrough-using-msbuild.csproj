@@ -13,9 +13,11 @@
     <Message Text="t2:WORLD" />
   </Target>
 
+  <!-- 使用 $() 来引用某个 Property -->
   <Target Name="t2">
-    <Message Text="t2:FOO" />
-    <Message Text="t2:BAR" />
+    <Message Text="OutputType: $(OutputType)" />
+    <Message Text="TargetFramework: $(TargetFramework)" />
+    <Message Text="Nullable: $(Nullable)" />
   </Target>
 
 </Project>
