@@ -8,6 +8,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <P1>false</P1>
+
+    <!-- 当 Condition 为 true 时, 该 Property 才会定义 -->
+    <P2 Condition="'$(P1)' == 'true'">P2</P2>
+  </PropertyGroup>
+
   <Target Name="t1">
     <Message Text="t1:HELLO" />
     <Message Text="t2:WORLD" />
@@ -18,6 +25,10 @@
     <Message Text="OutputType: $(OutputType)" />
     <Message Text="TargetFramework: $(TargetFramework)" />
     <Message Text="Nullable: $(Nullable)" />
+  </Target>
+
+  <Target Name="t3">
+    <Message Text="P2: $(P2)" />
   </Target>
 
 </Project>
