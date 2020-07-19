@@ -11,7 +11,7 @@
   <PropertyGroup>
     <P1>false</P1>
 
-    <!-- 当 Condition 为 true 时, 该 Property 才会定义 -->
+    <!--当 Condition 为 true 时, 该 Property 才会定义-->
     <P2 Condition="'$(P1)' == 'true'">P2</P2>
   </PropertyGroup>
 
@@ -20,7 +20,7 @@
     <Message Text="t2:WORLD" />
   </Target>
 
-  <!-- 使用 $() 来引用某个 Property -->
+  <!--使用 $() 引用某个 Property-->
   <Target Name="t2">
     <Message Text="OutputType: $(OutputType)" />
     <Message Text="TargetFramework: $(TargetFramework)" />
@@ -29,6 +29,11 @@
 
   <Target Name="t3">
     <Message Text="P2: $(P2)" />
+  </Target>
+
+  <!--使用 $() 引用一个环境变量-->
+  <Target Name="t4">
+    <Message Text="$(NVM_HOME)" />
   </Target>
 
 </Project>
