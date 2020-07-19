@@ -49,4 +49,28 @@
     <Message Text="Item01: @(Item01, '|')" />
   </Target>
 
+
+  <ItemGroup>
+    <Item03 Include="000">
+      <Meta00>0</Meta00>
+      <Meta01>1</Meta01>
+    </Item03>
+
+    <!--Item Metadata 定义为 Item 的子元素-->
+    <Item03 Include="111">
+      <Meta00>00</Meta00>
+      <Meta02>22</Meta02>
+    </Item03>
+  </ItemGroup>
+
+  <!--使用 %(ItemType.MetaDataName) 引用某个 Item Metadata-->
+  <Target Name="t6">
+    <Message Text="%(Item03.Meta00)" />
+  </Target>
+
+  <Target Name="t7">
+    <!--每个 Item 都具有的一些 Metadata 叫做 well-known Metadata, 比如 Filename-->
+    <Message Text="Filename: %(Item03.Filename)" />
+  </Target>
+
 </Project>
