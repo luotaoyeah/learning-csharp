@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{44E63F53-6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C08C4AC-B649-4955-A61A-E0D00014EA60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "walkthrough-using-msbuild", "src\walkthrough-using-msbuild\walkthrough-using-msbuild.csproj", "{9B46F30A-CA7F-4359-9CAC-517C2A4AB567}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{FCAC9AA9-18ED-45D3-9D54-2223460899EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCAC9AA9-18ED-45D3-9D54-2223460899EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCAC9AA9-18ED-45D3-9D54-2223460899EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B46F30A-CA7F-4359-9CAC-517C2A4AB567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B46F30A-CA7F-4359-9CAC-517C2A4AB567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B46F30A-CA7F-4359-9CAC-517C2A4AB567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B46F30A-CA7F-4359-9CAC-517C2A4AB567}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D217E881-3279-4278-AE3A-175F5954F9B6} = {6C08C4AC-B649-4955-A61A-E0D00014EA60}

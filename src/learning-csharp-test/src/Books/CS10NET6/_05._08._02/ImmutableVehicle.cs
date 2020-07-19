@@ -1,7 +1,7 @@
 namespace Luotao.Test.Books.CS10NET6._05._08._02;
 
 /// <summary>
-/// record 是 reference 类型(record class), record struct 是 value 类型.
+/// record(record class) 是 reference 类型, record struct 是 value 类型.
 /// </summary>
 public record ImmutableVehicle
 {

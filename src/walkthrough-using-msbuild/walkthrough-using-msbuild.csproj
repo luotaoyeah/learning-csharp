@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>walkthrough_using_msbuild</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <Target Name="t1">
+    <Message Text="t1:HELLO" />
+    <Message Text="t2:WORLD" />
+  </Target>
+
+  <Target Name="t2">
+    <Message Text="t2:FOO" />
+    <Message Text="t2:BAR" />
+  </Target>
+
+</Project>
