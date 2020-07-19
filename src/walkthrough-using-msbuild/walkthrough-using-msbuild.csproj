@@ -36,4 +36,17 @@
     <Message Text="$(NVM_HOME)" />
   </Target>
 
+  <!--通过命令行参数 -property/-p 指定 Property 的值, 优先级高于文件中的同名属性-->
+
+  <ItemGroup>
+    <Item01 Include="000" />
+    <Item01 Include="111" />
+  </ItemGroup>
+
+  <!--使用 @() 引用某个 Item-->
+  <Target Name="t5">
+    <Message Text="Item01: @(Item01)" />
+    <Message Text="Item01: @(Item01, '|')" />
+  </Target>
+
 </Project>
