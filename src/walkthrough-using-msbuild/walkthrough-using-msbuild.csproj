@@ -73,4 +73,18 @@
     <Message Text="Filename: %(Item03.Filename)" />
   </Target>
 
+  <ItemGroup>
+    <Item04 Include="0">
+      <Meta00>000</Meta00>
+    </Item04>
+
+    <!--Metadata 可以使用 Attribute 的形式来指定, 只要它跟其他的 Attribute 不冲突-->
+    <Item04 Include="1" Meta00="111">
+    </Item04>
+  </ItemGroup>
+
+  <Target Name="t8">
+    <Message Text="%(Item04.Meta00)" />
+  </Target>
+
 </Project>
