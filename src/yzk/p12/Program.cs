@@ -7,11 +7,20 @@ namespace P12;
 
 public class Program
 {
-    public static async Task Main(string[] args)
+    public static void Main(string[] args)
     {
         // await DownloadHtmlAsync01();
 
-        int length = await DownloadHtmlAsync02();
+        // int length = await DownloadHtmlAsync02();
+        // Console.WriteLine(length);
+
+        /*
+         * Wait() 和 Result 会阻塞线程
+         */
+
+        // DownloadHtmlAsync01().Wait();
+
+        int length = DownloadHtmlAsync02().Result;
         Console.WriteLine(length);
     }
 
