@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C08C4AC-B64
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "walkthrough-using-msbuild", "src\walkthrough-using-msbuild\walkthrough-using-msbuild.csproj", "{9B46F30A-CA7F-4359-9CAC-517C2A4AB567}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-nuget", "src\learning-nuget\learning-nuget.csproj", "{75EF8948-457F-47F1-B542-43D3FF09F7D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{9B46F30A-CA7F-4359-9CAC-517C2A4AB567}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B46F30A-CA7F-4359-9CAC-517C2A4AB567}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B46F30A-CA7F-4359-9CAC-517C2A4AB567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75EF8948-457F-47F1-B542-43D3FF09F7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EF8948-457F-47F1-B542-43D3FF09F7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EF8948-457F-47F1-B542-43D3FF09F7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EF8948-457F-47F1-B542-43D3FF09F7D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D217E881-3279-4278-AE3A-175F5954F9B6} = {6C08C4AC-B649-4955-A61A-E0D00014EA60}
@@ -95,5 +101,6 @@ Global
 		{DB62554B-9D30-4BE6-AD2C-8C37C9AC92A5} = {6C08C4AC-B649-4955-A61A-E0D00014EA60}
 		{1214194D-82BD-41DD-BCA4-98D224E9426C} = {6C08C4AC-B649-4955-A61A-E0D00014EA60}
 		{68E386B4-C016-4AB7-928E-B9E32C3E2E9F} = {6C08C4AC-B649-4955-A61A-E0D00014EA60}
+		{75EF8948-457F-47F1-B542-43D3FF09F7D8} = {6C08C4AC-B649-4955-A61A-E0D00014EA60}
 	EndGlobalSection
 EndGlobal
