@@ -3,14 +3,17 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>Luotao.Lib</RootNamespace>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
     <Nullable>enable</Nullable>
     <Authors>luotao</Authors>
     <LangVersion>10</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>luotao.learning-csharp-lib</PackageId>
-    <Title>learning-csharp-lib</Title>
-    <Description>learning-csharp-lib</Description>
+    <PackageId>Luotao.LearningCsharp.Lib</PackageId>
+    <Title>Luotao.LearningCsharp.Lib</Title>
+    <Description>Luotao.LearningCsharp.Lib</Description>
+    <PackageVersion>1.0.1</PackageVersion>
+    <AssemblyName>Luotao.LearningCsharp.Lib</AssemblyName>
+    <Product>Luotao.LearningCsharp.Lib</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
