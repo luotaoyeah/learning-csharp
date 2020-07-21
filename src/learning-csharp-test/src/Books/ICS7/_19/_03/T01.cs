@@ -1,9 +1,7 @@
-using Luotao.Lib.Books.ICS7._19._03;
-
 namespace Luotao.Test.Books.ICS7._19._03
 {
     /// <summary>
-    ///     19.3 the IEnumerable interface
+    /// 19.3 the IEnumerable interface
     /// </summary>
     public class T01
     {
@@ -18,7 +16,10 @@ namespace Luotao.Test.Books.ICS7._19._03
         public void _01()
         {
             var spectrum = new Spectrum();
-            foreach (string o in spectrum) testOutputHelper.WriteLine(o);
+            foreach (string o in spectrum)
+            {
+                testOutputHelper.WriteLine(o);
+            }
         }
     }
 }
