@@ -1,9 +1,7 @@
-using Luotao.Lib.Books.ICS7._14._07;
-
 namespace Luotao.Test.Books.ICS7._14._07
 {
     /// <summary>
-    ///     14.7 adding methods to delegates
+    /// 14.7 adding methods to delegates
     /// </summary>
     public class T01
     {
@@ -25,16 +23,19 @@ namespace Luotao.Test.Books.ICS7._14._07
         }
 
         /// <summary>
-        ///     使用 += 往 delegate 对象中添加新的 method，同一个 method 可以被添加多次，
+        /// 使用 += 往 delegate 添加新的 method, 同一个 method 可以被添加多次.
+        /// 因为 delegate is immutable, 因此每次都会创建一个新的 delegate 对象.
         /// </summary>
         [Fact]
         public void _01()
         {
-            var delegate01 = new MyDelegate(F01);
-            delegate01 += F02;
-            delegate01 += F01;
+            var del01 = new MyDel(F01);
+            del01 += F02;
+            del01 += F01;
 
-            delegate01();
+            del01();
         }
     }
+
+    delegate void MyDel();
 }
