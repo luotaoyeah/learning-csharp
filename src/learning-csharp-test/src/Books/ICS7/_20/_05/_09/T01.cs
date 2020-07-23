@@ -1,7 +1,7 @@
 namespace Luotao.Test.Books.ICS7._20._05._09
 {
     /// <summary>
-    ///     20.5.9 query continuation: the into clause
+    /// 20.5.9 query continuation: the into clause
     /// </summary>
     public class T01
     {
@@ -13,7 +13,7 @@ namespace Luotao.Test.Books.ICS7._20._05._09
         }
 
         /// <summary>
-        ///     into 子句给中间的某个结果集合指定一个 name, 让它可以在其他地方使用,
+        /// into 给中间的某个结果集合指定一个名称, 让它可以在其他地方使用.
         /// </summary>
         [Fact]
         public void _01()
@@ -27,7 +27,10 @@ namespace Luotao.Test.Books.ICS7._20._05._09
                 from x in temp
                 select x;
 
-            foreach (var i in query) testOutputHelper.WriteLine(i.ToString());
+            foreach (var i in query)
+            {
+                testOutputHelper.WriteLine(i.ToString());
+            }
         }
     }
 }
