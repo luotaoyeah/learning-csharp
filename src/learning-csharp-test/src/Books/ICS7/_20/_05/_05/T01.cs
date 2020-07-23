@@ -1,7 +1,7 @@
 namespace Luotao.Test.Books.ICS7._20._05._05
 {
     /// <summary>
-    ///     20.5.5 the orderby clause
+    /// 20.5.5 the orderby clause
     /// </summary>
     public class T01
     {
@@ -13,8 +13,7 @@ namespace Luotao.Test.Books.ICS7._20._05._05
         }
 
         /// <summary>
-        ///     使用 orderby 子句进行排序,
-        ///     使用 ascending/descending 指定正序/逆序,
+        /// orderby 用来排序, 使用 ascending / descending 指定正序 / 逆序.
         /// </summary>
         [Fact]
         public void _01()
@@ -32,7 +31,10 @@ namespace Luotao.Test.Books.ICS7._20._05._05
                 orderby n.Age, n.Name descending
                 select n;
 
-            foreach (var n in query) testOutputHelper.WriteLine($"{n.Age}, {n.Name}");
+            foreach (var i in query)
+            {
+                testOutputHelper.WriteLine($"{i.Age,-4}{i.Name,-4}");
+            }
         }
     }
 }
