@@ -1,7 +1,7 @@
 namespace Luotao.Test.Books.ICS7._20._05._08
 {
     /// <summary>
-    ///     20.5.8 the group clause
+    /// 20.5.8 the group clause
     /// </summary>
     public class T01
     {
@@ -13,10 +13,7 @@ namespace Luotao.Test.Books.ICS7._20._05._08
         }
 
         /// <summary>
-        ///     使用 group...by... 子句进行分组,
-        ///     分组之后的数据是一个 <see cref="IEnumerable{T}" /> 类型的集合,
-        ///     它的元素是一个 <see cref="IGrouping{TKey,TElement}" /> 类型的对象,
-        ///     对象的 Key 属性就是分组的 key,
+        /// group...by... 用来分组, 返回 <see cref="IGrouping{TKey,TElement}" /> 类型的集合.
         /// </summary>
         [Fact]
         public void _01()
@@ -34,9 +31,12 @@ namespace Luotao.Test.Books.ICS7._20._05._08
 
             foreach (var grouping in query)
             {
-                testOutputHelper.WriteLine($"{grouping.Key}");
+                testOutputHelper.WriteLine($"{grouping.Key}:");
 
-                foreach (var student in grouping) testOutputHelper.WriteLine($"\t\t{student.FName} {student.LName}, {student.Age}");
+                foreach (var student in grouping)
+                {
+                    testOutputHelper.WriteLine($"\t\t\t{student.FName,-15}{student.LName,-15}{student.Age,-15}");
+                }
             }
         }
     }
