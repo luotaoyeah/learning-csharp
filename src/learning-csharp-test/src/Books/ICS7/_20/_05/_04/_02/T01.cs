@@ -1,7 +1,7 @@
 namespace Luotao.Test.Books.ICS7._20._05._04._02
 {
     /// <summary>
-    ///     20.5.4.2 the let clause
+    /// 20.5.4.2 the let clause
     /// </summary>
     public class T01
     {
@@ -13,7 +13,7 @@ namespace Luotao.Test.Books.ICS7._20._05._04._02
         }
 
         /// <summary>
-        ///     let 子句用来定义一个临时的变量, 这个临时的变量可以被其他的子句使用,
+        /// let 用来定义一个临时变量, 这个临时变量可以被其他子句使用.
         /// </summary>
         [Fact]
         public void _01()
@@ -28,7 +28,10 @@ namespace Luotao.Test.Books.ICS7._20._05._04._02
                 where sum == 12
                 select new { a, b, sum };
 
-            foreach (var o in query) testOutputHelper.WriteLine($"{o.a} + {o.b} = {o.sum}");
+            foreach (var i in query)
+            {
+                testOutputHelper.WriteLine($"{i.a} + {i.b} = {i.sum}");
+            }
         }
     }
 }

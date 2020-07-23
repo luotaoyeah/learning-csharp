@@ -13,7 +13,7 @@ namespace Luotao.Test.Books.ICS7._20._05._03
         }
 
         /// <summary>
-        /// LINQ 中的 join 跟 SQL 中的 join 类似.
+        /// LINQ 中的 join 跟 SQL 中的 inner join 类似.
         /// </summary>
         [Fact]
         public void _01()
