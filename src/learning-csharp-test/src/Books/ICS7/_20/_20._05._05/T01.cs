@@ -13,8 +13,8 @@ namespace Luotao.Test.Books.ICS7._20._05._05
         }
 
         /// <summary>
-        ///     使用 orderby 子句进行排序，
-        ///     使用 ascending/descending 指定正序/逆序，
+        ///     使用 orderby 子句进行排序,
+        ///     使用 ascending/descending 指定正序/逆序,
         /// </summary>
         [Fact]
         public void _01()

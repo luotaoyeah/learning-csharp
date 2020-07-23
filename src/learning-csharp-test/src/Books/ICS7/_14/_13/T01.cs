@@ -5,13 +5,6 @@ namespace Luotao.Test.Books.ICS7._14._13
     /// </summary>
     public class T01
     {
-        private readonly ITestOutputHelper testOutputHelper;
-
-        public T01(ITestOutputHelper testOutputHelper)
-        {
-            this.testOutputHelper = testOutputHelper;
-        }
-
         /// <summary>
         /// delegate 中的方法可以是匿名方法(anonymous method).
         /// </summary>

@@ -13,7 +13,7 @@ namespace Luotao.Test.Books.ICS7._20._06._03
         }
 
         /// <summary>
-        ///     很多 standard query operators 支持额外的参数，通常是一个 delegate 类型的参数，
+        ///     很多 standard query operators 支持额外的参数, 通常是一个 delegate 类型的参数,
         /// </summary>
         [Fact]
         public void _01()

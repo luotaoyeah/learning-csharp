@@ -13,7 +13,7 @@ namespace Luotao.Test.Books.ICS7._20._03
         }
 
         /// <summary>
-        ///     LINQ 的写法有两种语法形式：method syntax 和 query syntax，它们可以混合使用，
+        ///     LINQ 的写法有两种语法形式：method syntax 和 query syntax, 它们可以混合使用,
         /// </summary>
         [Fact]
         public void _01()

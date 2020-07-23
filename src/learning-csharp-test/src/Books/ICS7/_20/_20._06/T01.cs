@@ -13,8 +13,8 @@ namespace Luotao.Test.Books.ICS7._20._06
         }
 
         /// <summary>
-        ///     除了 query syntax 之外，还可以使用 method syntax，
-        ///     method syntax 就是调用一些列的方法，这些方法称之为 standard query operators，
+        ///     除了 query syntax 之外, 还可以使用 method syntax,
+        ///     method syntax 就是调用一些列的方法, 这些方法称之为 standard query operators,
         /// </summary>
         [Fact]
         public void _01()

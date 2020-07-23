@@ -1,7 +1,7 @@
-namespace Luotao.Test.Books.ICS7._20._05._04._03
+namespace Luotao.Test.Books.ICS7._20._05._04._01
 {
     /// <summary>
-    ///     20.5.4.3 the where clause
+    ///     20.5.4.1 the from clause
     /// </summary>
     public class T01
     {
@@ -13,7 +13,7 @@ namespace Luotao.Test.Books.ICS7._20._05._04._03
         }
 
         /// <summary>
-        ///     在一个 from...let...where 块中，可以包含多个 where clause，
+        ///     当一个 query expression 中包含多个 from clause 时, 类似于嵌套的循环,
         /// </summary>
         [Fact]
         public void _01()
@@ -24,12 +24,9 @@ namespace Luotao.Test.Books.ICS7._20._05._04._03
             var query =
                 from a in arr01
                 from b in arr02
-                let sum = a + b
-                where sum == 12
-                where a % 2 == 1
-                select new { a, b, sum };
+                select new { a, b };
 
-            foreach (var o in query) testOutputHelper.WriteLine($"{o.a} + {o.b} = {o.sum}");
+            foreach (var o in query) testOutputHelper.WriteLine($"{o.a} {o.b}");
         }
     }
 }

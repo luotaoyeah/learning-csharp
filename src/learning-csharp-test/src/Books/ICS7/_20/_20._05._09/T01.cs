@@ -13,7 +13,7 @@ namespace Luotao.Test.Books.ICS7._20._05._09
         }
 
         /// <summary>
-        ///     into 子句给中间的某个结果集合指定一个 name，让它可以在其他地方使用，
+        ///     into 子句给中间的某个结果集合指定一个 name, 让它可以在其他地方使用,
         /// </summary>
         [Fact]
         public void _01()

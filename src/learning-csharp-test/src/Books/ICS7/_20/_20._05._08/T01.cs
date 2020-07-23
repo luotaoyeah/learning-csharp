@@ -13,10 +13,10 @@ namespace Luotao.Test.Books.ICS7._20._05._08
         }
 
         /// <summary>
-        ///     使用 group...by... 子句进行分组，
-        ///     分组之后的数据是一个 <see cref="IEnumerable{T}" /> 类型的集合，
-        ///     它的元素是一个 <see cref="IGrouping{TKey,TElement}" /> 类型的对象，
-        ///     对象的 Key 属性就是分组的 key，
+        ///     使用 group...by... 子句进行分组,
+        ///     分组之后的数据是一个 <see cref="IEnumerable{T}" /> 类型的集合,
+        ///     它的元素是一个 <see cref="IGrouping{TKey,TElement}" /> 类型的对象,
+        ///     对象的 Key 属性就是分组的 key,
         /// </summary>
         [Fact]
         public void _01()

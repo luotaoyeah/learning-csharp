@@ -13,7 +13,7 @@ namespace Luotao.Test.Books.ICS7._20._05._04._02
         }
 
         /// <summary>
-        ///     let 子句用来定义一个临时的变量，这个临时的变量可以被其他的子句使用，
+        ///     let 子句用来定义一个临时的变量, 这个临时的变量可以被其他的子句使用,
         /// </summary>
         [Fact]
         public void _01()

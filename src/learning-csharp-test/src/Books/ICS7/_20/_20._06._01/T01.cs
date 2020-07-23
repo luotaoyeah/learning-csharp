@@ -13,8 +13,8 @@ namespace Luotao.Test.Books.ICS7._20._06._01
         }
 
         /// <summary>
-        ///     standard query operators 都是一些 extension methods，
-        ///     extension method 可以当初普通方法来调用，
+        ///     standard query operators 都是一些 extension methods,
+        ///     extension method 可以当初普通方法来调用,
         /// </summary>
         [Fact]
         public void _01()
