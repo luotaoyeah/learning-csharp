@@ -1,9 +1,7 @@
-using Luotao.Lib.Books.ICS7._20._05._03;
-
 namespace Luotao.Test.Books.ICS7._20._05._03
 {
     /// <summary>
-    ///     20.5.3 what is a join?
+    /// 20.5.3 what is a join ?
     /// </summary>
     public class T01
     {
@@ -15,7 +13,7 @@ namespace Luotao.Test.Books.ICS7._20._05._03
         }
 
         /// <summary>
-        ///     LINQ 中的 join 跟 SQL 中的 join 类似,
+        /// LINQ 中的 join 跟 SQL 中的 join 类似.
         /// </summary>
         [Fact]
         public void _01()
@@ -38,12 +36,31 @@ namespace Luotao.Test.Books.ICS7._20._05._03
                 new() { CourseName = "BBB", StID = 5 }
             };
 
-            var query =
-                from s in students
-                join cs in studentsInCourses on s.StID equals cs.StID
-                select new { s.LastName, s.StID, cs.CourseName };
+            // 两个集合的先后顺序, 不影响 join 的结果
 
-            foreach (var x in query) testOutputHelper.WriteLine($"{x.StID}\t{x.LastName}\t{x.CourseName}");
+            var query01 =
+                from sc in studentsInCourses
+                join s in students on sc.StID equals s.StID
+                select new { sc.StID, s.LastName, sc.CourseName };
+
+            testOutputHelper.WriteLine($"{"ID",-4}{"CourseName",-15}{"LastName",-15}");
+            foreach (var x in query01)
+            {
+                testOutputHelper.WriteLine($"{x.StID,-4}{x.CourseName,-15}{x.LastName,-15}");
+            }
+
+            testOutputHelper.WriteLine("---------------------------------");
+
+            var query02 =
+                from s in students
+                join sc in studentsInCourses on s.StID equals sc.StID
+                select new { s.StID, s.LastName, sc.CourseName };
+
+            testOutputHelper.WriteLine($"{"ID",-4}{"LastName",-15}{"CourseName",-15}");
+            foreach (var x in query02)
+            {
+                testOutputHelper.WriteLine($"{x.StID,-4}{x.LastName,-15}{x.CourseName,-15}");
+            }
         }
     }
 }
