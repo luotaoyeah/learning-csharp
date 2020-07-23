@@ -1,9 +1,7 @@
-using Luotao.Lib.Books.ICS7._14._13;
-
 namespace Luotao.Test.Books.ICS7._14._13
 {
     /// <summary>
-    ///     14.13 anonymous methods
+    /// 14.13 anonymous methods
     /// </summary>
     public class T01
     {
@@ -15,16 +13,17 @@ namespace Luotao.Test.Books.ICS7._14._13
         }
 
         /// <summary>
-        ///     delegate 的 invocation list 中的 method 可以是 anonymous method
+        /// delegate 中的方法可以是匿名方法(anonymous method).
         /// </summary>
         [Fact]
         public void _01()
         {
-            OtherDel delegate01 = delegate(int x) { return x + 20; };
-            Assert.Equal(25, delegate01(5));
+            // 使用 delegate 关键字声明一个匿名方法, 包含参数列表和方法体, 但是没有方法名
+            Func<int, int> del01 = delegate(int x) { return x + 20; };
+            Assert.Equal(25, del01(5));
 
-            delegate01 += delegate(int i) { return i * 2; };
-            Assert.Equal(10, delegate01(5));
+            del01 += delegate(int i) { return i * 2; };
+            Assert.Equal(10, del01(5));
         }
     }
 }

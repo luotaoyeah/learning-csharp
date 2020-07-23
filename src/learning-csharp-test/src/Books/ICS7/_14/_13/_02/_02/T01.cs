@@ -1,27 +1,21 @@
-using Luotao.Lib.Books.ICS7._14._13._02._02;
-
 namespace Luotao.Test.Books.ICS7._14._13._02._02
 {
     /// <summary>
-    ///     14.13.2.2 parameters
+    /// 14.13.2.2 parameters
     /// </summary>
     public class T01
     {
-        private readonly ITestOutputHelper testOutputHelper;
-
-        public T01(ITestOutputHelper testOutputHelper)
-        {
-            this.testOutputHelper = testOutputHelper;
-        }
-
         /// <summary>
-        ///     如果没有 out parameter，并且 anonymous method 中没有使用任何一个 parameter，则 parameter list 可以省略，
+        /// 如果:
+        ///   1. 没有 out 参数
+        ///   2. 方法体中没有使用任何参数
+        /// 则参数列表可以省略.
         /// </summary>
         [Fact]
         public void _01()
         {
-            SomeDel someDel = delegate { return 6; };
-            Assert.Equal(6, someDel(0));
+            Func<int, int> del01 = delegate { return 6; };
+            Assert.Equal(6, del01(0));
         }
     }
 }
