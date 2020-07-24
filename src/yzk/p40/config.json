@@ -1,0 +1,7 @@
+{
+  "Name": "luotao",
+  "Age": 18,
+  "Proxy": {
+    "Port": 8888
+  }
+}
