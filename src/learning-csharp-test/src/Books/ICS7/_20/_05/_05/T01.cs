@@ -14,6 +14,7 @@ namespace Luotao.Test.Books.ICS7._20._05._05
 
         /// <summary>
         /// orderby 用来排序, 使用 ascending / descending 指定正序 / 逆序.
+        /// 多个排序字段使用逗号分隔.
         /// </summary>
         [Fact]
         public void _01()
