@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using P50;
 
@@ -11,9 +12,10 @@ using P50;
 namespace p50.Migrations
 {
     [DbContext(typeof(P50DbContext))]
-    partial class P50DbContextModelSnapshot : ModelSnapshot
+    [Migration("20220417144947_ReCreateBook")]
+    partial class ReCreateBook
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

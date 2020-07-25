@@ -8,9 +8,9 @@ public class Program
 {
     public static async Task Main(string[] args)
     {
-        DeletePerson();
-
-        RetrievePerson();
+        var ctx = new P50DbContext();
+        ctx.Books.Add(new Book() { Title = "000", Price = 99 });
+        await ctx.SaveChangesAsync();
     }
 
     private static async Task CreatePerson()
