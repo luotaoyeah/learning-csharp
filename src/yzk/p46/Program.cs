@@ -17,7 +17,7 @@ public class Program
             }
         );
 
-        ServiceProvider serviceProvider = serviceCollection.BuildServiceProvider();
+        using ServiceProvider serviceProvider = serviceCollection.BuildServiceProvider();
         TestService testService = serviceProvider.GetRequiredService<TestService>();
         testService.Test();
     }
