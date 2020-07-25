@@ -7,4 +7,12 @@ services:
       context: ./
       dockerfile: src/learning-csharp-blazor/Dockerfile
     ports:
-    - 6001:80
+      - "6001:80"
+
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2019-CU13-ubuntu-20.04
+    environment:
+      - SA_PASSWORD=Pass@w0rd
+      - ACCEPT_EULA=Y
+    ports:
+      - "6433:1433"
