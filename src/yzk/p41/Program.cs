@@ -13,6 +13,8 @@ public class Program
     public static void Main(string[] args)
     {
         ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
+
+        // 多个 provider 中的配置数据冲突时, 后注册的优先级高
         IConfigurationRoot configurationRoot = configurationBuilder
             .AddCommandLine(args)
             .AddEnvironmentVariables("LT_")
