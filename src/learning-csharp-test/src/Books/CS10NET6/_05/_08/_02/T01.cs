@@ -13,7 +13,7 @@ public class T01
     }
 
     /// <summary>
-    /// record 和 class 的一个区别:
+    /// record 和 class 的区别:
     ///   使用 == 或者 Equals() 比较时, 只要两个 record 的属性值完全一样, 则返回 true.
     /// </summary>
     [Fact]
