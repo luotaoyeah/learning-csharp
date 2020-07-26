@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--往 .GlobalUsings.g.cs 添加项-->
+    <Using Include="P96" />
+
+    <!--从 .GlobalUsings.g.cs 移除项-->
+    <Using Remove="System.Net.Http" />
+  </ItemGroup>
+
+</Project>
