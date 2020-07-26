@@ -16,11 +16,13 @@ public class ImmutablePerson
 
     /// <summary>
     /// 使用 init 替换 set, 表示该 property 是一个 init-only property,
-    /// 只能在 constructor / object-initializer 中被赋值.
+    /// 只能在 constructor / init accessor / object-initializer 中被赋值.
     /// </summary>
     public string? FirstName
     {
         get => firstName;
+
+        // 在 init accessor 中可以对 init-only property 赋值
         init => firstName = value;
     }
 
