@@ -32,56 +32,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2133c4f-3eb7-4f8c-bda4-d0965b5709da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/markdown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/docker_learning_csharp_blazor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/docker_mssql.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/learning_aspnet_core_mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/learning_csharp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/learning_csharp_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/learning_csharp_blazor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/learning_csharp_razor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/publish_learning_csharp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/publish_learning_csharp_blazor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/publish_learning_csharp_blazor_lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/push_learning_csharp_blazor_lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/runConfigurations/push_learning_csharp_lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.9/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VOCABULARY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-csharp.10.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuget.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning-csharp/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning-csharp/learning-csharp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning-csharp/packages.lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning-csharp/src/Books/PROCN2021/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning-csharp/src/Books/PROCN2021/_02._02._14/T01.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning-csharp/src/Books/PROCN2021/cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9/.idea/.idea.learning-csharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../9/.idea/.idea.learning-csharp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning-csharp/learning-csharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning-csharp/learning-csharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning-csharp/packages.lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning-csharp/packages.lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +45,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2a925edfe5584632978e98fd8509cdf4d7a8/30/3c4f5afb/FactAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b8b10b8247cb413eab5175c26a5956a755a8/b0/ce6e36b1/ITestOutputHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/learning-csharp/appsettings.json" root0="FORCE_HIGHLIGHTING" />
@@ -114,7 +68,6 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -125,6 +78,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected=".NET Project.learning-csharp">
+    <list>
+      <item itemvalue=".NET Project.learning-csharp" />
+    </list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -135,8 +93,16 @@
       <updated>1657472289007</updated>
       <workItem from="1657472316027" duration="1786000" />
       <workItem from="1657556292702" duration="1303000" />
-      <workItem from="1657639266738" duration="4516000" />
+      <workItem from="1657639266738" duration="5345000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(10): init">
+      <created>1648908840061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648908840061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,9 +110,54 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="feat(10): init" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(10): init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
