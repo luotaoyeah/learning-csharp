@@ -33,8 +33,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2133c4f-3eb7-4f8c-bda4-d0965b5709da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.learning-csharp.10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning-csharp/learning-csharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning-csharp/learning-csharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning-csharp/packages.lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning-csharp/packages.lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning-csharp/src/Books/PROCN2021/_02._02._14/T01.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning-csharp/src/Books/PROCN2021/_02/_01/_02/T01.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +44,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2a925edfe5584632978e98fd8509cdf4d7a8/30/3c4f5afb/FactAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b8b10b8247cb413eab5175c26a5956a755a8/b0/ce6e36b1/ITestOutputHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ebeffe8bbc77fc2c19e9587d879e83ebe14dd17f618139a62b4c90eeb46f/String.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/974fa14c57bab8fe29f1bddd39b1a6548b9cc8cf9e0ef5e670c2407a56d9/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/learning-csharp/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -74,7 +73,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Settings.Markdown",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Debugger",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,6 +93,7 @@
       <workItem from="1657472316027" duration="1786000" />
       <workItem from="1657556292702" duration="1303000" />
       <workItem from="1657639266738" duration="5345000" />
+      <workItem from="1660634857612" duration="1664000" />
     </task>
     <task id="LOCAL-00001" summary="feat(10): init">
       <created>1648908840061</created>
