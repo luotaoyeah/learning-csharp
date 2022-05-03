@@ -13,7 +13,7 @@ public class _01
     }
 
     [Fact]
-    public void _1()
+    public void _02()
     {
         string s01 = new string("foo");
         string s02 = "foo";
