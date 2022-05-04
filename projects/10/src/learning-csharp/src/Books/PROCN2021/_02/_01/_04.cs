@@ -1,19 +1,19 @@
-namespace Luotao.LearningCsharp.Test.Books.PROCN2021._02._01._04;
+namespace Luotao.LearningCsharp.Test.Books.PROCN2021._02._01;
 
 /// <summary>
 /// 2.1.4. understanding variable scope
 /// </summary>
-public class _01
+public class _04
 {
     private readonly ITestOutputHelper testOutputHelper;
 
-    public _01(ITestOutputHelper testOutputHelper)
+    public _04(ITestOutputHelper testOutputHelper)
     {
         this.testOutputHelper = testOutputHelper;
     }
 
     [Fact]
-    public void _02()
+    public void _01()
     {
         {
             // CS0136

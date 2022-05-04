@@ -1,4 +1,4 @@
-namespace Luotao.LearningCsharp.Test.Books.PROCN2021._02._02._01;
+namespace Luotao.LearningCsharp.Test.Books.PROCN2021._02._02;
 
 /// <summary>
 /// 2.2.1. nullable value types
