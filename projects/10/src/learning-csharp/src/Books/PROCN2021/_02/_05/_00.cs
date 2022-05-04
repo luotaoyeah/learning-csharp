@@ -1,22 +1,38 @@
 namespace Luotao.LearningCsharp.Test.Books.PROCN2021._02._05
 {
+    // 在 namespace 里面也可以使用 using
+    using A.B.C.D.E;
+
+    // 给 namespace 起一个 alias
+    using ABCD = A.B.C.D;
+
     /// <summary>
     /// 2.5. organization with namespaces
     /// </summary>
     public class _00
     {
-        private readonly ITestOutputHelper testOutputHelper;
-
-        public _00(ITestOutputHelper testOutputHelper)
-        {
-            this.testOutputHelper = testOutputHelper;
-        }
-
         [Fact]
         public void _01()
         {
-            var f = new A.B.C.D.E.F();
-            Assert.Equal(f.X, 0);
+            // 使用完整的 namespace
+            var f01 = new A.B.C.D.E.F();
+            Assert.Equal(f01.X, 0);
+        }
+    }
+
+    /// <summary>
+    /// 2.5.1 the using directive
+    /// </summary>
+    public class _01
+    {
+        [Fact]
+        public void _02()
+        {
+            // using A.B.C.D.E;
+            var f02 = new F();
+
+            // using ABCD = A.B.C.D;
+            var f03 = new ABCD.E.F();
         }
     }
 
