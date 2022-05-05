@@ -29,38 +29,38 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._03._03
                 Assert.Equal(6, A.Fn02(1, 2, 3));
             }
         }
-    }
 
-    class A
-    {
-        /// <summary>
-        /// optional arguments
-        /// </summary>
-        /// <param name="x"></param>
-        /// <param name="y"></param>
-        /// <param name="z"></param>
-        /// <returns></returns>
-        public static int Fn01(int x = 1, int y = 2, int z = 3)
+        class A
         {
-            return x + y + z;
-        }
-
-        /// <summary>
-        /// variable number of arguments
-        /// </summary>
-        /// <param name="x"></param>
-        /// <param name="nums"></param>
-        /// <returns></returns>
-        public static int Fn02(int x, params int[] nums)
-        {
-            int sum = x;
-
-            foreach (int num in nums)
+            /// <summary>
+            /// optional arguments
+            /// </summary>
+            /// <param name="x"></param>
+            /// <param name="y"></param>
+            /// <param name="z"></param>
+            /// <returns></returns>
+            public static int Fn01(int x = 1, int y = 2, int z = 3)
             {
-                sum += num;
+                return x + y + z;
             }
 
-            return sum;
+            /// <summary>
+            /// variable number of arguments
+            /// </summary>
+            /// <param name="x"></param>
+            /// <param name="nums"></param>
+            /// <returns></returns>
+            public static int Fn02(int x, params int[] nums)
+            {
+                int sum = x;
+
+                foreach (int num in nums)
+                {
+                    sum += num;
+                }
+
+                return sum;
+            }
         }
     }
 }
