@@ -3,11 +3,11 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._02._02;
 /// <summary>
 /// 2.2.2. nullable reference types
 /// </summary>
-public class _02
+public class T02
 {
     private readonly ITestOutputHelper testOutputHelper;
 
-    public _02(ITestOutputHelper testOutputHelper)
+    public T02(ITestOutputHelper testOutputHelper)
     {
         this.testOutputHelper = testOutputHelper;
     }

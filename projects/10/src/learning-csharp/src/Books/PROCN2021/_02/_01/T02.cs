@@ -3,17 +3,17 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._02._01;
 /// <summary>
 /// 2.1.2. variables
 /// </summary>
-public class _02
+public class T02
 {
     private readonly ITestOutputHelper testOutputHelper;
 
-    public _02(ITestOutputHelper testOutputHelper)
+    public T02(ITestOutputHelper testOutputHelper)
     {
         this.testOutputHelper = testOutputHelper;
     }
 
     [Fact]
-    public void _03()
+    public void _01()
     {
         string s01 = new string("foo");
         string s02 = "foo";
