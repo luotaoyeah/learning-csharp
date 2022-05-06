@@ -5,11 +5,11 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._03._07
         /// <summary>
         /// 3.7.1. ref
         /// </summary>
-        public class T00
+        public class T01
         {
             private readonly ITestOutputHelper testOutputHelper;
 
-            public T00(ITestOutputHelper testOutputHelper)
+            public T01(ITestOutputHelper testOutputHelper)
             {
                 this.testOutputHelper = testOutputHelper;
             }
