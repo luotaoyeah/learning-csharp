@@ -14,7 +14,7 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._03._04
                 this.testOutputHelper = testOutputHelper;
             }
 
-            // ToString() 方法被重写了
+            // 重写了 ToString()
             [Fact]
             public void _01()
             {
