@@ -5,11 +5,11 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._03._10
         /// <summary>
         /// 3.10. deconstruction
         /// </summary>
-        public class T01
+        public class T00
         {
             private readonly ITestOutputHelper testOutputHelper;
 
-            public T01(ITestOutputHelper testOutputHelper)
+            public T00(ITestOutputHelper testOutputHelper)
             {
                 this.testOutputHelper = testOutputHelper;
             }
