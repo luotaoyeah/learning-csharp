@@ -45,6 +45,7 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._04._02
                 return 9;
             }
 
+            // new 表示隐藏父类的同名方法
             public new int F02()
             {
                 return 9;
