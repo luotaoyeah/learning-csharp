@@ -24,12 +24,16 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._03._05
         {
         }
 
+        interface I02
+        {
+        }
+
         struct S01
         {
         }
 
         // struct 可以实现 interface, 但是不能继承其他 struct
-        struct S02 : I01
+        struct S02 : I01, I02
         {
             public int Age { get; set; }
 
