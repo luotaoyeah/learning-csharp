@@ -20,7 +20,7 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._06._08
                 Assert.Equal(6, span01[3]);
                 Assert.Equal(7, span01[4]);
 
-                Span<int> span02 = span01.Slice(2, 2);
+                Span<int> span02 = span01.Slice(start: 2, length: 2);
                 Assert.Equal(5, span02[0]);
                 Assert.Equal(6, span02[1]);
             }
