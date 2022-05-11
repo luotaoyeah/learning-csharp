@@ -51,6 +51,46 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._09._02
                     testOutputHelper.WriteLine($"{x1.Country,-10}{x1.Count}");
                 }
             }
+
+            [Fact]
+            public void _03()
+            {
+                var query = from r in F1.GetChampions()
+                    group r by r.Country
+                    into g
+                        // 使用 let 定义一个临时变量
+                    let count = g.Count()
+                    orderby count descending, g.Key
+                    where count >= 2
+                    select new
+                    {
+                        Country = g.Key,
+                        Count = g.Count()
+                    };
+
+                foreach (var x1 in query)
+                {
+                    testOutputHelper.WriteLine($"{x1.Country,-10}{x1.Count}");
+                }
+            }
+
+            [Fact]
+            public void _04()
+            {
+                var query = F1.GetChampions()
+                    .GroupBy(r => r.Country)
+                    // 使用 Select() 映射, 定义一个临时属性
+                    .Select(g => new { g, count = g.Count() })
+                    .OrderByDescending(@t => @t.count)
+                    .ThenBy(@t => @t.g.Key)
+                    .Where(@t => @t.count >= 2)
+                    .Select(@t => new { Country = @t.g.Key, Count = @t.g.Count() });
+
+                foreach (var x1 in query)
+                {
+                    testOutputHelper.WriteLine($"{x1.Country,-10}{x1.Count}");
+                }
+            }
         }
     }
 }
