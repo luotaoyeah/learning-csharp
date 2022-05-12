@@ -2,16 +2,16 @@ using Luotao.LearningCsharp.Test.Books.PROCN2021._09._00;
 
 namespace Luotao.LearningCsharp.Test.Books.PROCN2021._09._02
 {
-    namespace _10
+    namespace _12
     {
         /// <summary>
-        /// 9.2.10. left outer join
+        /// 9.2.12. set operations
         /// </summary>
-        public class T10
+        public class T12
         {
             private readonly ITestOutputHelper testOutputHelper;
 
-            public T10(ITestOutputHelper testOutputHelper)
+            public T12(ITestOutputHelper testOutputHelper)
             {
                 this.testOutputHelper = testOutputHelper;
             }
@@ -19,23 +19,35 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._09._02
             [Fact]
             public void _01()
             {
-                var query = from t in Teacher.Teachers()
-                    join s in Student.Students()
-                        on t.Class equals s.Class
-                        into students
-                    from student in students.DefaultIfEmpty()
-                    select new
-                    {
-                        Teacher = t.Name,
-                        Student = student?.Name,
-                        Class = t.Class,
-                    };
+                var list01 = new List<int>() { 1, 2, 3, };
+                var list02 = new List<int>() { 2, 3, 4 };
 
-                testOutputHelper.WriteLine("{0,-10}\t\t{1,-10}\t{2,-10}", "老师", "班级", "学生");
-                testOutputHelper.WriteLine("----------------------------------------");
-                foreach (var x1 in query)
+                // 交集
+                IEnumerable<int> intersect = list01.Intersect(list02);
+
+                foreach (int i in intersect)
                 {
-                    testOutputHelper.WriteLine("{0,-10}\t{1,-10}\t{2,-10}", x1.Teacher, x1.Class, x1.Student);
+                    testOutputHelper.WriteLine("{0}", i);
+                }
+
+                testOutputHelper.WriteLine("----------");
+
+                // 并集
+                IEnumerable<int> union = list01.Union(list02);
+
+                foreach (int i in union)
+                {
+                    testOutputHelper.WriteLine("{0}", i);
+                }
+
+                testOutputHelper.WriteLine("----------");
+
+                // 差集
+                IEnumerable<int> except = list01.Except(list02);
+
+                foreach (int i in except)
+                {
+                    testOutputHelper.WriteLine("{0}", i);
                 }
             }
 
