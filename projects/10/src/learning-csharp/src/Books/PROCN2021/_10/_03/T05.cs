@@ -24,6 +24,8 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._10._03
 
                 try
                 {
+                    // F01("111");
+                    // F01("222");
                     F01("333");
                 }
                 // catch 后面使用 when 对异常作进一步的过滤, 可以使用异常对象 e 的某些属性进行过滤
