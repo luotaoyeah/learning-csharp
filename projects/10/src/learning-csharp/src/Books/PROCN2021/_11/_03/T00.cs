@@ -41,7 +41,7 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._11._03
             public async Task _03()
             {
                 Trace("before: " + nameof(_01));
-                await GreetingAsync().ContinueWith((t) => Trace(nameof(Task.ContinueWith)));
+                await GreetingAsync().ContinueWith((task) => Trace(nameof(Task.ContinueWith)));
                 Trace("after: " + nameof(_01));
             }
 
