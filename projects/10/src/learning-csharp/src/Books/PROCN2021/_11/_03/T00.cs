@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -22,6 +23,15 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._11._03
             {
                 Trace("before: " + nameof(_01));
                 await GreetingAsync();
+                Trace("after: " + nameof(_01));
+            }
+
+            [Fact(Timeout = 3000)]
+            public void _02()
+            {
+                Trace("before: " + nameof(_01));
+                TaskAwaiter<string> taskAwaiter = GreetingAsync().GetAwaiter();
+                taskAwaiter.OnCompleted(() => { testOutputHelper.WriteLine(nameof(taskAwaiter.OnCompleted)); });
                 Trace("after: " + nameof(_01));
             }
 
