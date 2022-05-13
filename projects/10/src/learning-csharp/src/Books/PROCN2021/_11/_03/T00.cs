@@ -26,12 +26,22 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._11._03
                 Trace("after: " + nameof(_01));
             }
 
-            [Fact(Timeout = 3000)]
+            // GetAwaiter()
+            [Fact(Timeout = 4000)]
             public void _02()
             {
                 Trace("before: " + nameof(_01));
                 TaskAwaiter<string> taskAwaiter = GreetingAsync().GetAwaiter();
                 taskAwaiter.OnCompleted(() => { testOutputHelper.WriteLine(nameof(taskAwaiter.OnCompleted)); });
+                Trace("after: " + nameof(_01));
+            }
+
+            // ContinueWith()
+            [Fact]
+            public async Task _03()
+            {
+                Trace("before: " + nameof(_01));
+                await GreetingAsync().ContinueWith((t) => Trace(nameof(Task.ContinueWith)));
                 Trace("after: " + nameof(_01));
             }
 
