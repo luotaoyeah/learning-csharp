@@ -40,7 +40,7 @@ namespace Luotao.LearningCsharp.Test.Books.PROCN2021._12._04
 
             private object? GetCalculator()
             {
-                const string path = @"D:\proj\github\luotaoyeah\learning-csharp\projects\10\src\CalculatorLibrary\bin\Debug\net6.0\CalculatorLibrary.dll";
+                const string path = @"D:\proj\github\luotaoyeah\learning-csharp\projects\10\src\calculator-library\bin\Debug\net6.0\calculator-library.dll";
                 Assembly assembly = Assembly.LoadFile(path);
                 object? calculator = assembly.CreateInstance("CalculatorLibrary.Calculator");
                 return calculator;

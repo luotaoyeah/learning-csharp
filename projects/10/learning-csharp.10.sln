@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{44E63F53-6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C08C4AC-B649-4955-A61A-E0D00014EA60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary", "src\CalculatorLibrary\CalculatorLibrary.csproj", "{AD332C60-7DAA-4CC0-A1E2-8EC5FF897D5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator-library", "src\calculator-library\calculator-library.csproj", "{AD332C60-7DAA-4CC0-A1E2-8EC5FF897D5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
